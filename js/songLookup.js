@@ -1,178 +1,150 @@
+/**
+ * js/songLookup.js
+ * ─────────────────────────────────────────────────────────────────────────────
+ * DoomChill — Song Lookup front-end logic
+ *
+ * Calls the Vercel serverless proxy (/api/lookup) and passes results to the
+ * visuals team's render function.
+ *
+ * Public API (on window.DoomChill):
+ *   lookupSong(track, artist?)  → Promise<void>
+ *
+ * DOM events dispatched on document:
+ *   doomchill:lookup:loading   — fetch started
+ *   doomchill:lookup:result    — detail: { data }  (success)
+ *   doomchill:lookup:notfound  — detail: { track, artist }
+ *   doomchill:lookup:error     — detail: { message }
+ *
+ * The visuals team should implement:
+ *   window.DoomChill.renderLookupResult(data)
+ *   where data is the clean proxy JSON, or { error: 'not_found'|'api_error' }
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+
 'use strict';
 
-(function() {
-  const PROXY_URL = '/api/lookup';
+(function songLookupModule() {
 
-  const lookupBtn = document.getElementById('lookup-btn');
-  const lookupInput = document.getElementById('lookup-input');
-  const suggestionsPanel = document.getElementById('search-suggestions');
+  // ╔══════════════════════════════════════════════════════════════════════════╗
+  // ║  CONFIG — update PROXY_URL before deploying                             ║
+  // ╠══════════════════════════════════════════════════════════════════════════╣
+  // ║  Local dev  : 'http://localhost:3000/api/lookup'                        ║
+  // ║  Production : 'https://<your-vercel-domain>.vercel.app/api/lookup'      ║
+  // ╚══════════════════════════════════════════════════════════════════════════╝
+  const PROXY_URL = 'http://localhost:3000/api/lookup';
 
-  const DEMO_CATALOG = [
-    {
-      query: 'blinding lights',
-      data: {
-        track: 'Blinding Lights',
-        artist: 'The Weeknd',
-        genre: 'Synthpop / R&B',
-        trackTier: 'Global Hit',
-        album: 'After Hours',
-        albumTier: 'Global Hit',
-        listeners: 4320000,
-        playcount: 48900000,
-        duration: 200040,
-        tags: ['synthpop', '80s', 'electronic', 'pop'],
-        wikiSummary: 'Blinding Lights is an iconic synthwave track recorded by Canadian singer the Weeknd for his fourth studio album After Hours. Released as the second single, it broke historical records on the Billboard Hot 100.'
-      }
-    },
-    {
-      query: 'doomsday',
-      data: {
-        track: 'Doomsday',
-        artist: 'MF DOOM',
-        genre: 'Hip-Hop / Underground',
-        trackTier: 'Well-Known',
-        album: 'Operation: Doomsday',
-        albumTier: 'Niche Favorite',
-        listeners: 1250000,
-        playcount: 9800000,
-        duration: 298000,
-        tags: ['hip hop', 'underground hip hop', 'mf doom'],
-        wikiSummary: 'Doomsday is the lead track from MF DOOM\'s seminal 1999 debut solo album Operation: Doomsday, recorded in the wake of KMD\'s dissolution. It features a Sade sample and legendary flow.'
-      }
-    },
-    {
-      query: 'starboy',
-      data: {
-        track: 'Starboy',
-        artist: 'The Weeknd ft. Daft Punk',
-        genre: 'R&B / Electronic',
-        trackTier: 'Global Hit',
-        album: 'Starboy',
-        albumTier: 'Global Hit',
-        listeners: 3900000,
-        playcount: 38000000,
-        duration: 230450,
-        tags: ['rnb', 'pop', 'electronic'],
-        wikiSummary: 'Starboy is a song recorded by the Weeknd for his third studio album of the same name. Featuring French electronic duo Daft Punk, it topped charts internationally.'
-      }
-    },
-    {
-      query: 'teardrop',
-      data: {
-        track: 'Teardrop',
-        artist: 'Massive Attack',
-        genre: 'Trip-Hop / Ambient',
-        trackTier: 'Very Popular',
-        album: 'Mezzanine',
-        albumTier: 'Very Popular',
-        listeners: 2100000,
-        playcount: 17400000,
-        duration: 330000,
-        tags: ['trip hop', 'downtempo', 'ambient'],
-        wikiSummary: 'Teardrop is a song by English trip-hop group Massive Attack, featuring vocals by Elizabeth Fraser of the Cocteau Twins. Released as the second single from Mezzanine, it remains a landmark downtempo classic.'
-      }
+  // ── Request timeout (ms) ──────────────────────────────────────────────────
+  const FETCH_TIMEOUT_MS = 10_000;
+
+  // ── DOM event helper ──────────────────────────────────────────────────────
+  /**
+   * dispatch
+   * Fires a custom event on document.
+   * @param {string} name
+   * @param {Object} [detail]
+   */
+  function dispatch(name, detail = {}) {
+    document.dispatchEvent(new CustomEvent(name, { bubbles: true, detail }));
+  }
+
+  // ── Fetch with timeout ─────────────────────────────────────────────────────
+  /**
+   * fetchWithTimeout
+   * Wraps fetch() with an AbortController timeout.
+   * @param {string}  url
+   * @param {number}  timeoutMs
+   * @returns {Promise<Response>}
+   */
+  async function fetchWithTimeout(url, timeoutMs) {
+    const controller = new AbortController();
+    const timerId    = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const response = await fetch(url, { signal: controller.signal });
+      return response;
+    } finally {
+      clearTimeout(timerId);
     }
-  ];
+  }
 
-  function showSuggestions(filterText) {
-    if (!suggestionsPanel) return;
-    const clean = (filterText || '').trim().toLowerCase();
-
-    if (!clean) {
-      suggestionsPanel.setAttribute('hidden', '');
+  // ── Public API ─────────────────────────────────────────────────────────────
+  /**
+   * lookupSong
+   * Called by the visuals team when the user submits a search.
+   *
+   * @param {string}  track  - track name (required)
+   * @param {string} [artist] - artist name (optional, improves accuracy)
+   * @returns {Promise<void>}
+   */
+  async function lookupSong(track, artist) {
+    if (!track || !track.trim()) {
+      console.warn('[DoomChill] lookupSong() called with empty track name.');
       return;
     }
 
-    const matches = DEMO_CATALOG.filter(c =>
-      c.query.includes(clean) ||
-      c.data.track.toLowerCase().includes(clean) ||
-      c.data.artist.toLowerCase().includes(clean)
-    );
+    // Build proxy URL
+    const params = new URLSearchParams({ track: track.trim() });
+    if (artist && artist.trim()) params.set('artist', artist.trim());
+    const url = `${PROXY_URL}?${params.toString()}`;
 
-    if (!matches.length) {
-      suggestionsPanel.innerHTML = `
-        <div class="suggestion-item" style="cursor:default; opacity:0.8;">
-          <span class="suggestion-item__title">Press Enter to search "${esc(filterText)}"</span>
-        </div>`;
-      suggestionsPanel.removeAttribute('hidden');
+    // Signal loading state
+    dispatch('doomchill:lookup:loading');
+
+    let data;
+    try {
+      const response = await fetchWithTimeout(url, FETCH_TIMEOUT_MS);
+
+      if (!response.ok) {
+        // Unexpected HTTP error from the proxy (e.g. 500)
+        throw new Error(`Proxy returned HTTP ${response.status}`);
+      }
+
+      data = await response.json();
+
+    } catch (fetchErr) {
+      // Network failure or timeout
+      console.error('[DoomChill] lookupSong fetch failed:', fetchErr.message);
+      const errorData = { error: 'api_error' };
+      _callRender(errorData);
+      dispatch('doomchill:lookup:error', { message: fetchErr.message });
       return;
     }
 
-    suggestionsPanel.innerHTML = matches.map(m => `
-      <div class="suggestion-item" data-query="${esc(m.data.track)}">
-        <span class="suggestion-item__title">${esc(m.data.track)}</span>
-        <span class="suggestion-item__artist">${esc(m.data.artist)}</span>
-      </div>
-    `).join('');
+    // ── Route on proxy response ─────────────────────────────────────────────
+    if (data.error === 'not_found') {
+      _callRender(data);
+      dispatch('doomchill:lookup:notfound', { track: track.trim(), artist: artist?.trim() ?? null });
+      return;
+    }
 
-    suggestionsPanel.querySelectorAll('.suggestion-item[data-query]').forEach(item => {
-      item.addEventListener('click', () => {
-        if (lookupInput) lookupInput.value = item.dataset.query;
-        suggestionsPanel.setAttribute('hidden', '');
-        doLookup();
-      });
-    });
+    if (data.error) {
+      // 'api_error' or any unexpected error token from the proxy
+      _callRender(data);
+      dispatch('doomchill:lookup:error', { message: data.error });
+      return;
+    }
 
-    suggestionsPanel.removeAttribute('hidden');
+    // Success
+    _callRender(data);
+    dispatch('doomchill:lookup:result', { data });
   }
 
-  function doLookup() {
-    const query = lookupInput?.value?.trim();
-    if (!query) return;
-
-    if (suggestionsPanel) suggestionsPanel.setAttribute('hidden', '');
-
-    const [track, ...rest] = query.split('-');
-    const artist = rest.join('-').trim();
-
-    fetch(`${PROXY_URL}?track=${encodeURIComponent(track.trim())}&artist=${encodeURIComponent(artist)}`)
-      .then(r => {
-        if (!r.ok) throw new Error('API unavailable');
-        return r.json();
-      })
-      .then(data => {
-        if (typeof window.DoomChill?.renderLookupResult === 'function') {
-          window.DoomChill.renderLookupResult(data);
-        }
-      })
-      .catch(() => {
-        const lower = query.toLowerCase();
-        const found = DEMO_CATALOG.find(c =>
-          lower.includes(c.query) ||
-          c.data.track.toLowerCase().includes(lower) ||
-          c.data.artist.toLowerCase().includes(lower)
-        );
-
-        if (found) {
-          window.DoomChill?.renderLookupResult?.(found.data);
-        } else {
-          window.DoomChill?.renderLookupResult?.({ error: 'not_found' });
-        }
-      });
+  /**
+   * _callRender
+   * Internal helper — calls the visuals team's renderLookupResult() if it
+   * has been implemented. Falls back to the no-op stub in main.js.
+   * @param {Object} data
+   */
+  function _callRender(data) {
+    if (typeof window.DoomChill?.renderLookupResult === 'function') {
+      window.DoomChill.renderLookupResult(data);
+    } else {
+      // main.js stub will log a console.warn
+      console.warn('[DoomChill] renderLookupResult not yet implemented by visuals team. Data:', data);
+    }
   }
 
-  function esc(s) {
-    if (!s) return '';
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  }
+  // ── Attach to namespace ───────────────────────────────────────────────────
+  if (!window.DoomChill) window.DoomChill = {};
+  window.DoomChill.lookupSong = lookupSong;
 
-  if (lookupBtn) lookupBtn.addEventListener('click', doLookup);
-  if (lookupInput) {
-    lookupInput.addEventListener('keydown', e => {
-      if (e.key === 'Enter') doLookup();
-      if (e.key === 'Escape' && suggestionsPanel) {
-        suggestionsPanel.setAttribute('hidden', '');
-      }
-    });
-
-    lookupInput.addEventListener('input', e => {
-      showSuggestions(e.target.value);
-    });
-
-    document.addEventListener('click', e => {
-      if (!e.target.closest('.search-wrapper') && suggestionsPanel) {
-        suggestionsPanel.setAttribute('hidden', '');
-      }
-    });
-  }
 })();
