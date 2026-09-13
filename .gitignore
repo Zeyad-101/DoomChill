@@ -1,8 +1,17 @@
-# DoomChill .gitignore
-node_modules/
+# Raw dataset — never commit the CSV (it's ~30MB and has licence restrictions)
 scripts/raw-data/
+
+# Node
+node_modules/
+
+# Vercel local dev config
+.vercel/
+
+# Environment files — API keys live here locally, never committed
 .env
 .env.local
-*.log
+.env*.local
+
+# OS cruft
 .DS_Store
 Thumbs.db
