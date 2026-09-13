@@ -435,7 +435,7 @@ body {
   opacity: 0;
   transform: translateY(12px);
   animation: fade-up 380ms var(--ease) forwards;
-  animation-delay: calc(var(--i, 0) * 70ms);
+  animation-delay: calc(min(var(--i, 0), 12) * 35ms);
   cursor: pointer;
   transition: background-color 200ms var(--ease), border-color 200ms var(--ease), transform 200ms var(--ease);
 }

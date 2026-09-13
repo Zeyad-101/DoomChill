@@ -346,20 +346,38 @@ function applyMoodBackground(moodName) {
       }
 
       const catalog = window.DoomChill.demoCatalog || [];
-      const matches = catalog.filter(item =>
+      const demoMatches = catalog.filter(item =>
         item.query.includes(q) ||
         item.data.track.toLowerCase().includes(q) ||
         item.data.artist.toLowerCase().includes(q)
       );
 
-      if (!matches.length) {
+      const pool = (typeof window.DoomChill.getSongPool === 'function' && window.DoomChill.getSongPool()) || [];
+      const poolMatches = [];
+      const seen = new Set(demoMatches.map(m => `${m.data.artist} - ${m.data.track}`.toLowerCase()));
+
+      for (const s of pool) {
+        if (poolMatches.length + demoMatches.length >= 8) break;
+        const key = `${s.artist} - ${s.title}`.toLowerCase();
+        if (seen.has(key)) continue;
+        if (s.title.toLowerCase().includes(q) || s.artist.toLowerCase().includes(q)) {
+          seen.add(key);
+          poolMatches.push({
+            data: { track: s.title, artist: s.artist, album: s.album, genre: s.genre }
+          });
+        }
+      }
+
+      const allMatches = [...demoMatches, ...poolMatches];
+
+      if (!allMatches.length) {
         panel.innerHTML = `<div class="suggestion-item" style="cursor:default; opacity:0.8;"><span class="suggestion-item__title">Press Enter to look up "${esc(e.target.value)}"</span></div>`;
         panel.removeAttribute('hidden');
         return;
       }
 
-      panel.innerHTML = matches.map(m => `
-        <div class="suggestion-item" data-query="${esc(m.data.track)}">
+      panel.innerHTML = allMatches.map(m => `
+        <div class="suggestion-item" data-query="${esc(`${m.data.artist} - ${m.data.track}`)}">
           <span class="suggestion-item__title">${esc(m.data.track)}</span>
           <span class="suggestion-item__artist">${esc(m.data.artist)}</span>
         </div>

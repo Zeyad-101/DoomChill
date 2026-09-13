@@ -25,13 +25,15 @@
 (function moodSuggesterModule() {
   // ── Constants ────────────────────────────────────────────────────────────────
   const DATA_URL      = './data/songs.json';
-  const MIN_RESULTS   = 5;
-  const MAX_RESULTS   = 8;
+  const MIN_RESULTS   = 10;
+  const MAX_RESULTS   = 20;
 
   // ── Module state ─────────────────────────────────────────────────────────────
   /** @type {Array<Object>|null} In-memory song pool — null until loaded. */
   let songPool = null;
   let loading  = false;
+  /** Set of recent "artist - title" signatures to avoid immediate repetitions on re-click */
+  const recentShown = new Set();
 
   // ── Data loading ─────────────────────────────────────────────────────────────
   /**
@@ -70,7 +72,7 @@
     return songPool;
   }
 
-  // ── Scoring ───────────────────────────────────────────────────────────────────
+  // ── Scoring & Selection ───────────────────────────────────────────────────────
   /**
    * scoreSong
    * @param {Object}   song   - song object from songs.json
@@ -97,6 +99,85 @@
   }
 
   /**
+   * selectBalanced
+   * Selects targetCount items with randomization, recency rotation,
+   * and intelligent cultural balance between Arabic and English/Western music.
+   *
+   * @param {Array<{song: Object, score: number}>} candidates
+   * @param {number} targetCount
+   * @param {boolean} isExplicitGenre
+   * @returns {Array<Object>}
+   */
+  function selectBalanced(candidates, targetCount = MAX_RESULTS, isExplicitGenre = false) {
+    if (!candidates || candidates.length === 0) return [];
+
+    // Helper: score candidate with dynamic jitter and recency penalty
+    function sortCandidateList(list) {
+      const scored = list.map(c => {
+        const key = `${c.song.artist} - ${c.song.title}`.toLowerCase();
+        const penalty = recentShown.has(key) ? 25 : 0;
+        const jitter = Math.random() * 32; // Random noise ensures new songs on every click
+        const pop = (typeof c.song.popularity === 'number' ? c.song.popularity : 70);
+        return {
+          item: c,
+          sortVal: (c.score * 100) + (pop - penalty) + jitter
+        };
+      });
+      scored.sort((a, b) => b.sortVal - a.sortVal);
+      return scored.map(s => s.item.song);
+    }
+
+    let finalSelection = [];
+
+    // If user explicitly chose a single genre (e.g. 'Arabic' or 'Rock'), return only that genre
+    if (isExplicitGenre) {
+      finalSelection = sortCandidateList(candidates).slice(0, targetCount);
+    } else {
+      // Balanced selection: split into Arabic and Western/International pools
+      const arabicCandidates = candidates.filter(c => c.song.genre === 'Arabic');
+      const westernCandidates = candidates.filter(c => c.song.genre !== 'Arabic');
+
+      const sortedArabic = sortCandidateList(arabicCandidates);
+      const sortedWestern = sortCandidateList(westernCandidates);
+
+      const half = Math.floor(targetCount / 2); // 10
+      let pickedArabic = sortedArabic.slice(0, half);
+      let pickedWestern = sortedWestern.slice(0, half);
+
+      // Backfill if one side has fewer candidates
+      if (pickedArabic.length < half) {
+        const deficit = targetCount - pickedArabic.length;
+        pickedWestern = sortedWestern.slice(0, deficit);
+      } else if (pickedWestern.length < half) {
+        const deficit = targetCount - pickedWestern.length;
+        pickedArabic = sortedArabic.slice(0, deficit);
+      }
+
+      // Interleave results [Arabic, Western, Arabic, Western...] for varied listening
+      const interleaved = [];
+      const maxLen = Math.max(pickedArabic.length, pickedWestern.length);
+      for (let i = 0; i < maxLen; i++) {
+        if (i < pickedArabic.length) interleaved.push(pickedArabic[i]);
+        if (i < pickedWestern.length) interleaved.push(pickedWestern[i]);
+      }
+      finalSelection = interleaved.slice(0, targetCount);
+    }
+
+    // Update recentShown set to ensure subsequent clicks explore different songs
+    finalSelection.forEach(s => {
+      recentShown.add(`${s.artist} - ${s.title}`.toLowerCase());
+    });
+
+    if (recentShown.size > 240) {
+      const arr = Array.from(recentShown);
+      recentShown.clear();
+      arr.slice(arr.length - 100).forEach(k => recentShown.add(k));
+    }
+
+    return finalSelection;
+  }
+
+  /**
    * runMatching
    * Core matching algorithm.
    * @param {Array<Object>} pool
@@ -105,10 +186,12 @@
    * @returns {{ songs: Array<Object>, relaxed: boolean }}
    */
   function runMatching(pool, moods, genres) {
-    // No filters at all — return a random high-popularity sample
+    const isExplicitGenre = genres.length === 1;
+
+    // No filters at all — return balanced random sample
     if (moods.length === 0 && genres.length === 0) {
-      const sorted = [...pool].sort((a, b) => b.popularity - a.popularity);
-      return { songs: sorted.slice(0, MAX_RESULTS), relaxed: false };
+      const scored = pool.map(song => ({ song, score: 1 }));
+      return { songs: selectBalanced(scored, MAX_RESULTS, false), relaxed: false };
     }
 
     // Score every song
@@ -119,39 +202,21 @@
 
     // Full match: must score > 0 on both atmosphere AND genre (if both filters active)
     const minScoreRequired = (moods.length > 0 && genres.length > 0) ? 2 : 1;
-
-    let candidates = scored
-      .filter(s => s.score >= minScoreRequired)
-      .sort((a, b) => {
-        if (b.score !== a.score) return b.score - a.score;
-        return b.song.popularity - a.song.popularity; // tie-break by popularity
-      })
-      .slice(0, MAX_RESULTS)
-      .map(s => s.song);
+    let candidates = scored.filter(s => s.score >= minScoreRequired);
 
     if (candidates.length >= MIN_RESULTS) {
-      return { songs: candidates, relaxed: false };
+      return { songs: selectBalanced(candidates, MAX_RESULTS, isExplicitGenre), relaxed: false };
     }
 
     // ── Fallback: atmosphere-only ──────────────────────────────────────────────
     // Drop the genre requirement, match on atmosphere tags alone.
     if (moods.length > 0) {
-      candidates = scored
-        .filter(s => {
-          const atmosphereScore = moods.filter(m => s.song.atmosphere?.includes(m)).length;
-          return atmosphereScore > 0;
-        })
-        .sort((a, b) => {
-          const aAtm = moods.filter(m => a.song.atmosphere?.includes(m)).length;
-          const bAtm = moods.filter(m => b.song.atmosphere?.includes(m)).length;
-          if (bAtm !== aAtm) return bAtm - aAtm;
-          return b.song.popularity - a.song.popularity;
-        })
-        .slice(0, MAX_RESULTS)
-        .map(s => s.song);
+      candidates = scored.filter(s => {
+        return moods.some(m => s.song.atmosphere?.includes(m));
+      });
 
       if (candidates.length > 0) {
-        return { songs: candidates, relaxed: true };
+        return { songs: selectBalanced(candidates, MAX_RESULTS, false), relaxed: true };
       }
     }
 
@@ -159,11 +224,10 @@
     if (genres.length > 0) {
       candidates = pool
         .filter(s => genres.includes(s.genre))
-        .sort((a, b) => b.popularity - a.popularity)
-        .slice(0, MAX_RESULTS);
+        .map(song => ({ song, score: 1 }));
 
       if (candidates.length > 0) {
-        return { songs: candidates, relaxed: true };
+        return { songs: selectBalanced(candidates, MAX_RESULTS, true), relaxed: true };
       }
     }
 
@@ -245,6 +309,7 @@
 
   window.DoomChill.suggestSongs   = suggestSongs;
   window.DoomChill.getSuggestions = getSuggestions;
+  window.DoomChill.getSongPool    = () => songPool;
 
   document.addEventListener('doomchill:suggest', (e) => {
     const { atmospheres, genres } = e.detail || {};
