@@ -1,0 +1,490 @@
+[
+  {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "album": "After Hours",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 95
+  },
+  {
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "album": "Harry's House",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Chill / Relaxed"],
+    "popularity": 93
+  },
+  {
+    "title": "bad guy",
+    "artist": "Billie Eilish",
+    "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+    "genre": "Pop",
+    "atmosphere": ["Dark / Moody", "Energetic / Hype"],
+    "popularity": 90
+  },
+  {
+    "title": "Stay",
+    "artist": "The Kid LAROI, Justin Bieber",
+    "album": "F*CK LOVE 3: OVER YOU",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Romantic"],
+    "popularity": 88
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "album": "Future Nostalgia",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 87
+  },
+  {
+    "title": "Heat Waves",
+    "artist": "Glass Animals",
+    "album": "Dreamland",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Chill / Relaxed", "Romantic"],
+    "popularity": 89
+  },
+  {
+    "title": "drivers license",
+    "artist": "Olivia Rodrigo",
+    "album": "SOUR",
+    "genre": "Pop",
+    "atmosphere": ["Sad / Melancholic", "Dark / Moody"],
+    "popularity": 91
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "genre": "Rock",
+    "atmosphere": ["Energetic / Hype", "Dark / Moody"],
+    "popularity": 88
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "album": "Hotel California",
+    "genre": "Rock",
+    "atmosphere": ["Dark / Moody", "Chill / Relaxed"],
+    "popularity": 86
+  },
+  {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "genre": "Rock",
+    "atmosphere": ["Angry / Intense", "Energetic / Hype"],
+    "popularity": 87
+  },
+  {
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "album": "Hot Fuss",
+    "genre": "Rock",
+    "atmosphere": ["Energetic / Hype", "Angry / Intense"],
+    "popularity": 85
+  },
+  {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "album": "Pablo Honey",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Sad / Melancholic", "Dark / Moody"],
+    "popularity": 82
+  },
+  {
+    "title": "HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "album": "DAMN.",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": ["Energetic / Hype", "Angry / Intense"],
+    "popularity": 90
+  },
+  {
+    "title": "God's Plan",
+    "artist": "Drake",
+    "album": "Scorpion",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": ["Happy / Upbeat", "Chill / Relaxed"],
+    "popularity": 92
+  },
+  {
+    "title": "SICKO MODE",
+    "artist": "Travis Scott",
+    "album": "ASTROWORLD",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": ["Energetic / Hype", "Dark / Moody"],
+    "popularity": 89
+  },
+  {
+    "title": "Hotline Bling",
+    "artist": "Drake",
+    "album": "Views",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": ["Chill / Relaxed", "Romantic"],
+    "popularity": 86
+  },
+  {
+    "title": "DNA.",
+    "artist": "Kendrick Lamar",
+    "album": "DAMN.",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": ["Energetic / Hype", "Angry / Intense"],
+    "popularity": 85
+  },
+  {
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "album": "8 Mile Soundtrack",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": ["Energetic / Hype", "Angry / Intense"],
+    "popularity": 84
+  },
+  {
+    "title": "Starboy",
+    "artist": "The Weeknd feat. Daft Punk",
+    "album": "Starboy",
+    "genre": "R&B/Soul",
+    "atmosphere": ["Chill / Relaxed", "Dark / Moody"],
+    "popularity": 88
+  },
+  {
+    "title": "Redbone",
+    "artist": "Childish Gambino",
+    "album": "Awaken, My Love!",
+    "genre": "R&B/Soul",
+    "atmosphere": ["Chill / Relaxed", "Romantic"],
+    "popularity": 84
+  },
+  {
+    "title": "Leave the Door Open",
+    "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
+    "album": "An Evening with Silk Sonic",
+    "genre": "R&B/Soul",
+    "atmosphere": ["Romantic", "Happy / Upbeat"],
+    "popularity": 86
+  },
+  {
+    "title": "Kiss Me More",
+    "artist": "Doja Cat ft. SZA",
+    "album": "Planet Her",
+    "genre": "R&B/Soul",
+    "atmosphere": ["Romantic", "Chill / Relaxed"],
+    "popularity": 83
+  },
+  {
+    "title": "Industry Baby",
+    "artist": "Lil Nas X, Jack Harlow",
+    "album": "MONTERO",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": ["Energetic / Hype", "Happy / Upbeat"],
+    "popularity": 88
+  },
+  {
+    "title": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "album": "Happier Than Ever",
+    "genre": "Pop",
+    "atmosphere": ["Sad / Melancholic", "Angry / Intense"],
+    "popularity": 85
+  },
+  {
+    "title": "Peaches",
+    "artist": "Justin Bieber ft. Daniel Caesar, Giveon",
+    "album": "Justice",
+    "genre": "R&B/Soul",
+    "atmosphere": ["Chill / Relaxed", "Happy / Upbeat"],
+    "popularity": 84
+  },
+  {
+    "title": "Circles",
+    "artist": "Post Malone",
+    "album": "Hollywood's Bleeding",
+    "genre": "Pop",
+    "atmosphere": ["Sad / Melancholic", "Chill / Relaxed"],
+    "popularity": 87
+  },
+  {
+    "title": "Montero (Call Me By Your Name)",
+    "artist": "Lil Nas X",
+    "album": "MONTERO",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 89
+  },
+  {
+    "title": "Permission to Dance",
+    "artist": "BTS",
+    "album": "Butter",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 86
+  },
+  {
+    "title": "The Nights",
+    "artist": "Avicii",
+    "album": "The Days / Nights EP",
+    "genre": "Electronic/Dance",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 85
+  },
+  {
+    "title": "Levels",
+    "artist": "Avicii",
+    "album": "LE7ELS",
+    "genre": "Electronic/Dance",
+    "atmosphere": ["Energetic / Hype", "Happy / Upbeat"],
+    "popularity": 83
+  },
+  {
+    "title": "One More Time",
+    "artist": "Daft Punk",
+    "album": "Discovery",
+    "genre": "Electronic/Dance",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 82
+  },
+  {
+    "title": "Around the World",
+    "artist": "Daft Punk",
+    "album": "Homework",
+    "genre": "Electronic/Dance",
+    "atmosphere": ["Energetic / Hype", "Focus / Study"],
+    "popularity": 79
+  },
+  {
+    "title": "Animals",
+    "artist": "Martin Garrix",
+    "album": "Animals",
+    "genre": "Electronic/Dance",
+    "atmosphere": ["Energetic / Hype", "Angry / Intense"],
+    "popularity": 80
+  },
+  {
+    "title": "Sunflower",
+    "artist": "Post Malone, Swae Lee",
+    "album": "Spider-Man: Into the Spider-Verse",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Chill / Relaxed"],
+    "popularity": 90
+  },
+  {
+    "title": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "album": "Fine Line",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Chill / Relaxed"],
+    "popularity": 87
+  },
+  {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "album": "Elephant",
+    "genre": "Rock",
+    "atmosphere": ["Angry / Intense", "Energetic / Hype"],
+    "popularity": 84
+  },
+  {
+    "title": "Somebody That I Used to Know",
+    "artist": "Gotye ft. Kimbra",
+    "album": "Making Mirrors",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Sad / Melancholic", "Dark / Moody"],
+    "popularity": 83
+  },
+  {
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "album": "Hunting High and Low",
+    "genre": "Pop",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 80
+  },
+  {
+    "title": "Africa",
+    "artist": "Toto",
+    "album": "Toto IV",
+    "genre": "Rock",
+    "atmosphere": ["Romantic", "Happy / Upbeat"],
+    "popularity": 82
+  },
+  {
+    "title": "Clocks",
+    "artist": "Coldplay",
+    "album": "A Rush of Blood to the Head",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Energetic / Hype", "Dark / Moody"],
+    "popularity": 81
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "album": "Parachutes",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Romantic", "Sad / Melancholic"],
+    "popularity": 83
+  },
+  {
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "album": "X&Y",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Sad / Melancholic", "Chill / Relaxed"],
+    "popularity": 84
+  },
+  {
+    "title": "The Less I Know the Better",
+    "artist": "Tame Impala",
+    "album": "Currents",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Happy / Upbeat", "Chill / Relaxed"],
+    "popularity": 83
+  },
+  {
+    "title": "Let It Happen",
+    "artist": "Tame Impala",
+    "album": "Currents",
+    "genre": "Indie/Alternative",
+    "atmosphere": ["Happy / Upbeat", "Focus / Study"],
+    "popularity": 80
+  },
+  {
+    "title": "lofi hip hop beats",
+    "artist": "ChilledCow",
+    "album": "Lofi Study Mix",
+    "genre": "Lo-fi/Ambient",
+    "atmosphere": ["Chill / Relaxed", "Focus / Study"],
+    "popularity": 70
+  },
+  {
+    "title": "Clair de Lune",
+    "artist": "Claude Debussy",
+    "album": "Suite bergamasque",
+    "genre": "Classical",
+    "atmosphere": ["Chill / Relaxed", "Focus / Study", "Romantic"],
+    "popularity": 75
+  },
+  {
+    "title": "Moonlight Sonata",
+    "artist": "Ludwig van Beethoven",
+    "album": "Piano Sonata No. 14",
+    "genre": "Classical",
+    "atmosphere": ["Sad / Melancholic", "Focus / Study"],
+    "popularity": 74
+  },
+  {
+    "title": "Experience",
+    "artist": "Ludovico Einaudi",
+    "album": "In a Time Lapse",
+    "genre": "Classical",
+    "atmosphere": ["Chill / Relaxed", "Sad / Melancholic", "Focus / Study"],
+    "popularity": 73
+  },
+  {
+    "title": "Take Five",
+    "artist": "Dave Brubeck",
+    "album": "Time Out",
+    "genre": "Jazz",
+    "atmosphere": ["Chill / Relaxed", "Focus / Study"],
+    "popularity": 72
+  },
+  {
+    "title": "So What",
+    "artist": "Miles Davis",
+    "album": "Kind of Blue",
+    "genre": "Jazz",
+    "atmosphere": ["Chill / Relaxed", "Focus / Study"],
+    "popularity": 71
+  },
+  {
+    "title": "All Blues",
+    "artist": "Miles Davis",
+    "album": "Kind of Blue",
+    "genre": "Jazz",
+    "atmosphere": ["Chill / Relaxed", "Focus / Study", "Romantic"],
+    "popularity": 69
+  },
+  {
+    "title": "Old Town Road",
+    "artist": "Lil Nas X ft. Billy Ray Cyrus",
+    "album": "7 EP",
+    "genre": "Country/Folk",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 88
+  },
+  {
+    "title": "Jolene",
+    "artist": "Dolly Parton",
+    "album": "Jolene",
+    "genre": "Country/Folk",
+    "atmosphere": ["Sad / Melancholic", "Romantic"],
+    "popularity": 76
+  },
+  {
+    "title": "Take Me Home, Country Roads",
+    "artist": "John Denver",
+    "album": "Poems, Prayers & Promises",
+    "genre": "Country/Folk",
+    "atmosphere": ["Happy / Upbeat", "Romantic"],
+    "popularity": 78
+  },
+  {
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "genre": "Metal",
+    "atmosphere": ["Angry / Intense", "Energetic / Hype", "Dark / Moody"],
+    "popularity": 82
+  },
+  {
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "album": "Metallica",
+    "genre": "Metal",
+    "atmosphere": ["Angry / Intense", "Energetic / Hype", "Dark / Moody"],
+    "popularity": 83
+  },
+  {
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "genre": "Metal",
+    "atmosphere": ["Angry / Intense", "Dark / Moody"],
+    "popularity": 79
+  },
+  {
+    "title": "Midnight City",
+    "artist": "M83",
+    "album": "Hurry Up, We're Dreaming",
+    "genre": "Electronic/Dance",
+    "atmosphere": ["Happy / Upbeat", "Energetic / Hype"],
+    "popularity": 81
+  },
+  {
+    "title": "Genesis",
+    "artist": "Grimes",
+    "album": "Visions",
+    "genre": "Electronic/Dance",
+    "atmosphere": ["Dark / Moody", "Energetic / Hype"],
+    "popularity": 73
+  },
+  {
+    "title": "Teardrop",
+    "artist": "Massive Attack",
+    "album": "Mezzanine",
+    "genre": "Lo-fi/Ambient",
+    "atmosphere": ["Dark / Moody", "Chill / Relaxed"],
+    "popularity": 76
+  },
+  {
+    "title": "Porcelain",
+    "artist": "Moby",
+    "album": "Play",
+    "genre": "Lo-fi/Ambient",
+    "atmosphere": ["Chill / Relaxed", "Focus / Study", "Sad / Melancholic"],
+    "popularity": 70
+  }
+]
