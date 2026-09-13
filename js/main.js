@@ -422,46 +422,98 @@ function applyMoodBackground(moodName) {
 
 const ARTWORK_CACHE = new Map();
 
+function getCachedArtwork(cacheKey) {
+  if (ARTWORK_CACHE.has(cacheKey)) return ARTWORK_CACHE.get(cacheKey);
+  try {
+    const s = sessionStorage.getItem('dc_art_' + cacheKey);
+    if (s) {
+      ARTWORK_CACHE.set(cacheKey, s);
+      return s;
+    }
+  } catch (e) {}
+  return null;
+}
+
+function setCachedArtwork(cacheKey, url) {
+  ARTWORK_CACHE.set(cacheKey, url);
+  try {
+    if (url && !url.startsWith('data:image/svg')) {
+      sessionStorage.setItem('dc_art_' + cacheKey, url);
+    }
+  } catch (e) {}
+}
+
+async function fetchWithTimeout(url, ms = 2500) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ms);
+  try {
+    const res = await fetch(url, { signal: ctrl.signal });
+    clearTimeout(timer);
+    return res;
+  } catch (e) {
+    clearTimeout(timer);
+    return null;
+  }
+}
+
 function generateVinylCoverSvg(title, artist, genre = 'DoomChill') {
   const safeTitle = (title || 'Track').replace(/[<>&'"]/g, '');
   const safeArtist = (artist || 'Artist').replace(/[<>&'"]/g, '');
   const safeGenre = (genre || 'Music').toUpperCase().replace(/[<>&'"]/g, '');
+
+  let c1 = '#1e4d3f', c2 = '#133829', c3 = '#091813', accent = '#dde663';
+  if (genre === 'Arabic') {
+    c1 = '#164838'; c2 = '#0d2d22'; c3 = '#081c15'; accent = '#dde663';
+  } else if (genre === 'Rock' || genre === 'Metal') {
+    c1 = '#3d1616'; c2 = '#260c0c'; c3 = '#140606'; accent = '#e84040';
+  } else if (genre === 'Hip-Hop/Rap') {
+    c1 = '#2b2720'; c2 = '#1c1914'; c3 = '#0f0e0b'; accent = '#f0c05a';
+  } else if (genre === 'Pop') {
+    c1 = '#283850'; c2 = '#162338'; c3 = '#0c1422'; accent = '#5bcfba';
+  } else if (genre === 'Electronic/Dance') {
+    c1 = '#2a1a44'; c2 = '#180e2b'; c3 = '#0c0618'; accent = '#5bcfba';
+  } else if (genre === 'Jazz' || genre === 'R&B/Soul') {
+    c1 = '#38251e'; c2 = '#241611'; c3 = '#140b08'; accent = '#e8a863';
+  } else if (genre === 'Lo-fi/Ambient' || genre === 'Classical') {
+    c1 = '#1a3338'; c2 = '#102226'; c3 = '#081316'; accent = '#818ca6';
+  }
+
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
     <defs>
-      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#1e4d3f" />
-        <stop offset="50%" stop-color="#133829" />
-        <stop offset="100%" stop-color="#091813" />
+      <linearGradient id="bg_${safeGenre.slice(0,3)}" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="${c1}" />
+        <stop offset="50%" stop-color="${c2}" />
+        <stop offset="100%" stop-color="${c3}" />
       </linearGradient>
-      <radialGradient id="grooves" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#297355" stop-opacity="0.3" />
-        <stop offset="60%" stop-color="#0f271f" stop-opacity="0.8" />
-        <stop offset="100%" stop-color="#07120e" />
+      <radialGradient id="grooves_${safeGenre.slice(0,3)}" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="${accent}" stop-opacity="0.15" />
+        <stop offset="60%" stop-color="#0b1a14" stop-opacity="0.85" />
+        <stop offset="100%" stop-color="#050d0a" />
       </radialGradient>
-      <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#dde663" />
-        <stop offset="100%" stop-color="#b8c238" />
+      <linearGradient id="accentGrad_${safeGenre.slice(0,3)}" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="${accent}" />
+        <stop offset="100%" stop-color="${c1}" />
       </linearGradient>
     </defs>
-    <rect width="300" height="300" fill="url(#bg)" rx="16" />
-    <circle cx="150" cy="150" r="124" fill="url(#grooves)" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
-    <circle cx="150" cy="150" r="108" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-    <circle cx="150" cy="150" r="92"  fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1.5" />
-    <circle cx="150" cy="150" r="76"  fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
-    <circle cx="150" cy="150" r="54"  fill="url(#gold)" />
+    <rect width="300" height="300" fill="url(#bg_${safeGenre.slice(0,3)})" rx="16" />
+    <circle cx="150" cy="150" r="126" fill="url(#grooves_${safeGenre.slice(0,3)})" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+    <circle cx="150" cy="150" r="110" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+    <circle cx="150" cy="150" r="94"  fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1.5" />
+    <circle cx="150" cy="150" r="78"  fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+    <circle cx="150" cy="150" r="54"  fill="url(#accentGrad_${safeGenre.slice(0,3)})" />
     <!-- Doom mask center emblem -->
-    <path d="M142,136 L158,136 L154,152 L150,158 L146,152 Z" fill="#1e4d3f" />
-    <circle cx="146" cy="144" r="2.5" fill="#dde663" />
-    <circle cx="154" cy="144" r="2.5" fill="#dde663" />
-    <path d="M140,140 L135,148 L142,154 L145,150 Z" fill="#1e4d3f" opacity="0.9" />
-    <path d="M160,140 L165,148 L158,154 L155,150 Z" fill="#1e4d3f" opacity="0.9" />
-    <circle cx="150" cy="150" r="6" fill="#091813" />
+    <path d="M142,136 L158,136 L154,152 L150,158 L146,152 Z" fill="#0c1d17" />
+    <circle cx="146" cy="144" r="2.5" fill="${accent}" />
+    <circle cx="154" cy="144" r="2.5" fill="${accent}" />
+    <path d="M140,140 L135,148 L142,154 L145,150 Z" fill="#0c1d17" opacity="0.9" />
+    <path d="M160,140 L165,148 L158,154 L155,150 Z" fill="#0c1d17" opacity="0.9" />
+    <circle cx="150" cy="150" r="6" fill="#050d0a" />
     <!-- Genre pill -->
-    <rect x="20" y="22" width="68" height="20" rx="10" fill="rgba(221,230,99,0.18)" stroke="rgba(221,230,99,0.35)" stroke-width="1" />
-    <text x="54" y="36" font-family="'JetBrains Mono',monospace" font-size="9" font-weight="700" fill="#dde663" text-anchor="middle" letter-spacing="1">${safeGenre.slice(0, 10)}</text>
+    <rect x="18" y="20" width="76" height="22" rx="11" fill="rgba(0,0,0,0.4)" stroke="${accent}" stroke-width="1" stroke-opacity="0.6" />
+    <text x="56" y="35" font-family="'JetBrains Mono',monospace" font-size="9" font-weight="700" fill="${accent}" text-anchor="middle" letter-spacing="0.5">${safeGenre.slice(0, 11)}</text>
     <!-- Title and Artist overlay -->
     <text x="150" y="252" font-family="'Sora',sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">${safeTitle.length > 24 ? safeTitle.slice(0, 22) + '…' : safeTitle}</text>
-    <text x="150" y="272" font-family="'Manrope',sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.7)" text-anchor="middle">${safeArtist.length > 28 ? safeArtist.slice(0, 26) + '…' : safeArtist}</text>
+    <text x="150" y="272" font-family="'Manrope',sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.75)" text-anchor="middle">${safeArtist.length > 28 ? safeArtist.slice(0, 26) + '…' : safeArtist}</text>
   </svg>`;
   return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
 }
@@ -470,50 +522,47 @@ async function fetchArtwork(title, artist, genre = '') {
   const cleanTitle = (title || '').trim();
   const cleanArtist = (artist || '').trim();
   const cacheKey = `${cleanArtist} - ${cleanTitle}`.toLowerCase();
-  if (ARTWORK_CACHE.has(cacheKey)) return ARTWORK_CACHE.get(cacheKey);
+  
+  const cached = getCachedArtwork(cacheKey);
+  if (cached) return cached;
 
-  try {
-    // 1. Search with artist + title
-    const term = encodeURIComponent(`${cleanArtist ? cleanArtist + ' ' : ''}${cleanTitle}`);
-    let res = await fetch(`https://itunes.apple.com/search?term=${term}&entity=song&limit=1`);
-    if (res.ok) {
-      const data = await res.json();
-      if (data.resultCount > 0 && data.results[0].artworkUrl100) {
-        const artUrl = data.results[0].artworkUrl100.replace('100x100bb', '600x600bb');
-        ARTWORK_CACHE.set(cacheKey, artUrl);
-        return artUrl;
-      }
-    }
+  const isArabic = genre === 'Arabic' || /[\u0600-\u06FF]/.test(cleanArtist + ' ' + cleanTitle);
+  const termArtistTitle = encodeURIComponent(`${cleanArtist ? cleanArtist + ' ' : ''}${cleanTitle}`);
+  const termTitle = encodeURIComponent(cleanTitle);
 
-    // 2. Search with artist + title (Egypt storefront fallback)
-    res = await fetch(`https://itunes.apple.com/search?term=${term}&country=EG&entity=song&limit=1`);
-    if (res.ok) {
-      const data = await res.json();
-      if (data.resultCount > 0 && data.results[0].artworkUrl100) {
-        const artUrl = data.results[0].artworkUrl100.replace('100x100bb', '600x600bb');
-        ARTWORK_CACHE.set(cacheKey, artUrl);
-        return artUrl;
-      }
-    }
+  const searchUrls = isArabic
+    ? [
+        `https://itunes.apple.com/search?term=${termArtistTitle}&country=EG&entity=song&limit=1`,
+        `https://itunes.apple.com/search?term=${termArtistTitle}&entity=song&limit=1`,
+        `https://itunes.apple.com/search?term=${termTitle}&country=EG&entity=song&limit=1`
+      ]
+    : [
+        `https://itunes.apple.com/search?term=${termArtistTitle}&entity=song&limit=1`,
+        `https://itunes.apple.com/search?term=${termArtistTitle}&country=US&entity=song&limit=1`,
+        `https://itunes.apple.com/search?term=${termTitle}&entity=song&limit=1`
+      ];
 
-    // 3. Search with title only
-    const termTitle = encodeURIComponent(cleanTitle);
-    res = await fetch(`https://itunes.apple.com/search?term=${termTitle}&country=EG&entity=song&limit=1`);
-    if (res.ok) {
-      const data = await res.json();
-      if (data.resultCount > 0 && data.results[0].artworkUrl100) {
-        const artUrl = data.results[0].artworkUrl100.replace('100x100bb', '600x600bb');
-        ARTWORK_CACHE.set(cacheKey, artUrl);
-        return artUrl;
+  for (const url of searchUrls) {
+    try {
+      const res = await fetchWithTimeout(url, 2500);
+      if (res && res.ok) {
+        const text = await res.text();
+        if (text && text.trim().length > 0) {
+          const data = JSON.parse(text);
+          if (data.resultCount > 0 && data.results && data.results[0] && data.results[0].artworkUrl100) {
+            const artUrl = data.results[0].artworkUrl100.replace('100x100bb', '600x600bb');
+            setCachedArtwork(cacheKey, artUrl);
+            return artUrl;
+          }
+        }
       }
+    } catch (err) {
+      // Continue to next fallback endpoint
     }
-  } catch (err) {
-    // Network fallback
   }
 
-  // 3. Fallback to stylized high-resolution branded SVG vinyl cover
+  // Fallback to stylized high-resolution branded SVG vinyl cover
   const fallbackSvg = generateVinylCoverSvg(cleanTitle, cleanArtist, genre);
-  ARTWORK_CACHE.set(cacheKey, fallbackSvg);
   return fallbackSvg;
 }
 
@@ -560,9 +609,11 @@ window.DoomChill.renderMoodResults = function(songs, opts = {}) {
     const tierClass = popToTierClass(song.popularity);
     const tierLabel = popToTierLabel(song.popularity);
 
+    const initialCover = generateVinylCoverSvg(song.title, song.artist, song.genre);
+
     card.innerHTML = `
       <div class="result-card__block ${blockClass}" aria-hidden="true">
-        <img class="result-card__img" alt="" loading="lazy" />
+        <img class="result-card__img is-loaded" src="${initialCover}" alt="${esc(song.title)}" loading="lazy" />
       </div>
       <div class="result-card__content">
         <p class="result-card__title" title="${esc(song.title)}">${esc(song.title)}</p>
@@ -582,9 +633,14 @@ window.DoomChill.renderMoodResults = function(songs, opts = {}) {
     // Asynchronously enrich card with real album cover artwork
     const imgEl = card.querySelector('.result-card__img');
     fetchArtwork(song.title, song.artist, song.genre).then(artUrl => {
-      if (artUrl && imgEl) {
-        imgEl.src = artUrl;
-        imgEl.classList.add('is-loaded');
+      if (artUrl && imgEl && artUrl !== initialCover) {
+        const preloader = new Image();
+        preloader.onload = () => {
+          if (imgEl && card.isConnected) {
+            imgEl.src = artUrl;
+          }
+        };
+        preloader.src = artUrl;
       }
     });
 
@@ -671,9 +727,11 @@ window.DoomChill.renderLookupResult = function(data) {
 
   const card = document.createElement('div');
   card.className = 'song-card';
+  const defaultArt = generateVinylCoverSvg(data.track, data.artist, data.genre);
+  const lookupCover = data.image || defaultArt;
   card.innerHTML = `
     <div class="song-card__art" aria-hidden="true">
-      ${data.image ? `<img src="${esc(data.image)}" alt="${esc(data.track)}" loading="lazy" />` : ''}
+      <img src="${esc(lookupCover)}" alt="${esc(data.track)}" loading="lazy" />
     </div>
     <div class="song-card__info">
       <div class="song-card__header">
@@ -832,6 +890,13 @@ window.DoomChill.renderLookupResult = function(data) {
     });
   }
 
+  const lookupImg = card.querySelector('.song-card__art img');
+  if (lookupImg) {
+    lookupImg.addEventListener('error', () => {
+      lookupImg.src = defaultArt;
+    });
+  }
+
   container.appendChild(card);
   container.appendChild(buildArtistSection(data));
 };
@@ -840,9 +905,8 @@ function buildArtistSection(data) {
   const section = document.createElement('div');
   section.className = 'artist-section';
 
-  const defaultImgHtml = data.image
-    ? `<img src="${esc(data.image)}" alt="${esc(data.album || data.artist)}" loading="lazy" />`
-    : '';
+  const fallbackCover = typeof generateVinylCoverSvg === 'function' ? generateVinylCoverSvg(data.track, data.artist, data.genre) : '';
+  const defaultImgHtml = `<img src="${esc(data.image || fallbackCover)}" alt="${esc(data.album || data.artist)}" loading="lazy" />`;
 
   const artistImgHtml = data.artistPhoto
     ? `<img class="artist-card__portrait" src="${esc(data.artistPhoto)}" alt="${esc(data.artist)}" loading="lazy" />`

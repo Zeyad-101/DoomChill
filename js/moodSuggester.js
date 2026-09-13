@@ -186,7 +186,7 @@
    * @returns {{ songs: Array<Object>, relaxed: boolean }}
    */
   function runMatching(pool, moods, genres) {
-    const isExplicitGenre = genres.length === 1;
+    const isExplicitSelection = (genres.length > 0 && !genres.includes('Arabic')) || (genres.length === 1 && genres[0] === 'Arabic');
 
     // No filters at all — return balanced random sample
     if (moods.length === 0 && genres.length === 0) {
@@ -205,7 +205,7 @@
     let candidates = scored.filter(s => s.score >= minScoreRequired);
 
     if (candidates.length >= MIN_RESULTS) {
-      return { songs: selectBalanced(candidates, MAX_RESULTS, isExplicitGenre), relaxed: false };
+      return { songs: selectBalanced(candidates, MAX_RESULTS, isExplicitSelection), relaxed: false };
     }
 
     // ── Fallback: atmosphere-only ──────────────────────────────────────────────
@@ -227,7 +227,7 @@
         .map(song => ({ song, score: 1 }));
 
       if (candidates.length > 0) {
-        return { songs: selectBalanced(candidates, MAX_RESULTS, true), relaxed: true };
+        return { songs: selectBalanced(candidates, MAX_RESULTS, isExplicitSelection), relaxed: true };
       }
     }
 
