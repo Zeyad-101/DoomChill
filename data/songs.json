@@ -2,7 +2,7 @@
   {
     "title": "GATÚBELA",
     "artist": "KAROL G, Maldy",
-    "album": "GATÚBELA",
+    "album": "MAÑANA SERÁ BONITO",
     "genre": "Other",
     "atmosphere": [
       "Angry / Intense"
@@ -42,7 +42,7 @@
   {
     "title": "Quevedo: Bzrp Music Sessions, Vol. 52",
     "artist": "Bizarrap, Quevedo",
-    "album": "Quevedo: Bzrp Music Sessions, Vol. 52",
+    "album": "Bzrp Music Sessions, Vol. 52 - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Energetic / Hype"
@@ -102,7 +102,7 @@
   {
     "title": "Better Days",
     "artist": "Dermot Kennedy",
-    "album": "Better Days",
+    "album": "Without Fear",
     "genre": "Country/Folk",
     "atmosphere": [
       "Dark / Moody"
@@ -162,7 +162,7 @@
   {
     "title": "Tennessee Orange",
     "artist": "Megan Moroney",
-    "album": "Tennessee Orange",
+    "album": "Lucky",
     "genre": "Country/Folk",
     "atmosphere": [
       "Sad / Melancholic"
@@ -182,7 +182,7 @@
   {
     "title": "Ride It",
     "artist": "Regard",
-    "album": "Ride It",
+    "album": "Ride It - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -193,7 +193,7 @@
   {
     "title": "Seize The Day",
     "artist": "Wax Tailor, Charlotte Savary",
-    "album": "Seize The Day",
+    "album": "Hope & Sorrow",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Focus / Study"
@@ -304,7 +304,7 @@
   {
     "title": "As the World Caves In",
     "artist": "Matt Maltese",
-    "album": "As the World Caves In",
+    "album": "Bad Contestant",
     "genre": "Country/Folk",
     "atmosphere": [
       "Sad / Melancholic"
@@ -314,7 +314,7 @@
   {
     "title": "Hourglass",
     "artist": "Jiří Horák",
-    "album": "Hourglass",
+    "album": "Hourglass - Single",
     "genre": "Classical",
     "atmosphere": [
       "Chill / Relaxed",
@@ -326,7 +326,7 @@
   {
     "title": "Es kommt zum Duell",
     "artist": "Dualizm, Grmmr.126",
-    "album": "Es kommt zum Duell",
+    "album": "Es kommt zum Duell - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Happy / Upbeat",
@@ -367,7 +367,7 @@
   {
     "title": "LOVE DIVE",
     "artist": "IVE",
-    "album": "LOVE DIVE",
+    "album": "LOVE DIVE - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -447,7 +447,7 @@
   {
     "title": "Tu as disparu",
     "artist": "Laetitia Dostie",
-    "album": "Tu as disparu",
+    "album": "Tu as disparu - Single",
     "genre": "Classical",
     "atmosphere": [
       "Chill / Relaxed",
@@ -505,7 +505,8 @@
     "album": "Demon Days",
     "genre": "Rock",
     "atmosphere": [
-      "Happy / Upbeat"
+      "Happy / Upbeat",
+      "Energetic / Hype"
     ],
     "popularity": 84
   },
@@ -553,7 +554,7 @@
   {
     "title": "Parasite Eve",
     "artist": "Bring Me The Horizon",
-    "album": "Parasite Eve",
+    "album": "Parasite Eve - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -595,7 +596,7 @@
   {
     "title": "I See Red",
     "artist": "Everybody Loves an Outlaw",
-    "album": "I See Red",
+    "album": "I See Red - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Sad / Melancholic"
@@ -617,7 +618,7 @@
   {
     "title": "Señorita",
     "artist": "Shawn Mendes, Camila Cabello",
-    "album": "Señorita",
+    "album": "Señorita - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -710,7 +711,7 @@
   {
     "title": "The Way It Is",
     "artist": "Bruce Hornsby, The Range",
-    "album": "The Way It Is",
+    "album": "The Way It Is - Single",
     "genre": "Classical",
     "atmosphere": [
       "Neutral"
@@ -730,7 +731,7 @@
   {
     "title": "21 Reasons (feat. Ella Henderson)",
     "artist": "Nathan Dawe, Ella Henderson",
-    "album": "21 Reasons (feat. Ella Henderson)",
+    "album": "21 Reasons (feat. Ella Henderson) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -741,7 +742,7 @@
   {
     "title": "Measure of a Man (feat. Central Cee)",
     "artist": "FKA twigs, Central Cee",
-    "album": "Measure of a Man (feat. Central Cee)",
+    "album": "Measure of a Man (feat. Central Cee) - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Angry / Intense"
@@ -751,7 +752,7 @@
   {
     "title": "LOKERA",
     "artist": "Rauw Alejandro, Lyanno, Brray",
-    "album": "LOKERA",
+    "album": "LOKERA - Single",
     "genre": "Pop",
     "atmosphere": [
       "Happy / Upbeat"
@@ -815,7 +816,7 @@
   {
     "title": "Cry",
     "artist": "Cigarettes After Sex",
-    "album": "Cry",
+    "album": "Cry - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -856,7 +857,7 @@
   {
     "title": "I'm Good (Blue)",
     "artist": "David Guetta, Bebe Rexha",
-    "album": "I'm Good (Blue)",
+    "album": "I'm Good (Blue) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Angry / Intense"
@@ -919,7 +920,7 @@
   {
     "title": "Bismarck",
     "artist": "Sabaton",
-    "album": "Bismarck",
+    "album": "Bismarck - Single",
     "genre": "Metal",
     "atmosphere": [
       "Neutral"
@@ -929,7 +930,7 @@
   {
     "title": "Calm Down (with Selena Gomez)",
     "artist": "Rema, Selena Gomez",
-    "album": "Calm Down (with Selena Gomez)",
+    "album": "Calm Down (with Selena Gomez) - Single",
     "genre": "Pop",
     "atmosphere": [
       "Happy / Upbeat"
@@ -990,7 +991,7 @@
   {
     "title": "Seni Dert Etmeler",
     "artist": "Madrigal",
-    "album": "Seni Dert Etmeler",
+    "album": "Seni Dert Etmeler - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -1051,7 +1052,7 @@
   {
     "title": "A New Moanin'",
     "artist": "Boozoo Bajou",
-    "album": "A New Moanin'",
+    "album": "A New Moanin' - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Chill / Relaxed",
@@ -1083,7 +1084,7 @@
   {
     "title": "Novacane",
     "artist": "Frank Ocean",
-    "album": "Novacane",
+    "album": "Novacane - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Sad / Melancholic"
@@ -1154,7 +1155,7 @@
   {
     "title": "Intuisi",
     "artist": "Yura Yunita",
-    "album": "Intuisi",
+    "album": "Intuisi - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Chill / Relaxed",
@@ -1316,7 +1317,7 @@
   {
     "title": "I'm Only a Fool for You",
     "artist": "Dybbukk",
-    "album": "I'm Only a Fool for You",
+    "album": "I'm Only a Fool for You - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed",
@@ -1348,7 +1349,7 @@
   {
     "title": "Paris to Tokyo",
     "artist": "Fivio Foreign, The Kid LAROI",
-    "album": "Paris to Tokyo",
+    "album": "Paris to Tokyo - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Angry / Intense",
@@ -1359,7 +1360,7 @@
   {
     "title": "Ajnabee",
     "artist": "Bhuvan Bam",
-    "album": "Ajnabee",
+    "album": "Ajnabee - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Neutral"
@@ -1429,7 +1430,7 @@
   {
     "title": "Heathens",
     "artist": "Twenty One Pilots",
-    "album": "Heathens",
+    "album": "Heathens - Single",
     "genre": "Rock",
     "atmosphere": [
       "Chill / Relaxed"
@@ -1449,7 +1450,7 @@
   {
     "title": "Deep End",
     "artist": "Fousheé",
-    "album": "Deep End",
+    "album": "Deep End - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Neutral"
@@ -1459,7 +1460,7 @@
   {
     "title": "Peter Pan (feat. Liilz)",
     "artist": "Prinz, Liilz",
-    "album": "Peter Pan (feat. Liilz)",
+    "album": "Peter Pan (feat. Liilz) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Neutral"
@@ -1479,7 +1480,7 @@
   {
     "title": "Waterloo",
     "artist": "ABBA",
-    "album": "Waterloo",
+    "album": "Waterloo - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -1592,7 +1593,7 @@
   {
     "title": "Happier Than Ever",
     "artist": "ASTN",
-    "album": "Happier Than Ever",
+    "album": "Happier Than Ever - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -1612,7 +1613,7 @@
   {
     "title": "Afterthought",
     "artist": "Niall Byrne",
-    "album": "Afterthought",
+    "album": "Afterthought - Single",
     "genre": "Classical",
     "atmosphere": [
       "Chill / Relaxed",
@@ -1643,7 +1644,7 @@
   {
     "title": "Si Te La Encuentras Por Ahí",
     "artist": "Feid",
-    "album": "Si Te La Encuentras Por Ahí",
+    "album": "Si Te La Encuentras Por Ahí - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -1694,7 +1695,7 @@
   {
     "title": "Eternal Youth",
     "artist": "RŮDE",
-    "album": "Eternal Youth",
+    "album": "Eternal Youth - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -1739,7 +1740,8 @@
     "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
     "genre": "Electronic/Dance",
     "atmosphere": [
-      "Neutral"
+      "Dark / Moody",
+      "Energetic / Hype"
     ],
     "popularity": 84
   },
@@ -1756,7 +1758,7 @@
   {
     "title": "First Class",
     "artist": "Jack Harlow",
-    "album": "First Class",
+    "album": "First Class - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Dark / Moody"
@@ -1786,7 +1788,7 @@
   {
     "title": "Super Freaky Girl",
     "artist": "Nicki Minaj",
-    "album": "Super Freaky Girl",
+    "album": "Super Freaky Girl - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -1807,7 +1809,7 @@
   {
     "title": "Buy Dirt",
     "artist": "Jordan Davis, Luke Bryan",
-    "album": "Buy Dirt",
+    "album": "Buy Dirt - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Neutral"
@@ -1817,7 +1819,7 @@
   {
     "title": "Beautiful Girl",
     "artist": "Luciano",
-    "album": "Beautiful Girl",
+    "album": "Beautiful Girl - Single",
     "genre": "Other",
     "atmosphere": [
       "Neutral"
@@ -1838,7 +1840,7 @@
   {
     "title": "Unstoppable",
     "artist": "Disturbed",
-    "album": "Unstoppable",
+    "album": "Unstoppable - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -1848,7 +1850,7 @@
   {
     "title": "skeletons",
     "artist": "keshi",
-    "album": "skeletons",
+    "album": "skeletons - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -1858,7 +1860,7 @@
   {
     "title": "Vivaldi Variation (Arr. for Piano from Concerto for Strings in G Minor, RV 156)",
     "artist": "Antonio Vivaldi, Florian Christl",
-    "album": "Vivaldi Variation (Arr. for Piano from Concerto for Strings in G Minor, RV 156)",
+    "album": "Vivaldi Variation (Arr. for Piano from Concerto for Strings in G Minor, RV 156) - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -1940,7 +1942,7 @@
   {
     "title": "I’ll Keep You Safe",
     "artist": "Vluestar",
-    "album": "I’ll Keep You Safe",
+    "album": "I’ll Keep You Safe - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -2047,14 +2049,15 @@
     "album": "2014 Forest Hills Drive",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
-      "Romantic"
+      "Energetic / Hype",
+      "Chill / Relaxed"
     ],
     "popularity": 88
   },
   {
     "title": "Silence",
     "artist": "Marshmello, Khalid",
-    "album": "Silence",
+    "album": "Silence - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Angry / Intense"
@@ -2074,7 +2077,7 @@
   {
     "title": "KICK BACK",
     "artist": "Kenshi Yonezu",
-    "album": "KICK BACK",
+    "album": "KICK BACK - Single",
     "genre": "Pop",
     "atmosphere": [
       "Angry / Intense"
@@ -2094,7 +2097,7 @@
   {
     "title": "PETETE",
     "artist": "Gambi",
-    "album": "PETETE",
+    "album": "PETETE - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -2137,7 +2140,8 @@
     "album": "ASTROWORLD",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
-      "Energetic / Hype"
+      "Energetic / Hype",
+      "Dark / Moody"
     ],
     "popularity": 83
   },
@@ -2174,7 +2178,7 @@
   {
     "title": "2 soon",
     "artist": "keshi",
-    "album": "2 soon",
+    "album": "2 soon - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Dark / Moody"
@@ -2224,7 +2228,7 @@
   {
     "title": "The Business",
     "artist": "Tiësto",
-    "album": "The Business",
+    "album": "The Business - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Dark / Moody"
@@ -2234,7 +2238,7 @@
   {
     "title": "Belly Dancer",
     "artist": "Imanbek, BYOR",
-    "album": "Belly Dancer",
+    "album": "Belly Dancer - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype"
@@ -2298,7 +2302,7 @@
   {
     "title": "West Coast",
     "artist": "OneRepublic",
-    "album": "West Coast",
+    "album": "West Coast - Single",
     "genre": "Classical",
     "atmosphere": [
       "Happy / Upbeat"
@@ -2339,7 +2343,7 @@
   {
     "title": "Astronaut In The Ocean",
     "artist": "Masked Wolf",
-    "album": "Astronaut In The Ocean",
+    "album": "Astronaut In The Ocean - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Neutral"
@@ -2349,7 +2353,7 @@
   {
     "title": "Oh, Pretty Woman",
     "artist": "Roy Orbison",
-    "album": "Oh, Pretty Woman",
+    "album": "Oh, Pretty Woman - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Happy / Upbeat"
@@ -2379,7 +2383,7 @@
   {
     "title": "NUMB",
     "artist": "Chri$tian Gate$",
-    "album": "NUMB",
+    "album": "NUMB - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Happy / Upbeat"
@@ -2429,7 +2433,7 @@
   {
     "title": "My Favourite Clothes",
     "artist": "RINI",
-    "album": "My Favourite Clothes",
+    "album": "My Favourite Clothes - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -2491,7 +2495,7 @@
   {
     "title": "See You Again (feat. Charlie Puth)",
     "artist": "Wiz Khalifa, Charlie Puth",
-    "album": "See You Again (feat. Charlie Puth)",
+    "album": "See You Again (feat. Charlie Puth) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Sad / Melancholic"
@@ -2501,7 +2505,7 @@
   {
     "title": "Formentera",
     "artist": "Aitana, Nicki Nicole",
-    "album": "Formentera",
+    "album": "Formentera - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -2777,7 +2781,7 @@
   {
     "title": "Ferrari",
     "artist": "James Hype, Miggy Dela Rosa",
-    "album": "Ferrari",
+    "album": "Ferrari - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -2808,7 +2812,7 @@
   {
     "title": "Hush",
     "artist": "Yonatan Awate",
-    "album": "Hush",
+    "album": "Hush - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -2849,7 +2853,7 @@
   {
     "title": "Dancing in My Room",
     "artist": "347aidan",
-    "album": "Dancing in My Room",
+    "album": "Dancing in My Room - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Neutral"
@@ -2859,7 +2863,7 @@
   {
     "title": "Peur (feat. Ziak)",
     "artist": "Kerchak, Ziak",
-    "album": "Peur (feat. Ziak)",
+    "album": "Peur (feat. Ziak) - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -2870,7 +2874,7 @@
   {
     "title": "Pepas",
     "artist": "Farruko",
-    "album": "Pepas",
+    "album": "Pepas - Single",
     "genre": "Pop",
     "atmosphere": [
       "Energetic / Hype"
@@ -2900,7 +2904,7 @@
   {
     "title": "Latest Trends",
     "artist": "A1 x J1",
-    "album": "Latest Trends",
+    "album": "Latest Trends - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Happy / Upbeat"
@@ -2910,7 +2914,7 @@
   {
     "title": "Swamped XX",
     "artist": "Lacuna Coil",
-    "album": "Swamped XX",
+    "album": "Swamped XX - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Angry / Intense"
@@ -2971,7 +2975,7 @@
   {
     "title": "double take",
     "artist": "dhruv",
-    "album": "double take",
+    "album": "double take - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -2981,7 +2985,7 @@
   {
     "title": "Saudade",
     "artist": "Thievery Corporation",
-    "album": "Saudade",
+    "album": "Saudade - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Focus / Study"
@@ -3001,7 +3005,7 @@
   {
     "title": "Nature undisclosed",
     "artist": "Keiko Ishida",
-    "album": "Nature undisclosed",
+    "album": "Nature undisclosed - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -3065,7 +3069,7 @@
   {
     "title": "Crazy What Love Can Do",
     "artist": "David Guetta, Becky Hill, Ella Henderson",
-    "album": "Crazy What Love Can Do",
+    "album": "Crazy What Love Can Do - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Neutral"
@@ -3097,7 +3101,7 @@
   {
     "title": "Asan Ka Na Ba",
     "artist": "Zack Tabudlo",
-    "album": "Asan Ka Na Ba",
+    "album": "Asan Ka Na Ba - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Neutral"
@@ -3118,7 +3122,7 @@
   {
     "title": "Turning Page",
     "artist": "Sleeping At Last",
-    "album": "Turning Page",
+    "album": "Turning Page - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -3138,7 +3142,7 @@
   {
     "title": "You Broke My Heart Again",
     "artist": "Teqkoi, Aiko",
-    "album": "You Broke My Heart Again",
+    "album": "You Broke My Heart Again - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -3168,7 +3172,7 @@
   {
     "title": "Ons",
     "artist": "Huma",
-    "album": "Ons",
+    "album": "Ons - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -3279,7 +3283,7 @@
   {
     "title": "Synchronize",
     "artist": "Milky Chance",
-    "album": "Synchronize",
+    "album": "Synchronize - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -3362,7 +3366,7 @@
   {
     "title": "Frisco",
     "artist": "Little Dragon",
-    "album": "Frisco",
+    "album": "Frisco - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Chill / Relaxed"
@@ -3393,7 +3397,7 @@
   {
     "title": "ННД",
     "artist": "Tomorrow",
-    "album": "ННД",
+    "album": "ННД - Single",
     "genre": "Metal",
     "atmosphere": [
       "Energetic / Hype",
@@ -3404,7 +3408,7 @@
   {
     "title": "Yonaguni",
     "artist": "Bad Bunny",
-    "album": "Yonaguni",
+    "album": "Yonaguni - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -3506,7 +3510,7 @@
   {
     "title": "The Great Tribulation (feat. Fleshgod Apocalypse)",
     "artist": "Epica, Fleshgod Apocalypse",
-    "album": "The Great Tribulation (feat. Fleshgod Apocalypse)",
+    "album": "The Great Tribulation (feat. Fleshgod Apocalypse) - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Angry / Intense"
@@ -3567,7 +3571,7 @@
   {
     "title": "Tom's Diner",
     "artist": "AnnenMayKantereit, Giant Rooks",
-    "album": "Tom's Diner",
+    "album": "Tom's Diner - Single",
     "genre": "Other",
     "atmosphere": [
       "Chill / Relaxed",
@@ -3608,7 +3612,7 @@
   {
     "title": "Over The Hills And Far Away",
     "artist": "Nightwish",
-    "album": "Over The Hills And Far Away",
+    "album": "Over The Hills And Far Away - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Angry / Intense"
@@ -3668,7 +3672,7 @@
   {
     "title": "Best Day Of My Life",
     "artist": "Tom Odell",
-    "album": "Best Day Of My Life",
+    "album": "Best Day Of My Life - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -3688,7 +3692,7 @@
   {
     "title": "OUT OUT (feat. Charli XCX & Saweetie)",
     "artist": "Joel Corry, Jax Jones, Charli XCX",
-    "album": "OUT OUT (feat. Charli XCX & Saweetie)",
+    "album": "OUT OUT (feat. Charli XCX & Saweetie) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -3771,7 +3775,7 @@
   {
     "title": "Bye Bye",
     "artist": "Marshmello, Juice WRLD",
-    "album": "Bye Bye",
+    "album": "Bye Bye - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Dark / Moody"
@@ -3812,7 +3816,7 @@
   {
     "title": "Party en el Barrio (feat. Duki)",
     "artist": "Paulo Londra, Duki",
-    "album": "Party en el Barrio (feat. Duki)",
+    "album": "Party en el Barrio (feat. Duki) - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -3843,7 +3847,7 @@
   {
     "title": "Tusa",
     "artist": "KAROL G, Nicki Minaj",
-    "album": "Tusa",
+    "album": "Tusa - Single",
     "genre": "Other",
     "atmosphere": [
       "Neutral"
@@ -3863,7 +3867,7 @@
   {
     "title": "Don't Be Shy",
     "artist": "Tiësto, KAROL G",
-    "album": "Don't Be Shy",
+    "album": "Don't Be Shy - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype"
@@ -3883,7 +3887,7 @@
   {
     "title": "Half The Perfect World",
     "artist": "Madeleine Peyroux",
-    "album": "Half The Perfect World",
+    "album": "Half The Perfect World - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Chill / Relaxed",
@@ -3894,7 +3898,7 @@
   {
     "title": "Sunshine",
     "artist": "OneRepublic",
-    "album": "Sunshine",
+    "album": "Sunshine - Single",
     "genre": "Classical",
     "atmosphere": [
       "Energetic / Hype",
@@ -3986,7 +3990,7 @@
   {
     "title": "10,000 Hours (with Justin Bieber)",
     "artist": "Dan + Shay, Justin Bieber",
-    "album": "10,000 Hours (with Justin Bieber)",
+    "album": "10,000 Hours (with Justin Bieber) - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Neutral"
@@ -4058,7 +4062,7 @@
   {
     "title": "All of the Time",
     "artist": "Project Grand Slam",
-    "album": "All of the Time",
+    "album": "All of the Time - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Happy / Upbeat"
@@ -4068,17 +4072,18 @@
   {
     "title": "HIGHEST IN THE ROOM",
     "artist": "Travis Scott",
-    "album": "HIGHEST IN THE ROOM",
+    "album": "HIGHEST IN THE ROOM - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
-      "Sad / Melancholic"
+      "Dark / Moody",
+      "Chill / Relaxed"
     ],
     "popularity": 82
   },
   {
     "title": "Angel Baby",
     "artist": "Troye Sivan",
-    "album": "Angel Baby",
+    "album": "Angel Baby - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Dark / Moody"
@@ -4139,7 +4144,7 @@
   {
     "title": "lovely (with Khalid)",
     "artist": "Billie Eilish, Khalid",
-    "album": "lovely (with Khalid)",
+    "album": "lovely (with Khalid) - Single",
     "genre": "Pop",
     "atmosphere": [
       "Sad / Melancholic"
@@ -4159,7 +4164,7 @@
   {
     "title": "MARCELINE",
     "artist": "Lil God Dan",
-    "album": "MARCELINE",
+    "album": "MARCELINE - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Energetic / Hype",
@@ -4170,7 +4175,7 @@
   {
     "title": "Returning",
     "artist": "Milo Edale",
-    "album": "Returning",
+    "album": "Returning - Single",
     "genre": "Classical",
     "atmosphere": [
       "Chill / Relaxed",
@@ -4182,7 +4187,7 @@
   {
     "title": "DiE4u",
     "artist": "Bring Me The Horizon",
-    "album": "DiE4u",
+    "album": "DiE4u - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -4213,7 +4218,7 @@
   {
     "title": "Quand vous souriez",
     "artist": "Libor Kolman",
-    "album": "Quand vous souriez",
+    "album": "Quand vous souriez - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -4412,7 +4417,7 @@
   {
     "title": "Ritual Union",
     "artist": "Little Dragon",
-    "album": "Ritual Union",
+    "album": "Ritual Union - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Energetic / Hype",
@@ -4474,7 +4479,7 @@
   {
     "title": "Starboy",
     "artist": "The Weeknd, Daft Punk",
-    "album": "Starboy",
+    "album": "Starboy - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -4484,7 +4489,7 @@
   {
     "title": "After LIKE",
     "artist": "IVE",
-    "album": "After LIKE",
+    "album": "After LIKE - Single",
     "genre": "Pop",
     "atmosphere": [
       "Energetic / Hype",
@@ -4525,7 +4530,7 @@
   {
     "title": "I Quit Drinking",
     "artist": "Kelsea Ballerini, LANY",
-    "album": "I Quit Drinking",
+    "album": "I Quit Drinking - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Chill / Relaxed"
@@ -4535,7 +4540,7 @@
   {
     "title": "About Damn Time",
     "artist": "Lizzo",
-    "album": "About Damn Time",
+    "album": "About Damn Time - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Happy / Upbeat"
@@ -4545,7 +4550,7 @@
   {
     "title": "Out Of My Mind",
     "artist": "Gentrammel",
-    "album": "Out Of My Mind",
+    "album": "Out Of My Mind - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Happy / Upbeat"
@@ -4565,7 +4570,7 @@
   {
     "title": "The Nexus",
     "artist": "Amaranthe",
-    "album": "The Nexus",
+    "album": "The Nexus - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Happy / Upbeat"
@@ -4585,7 +4590,7 @@
   {
     "title": "Lo Siento BB:/ (with Bad Bunny & Julieta Venegas)",
     "artist": "Tainy, Bad Bunny, Julieta Venegas",
-    "album": "Lo Siento BB:/ (with Bad Bunny & Julieta Venegas)",
+    "album": "Lo Siento BB:/ (with Bad Bunny & Julieta Venegas) - Single",
     "genre": "Pop",
     "atmosphere": [
       "Angry / Intense"
@@ -4605,7 +4610,7 @@
   {
     "title": "Let Go",
     "artist": "Ark Patrol, Veronika Redd",
-    "album": "Let Go",
+    "album": "Let Go - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Sad / Melancholic"
@@ -4625,7 +4630,7 @@
   {
     "title": "MAMIII",
     "artist": "Becky G, KAROL G",
-    "album": "MAMIII",
+    "album": "MAMIII - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -4635,7 +4640,7 @@
   {
     "title": "Something in the Orange",
     "artist": "Zach Bryan",
-    "album": "Something in the Orange",
+    "album": "Something in the Orange - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Sad / Melancholic"
@@ -4645,7 +4650,7 @@
   {
     "title": "A Mí",
     "artist": "Rels B",
-    "album": "A Mí",
+    "album": "A Mí - Single",
     "genre": "Other",
     "atmosphere": [
       "Neutral"
@@ -4655,7 +4660,7 @@
   {
     "title": "Heat Waves",
     "artist": "Glass Animals",
-    "album": "Heat Waves",
+    "album": "Heat Waves - Single",
     "genre": "Pop",
     "atmosphere": [
       "Romantic"
@@ -4725,7 +4730,7 @@
   {
     "title": "Reframe",
     "artist": "Norman Dück",
-    "album": "Reframe",
+    "album": "Reframe - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -4757,7 +4762,7 @@
   {
     "title": "Kiss Me More (feat. SZA)",
     "artist": "Doja Cat, SZA",
-    "album": "Kiss Me More (feat. SZA)",
+    "album": "Kiss Me More (feat. SZA) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -4767,7 +4772,7 @@
   {
     "title": "7 Years (Remix)",
     "artist": "Sik World",
-    "album": "7 Years (Remix)",
+    "album": "7 Years (Remix) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Neutral"
@@ -4787,7 +4792,7 @@
   {
     "title": "LAS 12",
     "artist": "Ana Mena, Belinda",
-    "album": "LAS 12",
+    "album": "LAS 12 - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -4809,7 +4814,7 @@
   {
     "title": "Those Eyes",
     "artist": "New West",
-    "album": "Those Eyes",
+    "album": "Those Eyes - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Sad / Melancholic"
@@ -4830,7 +4835,7 @@
   {
     "title": "The Reckoning",
     "artist": "Within Temptation, Jacoby Shaddix",
-    "album": "The Reckoning",
+    "album": "The Reckoning - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Neutral"
@@ -4840,7 +4845,7 @@
   {
     "title": "Blue Train",
     "artist": "John Coltrane",
-    "album": "Blue Train",
+    "album": "Blue Train - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Neutral"
@@ -4850,7 +4855,7 @@
   {
     "title": "Alone In Paris",
     "artist": "Elliott Jacqués",
-    "album": "Alone In Paris",
+    "album": "Alone In Paris - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -4891,7 +4896,7 @@
   {
     "title": "Black Hole",
     "artist": "We Came As Romans, Caleb Shomo",
-    "album": "Black Hole",
+    "album": "Black Hole - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -4972,7 +4977,7 @@
   {
     "title": "Dualities",
     "artist": "Davignon",
-    "album": "Dualities",
+    "album": "Dualities - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -5033,7 +5038,7 @@
   {
     "title": "Good Time",
     "artist": "Alan Jackson",
-    "album": "Good Time",
+    "album": "Good Time - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Energetic / Hype",
@@ -5044,7 +5049,7 @@
   {
     "title": "Next Thing You Know",
     "artist": "Jordan Davis",
-    "album": "Next Thing You Know",
+    "album": "Next Thing You Know - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Neutral"
@@ -5064,7 +5069,7 @@
   {
     "title": "This Is What You Came For",
     "artist": "Calvin Harris, Rihanna",
-    "album": "This Is What You Came For",
+    "album": "This Is What You Came For - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype"
@@ -5074,7 +5079,7 @@
   {
     "title": "death bed (coffee for your head)",
     "artist": "Powfu, beabadoobee",
-    "album": "death bed (coffee for your head)",
+    "album": "death bed (coffee for your head) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -5115,7 +5120,7 @@
   {
     "title": "En El Coche",
     "artist": "Aitana",
-    "album": "En El Coche",
+    "album": "En El Coche - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -5125,7 +5130,7 @@
   {
     "title": "Fracture",
     "artist": "Stephan Moccio",
-    "album": "Fracture",
+    "album": "Fracture - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -5166,7 +5171,7 @@
   {
     "title": "Don't Forget",
     "artist": "Phlocalyst, Mr. Käfer",
-    "album": "Don't Forget",
+    "album": "Don't Forget - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Sad / Melancholic",
@@ -5207,7 +5212,7 @@
   {
     "title": "Los Cachos",
     "artist": "Piso 21, Manuel Turizo",
-    "album": "Los Cachos",
+    "album": "Los Cachos - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -5237,7 +5242,7 @@
   {
     "title": "STAR WALKIN' (League of Legends Worlds Anthem)",
     "artist": "Lil Nas X",
-    "album": "STAR WALKIN' (League of Legends Worlds Anthem)",
+    "album": "STAR WALKIN' (League of Legends Worlds Anthem) - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Angry / Intense"
@@ -5277,7 +5282,7 @@
   {
     "title": "Comedy",
     "artist": "Gen Hoshino",
-    "album": "Comedy",
+    "album": "Comedy - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed"
@@ -5298,7 +5303,7 @@
   {
     "title": "die first",
     "artist": "Nessa Barrett",
-    "album": "die first",
+    "album": "die first - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Neutral"
@@ -5308,7 +5313,7 @@
   {
     "title": "Hex",
     "artist": "80purppp",
-    "album": "Hex",
+    "album": "Hex - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed",
@@ -5412,7 +5417,7 @@
   {
     "title": "i'm closing my eyes",
     "artist": "potsu",
-    "album": "i'm closing my eyes",
+    "album": "i'm closing my eyes - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Focus / Study"
@@ -5503,7 +5508,7 @@
   {
     "title": "Hooked On A Feeling",
     "artist": "Blue Swede, Björn Skifs",
-    "album": "Hooked On A Feeling",
+    "album": "Hooked On A Feeling - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -5524,7 +5529,7 @@
   {
     "title": "Fingers Crossed",
     "artist": "Lauren Spencer Smith",
-    "album": "Fingers Crossed",
+    "album": "Fingers Crossed - Single",
     "genre": "Rock",
     "atmosphere": [
       "Chill / Relaxed",
@@ -5586,7 +5591,7 @@
   {
     "title": "Box of Memories",
     "artist": "Josh Kramer",
-    "album": "Box of Memories",
+    "album": "Box of Memories - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -5597,7 +5602,7 @@
   {
     "title": "Jefe",
     "artist": "Ninho",
-    "album": "Jefe",
+    "album": "Jefe - Single",
     "genre": "Other",
     "atmosphere": [
       "Neutral"
@@ -5607,7 +5612,7 @@
   {
     "title": "Saying Things",
     "artist": "Emanuel Fremont",
-    "album": "Saying Things",
+    "album": "Saying Things - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -5638,7 +5643,7 @@
   {
     "title": "Gangsta's Paradise",
     "artist": "Coolio, L.V.",
-    "album": "Gangsta's Paradise",
+    "album": "Gangsta's Paradise - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Neutral"
@@ -5700,7 +5705,7 @@
   {
     "title": "American Pie",
     "artist": "Don McLean",
-    "album": "American Pie",
+    "album": "American Pie - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Neutral"
@@ -5710,7 +5715,7 @@
   {
     "title": "BICHOTA",
     "artist": "KAROL G",
-    "album": "BICHOTA",
+    "album": "BICHOTA - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -5771,7 +5776,7 @@
   {
     "title": "Diablo",
     "artist": "Beret, Estopa",
-    "album": "Diablo",
+    "album": "Diablo - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype"
@@ -5842,7 +5847,7 @@
   {
     "title": "Lover",
     "artist": "Taylor Swift",
-    "album": "Lover",
+    "album": "Lover - Single",
     "genre": "Pop",
     "atmosphere": [
       "Romantic"
@@ -5872,7 +5877,7 @@
   {
     "title": "Dancing In The Moonlight (feat. NEIMY)",
     "artist": "Jubël, NEIMY",
-    "album": "Dancing In The Moonlight (feat. NEIMY)",
+    "album": "Dancing In The Moonlight (feat. NEIMY) - Single",
     "genre": "Other",
     "atmosphere": [
       "Dark / Moody"
@@ -5882,7 +5887,7 @@
   {
     "title": "Night Away (Dance) (feat. Tion Wayne)",
     "artist": "A1 x J1, Tion Wayne",
-    "album": "Night Away (Dance) (feat. Tion Wayne)",
+    "album": "Night Away (Dance) (feat. Tion Wayne) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Happy / Upbeat"
@@ -5943,7 +5948,7 @@
   {
     "title": "Little Dark Age",
     "artist": "MGMT",
-    "album": "Little Dark Age",
+    "album": "Little Dark Age - Single",
     "genre": "Rock",
     "atmosphere": [
       "Happy / Upbeat"
@@ -5953,7 +5958,7 @@
   {
     "title": "In My Head",
     "artist": "Lil Tjay",
-    "album": "In My Head",
+    "album": "In My Head - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Neutral"
@@ -5974,7 +5979,7 @@
   {
     "title": "Rock and A Hard Place",
     "artist": "Bailey Zimmerman",
-    "album": "Rock and A Hard Place",
+    "album": "Rock and A Hard Place - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Neutral"
@@ -5984,7 +5989,7 @@
   {
     "title": "Bored",
     "artist": "Billie Eilish",
-    "album": "Bored",
+    "album": "Bored - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Sad / Melancholic"
@@ -6045,7 +6050,7 @@
   {
     "title": "Daylight",
     "artist": "Phlocalyst",
-    "album": "Daylight",
+    "album": "Daylight - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Chill / Relaxed",
@@ -6056,7 +6061,7 @@
   {
     "title": "Bones",
     "artist": "Imagine Dragons",
-    "album": "Bones",
+    "album": "Bones - Single",
     "genre": "Rock",
     "atmosphere": [
       "Neutral"
@@ -6109,7 +6114,7 @@
   {
     "title": "Chanel",
     "artist": "Frank Ocean",
-    "album": "Chanel",
+    "album": "Chanel - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Romantic"
@@ -6139,7 +6144,7 @@
   {
     "title": "Enchantica",
     "artist": "Jon Kennedy",
-    "album": "Enchantica",
+    "album": "Enchantica - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Sad / Melancholic",
@@ -6181,7 +6186,7 @@
   {
     "title": "Moonlight Shawty",
     "artist": "Fatboibari, Shiloh",
-    "album": "Moonlight Shawty",
+    "album": "Moonlight Shawty - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -6262,7 +6267,7 @@
   {
     "title": "Sunflakes",
     "artist": "RLLBTS, Run Wallace, Golden Ticket Tapes",
-    "album": "Sunflakes",
+    "album": "Sunflakes - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Happy / Upbeat"
@@ -6293,7 +6298,7 @@
   {
     "title": "La Bachata",
     "artist": "Manuel Turizo",
-    "album": "La Bachata",
+    "album": "La Bachata - Single",
     "genre": "Pop",
     "atmosphere": [
       "Happy / Upbeat"
@@ -6334,7 +6339,7 @@
   {
     "title": "Te Felicito",
     "artist": "Shakira, Rauw Alejandro",
-    "album": "Te Felicito",
+    "album": "Te Felicito - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -6344,7 +6349,7 @@
   {
     "title": "Pano",
     "artist": "Zack Tabudlo",
-    "album": "Pano",
+    "album": "Pano - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Neutral"
@@ -6354,7 +6359,7 @@
   {
     "title": "Hommage d'amitié",
     "artist": "Gunnel Boek",
-    "album": "Hommage d'amitié",
+    "album": "Hommage d'amitié - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -6397,7 +6402,7 @@
   {
     "title": "Feel Like God",
     "artist": "gazzzy, framed",
-    "album": "Feel Like God",
+    "album": "Feel Like God - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -6417,7 +6422,7 @@
   {
     "title": "Hold Me Closer",
     "artist": "Elton John, Britney Spears",
-    "album": "Hold Me Closer",
+    "album": "Hold Me Closer - Single",
     "genre": "Classical",
     "atmosphere": [
       "Energetic / Hype"
@@ -6540,7 +6545,7 @@
   {
     "title": "Connection",
     "artist": "OneRepublic",
-    "album": "Connection",
+    "album": "Connection - Single",
     "genre": "Classical",
     "atmosphere": [
       "Happy / Upbeat"
@@ -6611,7 +6616,7 @@
   {
     "title": "Notion",
     "artist": "The Rare Occasions",
-    "album": "Notion",
+    "album": "Notion - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Angry / Intense"
@@ -6641,7 +6646,7 @@
   {
     "title": "Tight Rope XX",
     "artist": "Lacuna Coil",
-    "album": "Tight Rope XX",
+    "album": "Tight Rope XX - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Angry / Intense"
@@ -6671,7 +6676,7 @@
   {
     "title": "Bad Decisions (with BTS & Snoop Dogg)",
     "artist": "benny blanco, BTS, Snoop Dogg",
-    "album": "Bad Decisions (with BTS & Snoop Dogg)",
+    "album": "Bad Decisions (with BTS & Snoop Dogg) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -6692,7 +6697,7 @@
   {
     "title": "How to Save a Life",
     "artist": "The Fray",
-    "album": "How To Save A Life",
+    "album": "How to Save a Life - Single",
     "genre": "Classical",
     "atmosphere": [
       "Angry / Intense"
@@ -6713,7 +6718,7 @@
   {
     "title": "Days To Come",
     "artist": "Bonobo, Bajka",
-    "album": "Days To Come",
+    "album": "Days To Come - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Romantic"
@@ -6743,7 +6748,7 @@
   {
     "title": "THE DEATH OF PEACE OF MIND",
     "artist": "Bad Omens",
-    "album": "THE DEATH OF PEACE OF MIND",
+    "album": "THE DEATH OF PEACE OF MIND - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -6763,7 +6768,7 @@
   {
     "title": "PROVENZA",
     "artist": "KAROL G",
-    "album": "PROVENZA",
+    "album": "PROVENZA - Single",
     "genre": "Other",
     "atmosphere": [
       "Romantic"
@@ -6794,7 +6799,7 @@
   {
     "title": "PvP",
     "artist": "Amaranthe",
-    "album": "PvP",
+    "album": "PvP - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Energetic / Hype"
@@ -6814,7 +6819,7 @@
   {
     "title": "Nangangamba",
     "artist": "Zack Tabudlo",
-    "album": "Nangangamba",
+    "album": "Nangangamba - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Dark / Moody"
@@ -6824,7 +6829,7 @@
   {
     "title": "Acapulco",
     "artist": "Jason Derulo",
-    "album": "Acapulco",
+    "album": "Acapulco - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype"
@@ -6855,7 +6860,7 @@
   {
     "title": "Levitation",
     "artist": "Hoffy Beats, Iamcloud",
-    "album": "Levitation",
+    "album": "Levitation - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Sad / Melancholic",
@@ -6896,7 +6901,7 @@
   {
     "title": "Deux frères",
     "artist": "PNL",
-    "album": "Deux frères",
+    "album": "Deux frères - Single",
     "genre": "Other",
     "atmosphere": [
       "Dark / Moody"
@@ -6967,7 +6972,7 @@
   {
     "title": "FEARLESS",
     "artist": "LE SSERAFIM",
-    "album": "FEARLESS",
+    "album": "FEARLESS - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -7007,7 +7012,7 @@
   {
     "title": "Unholy (feat. Kim Petras)",
     "artist": "Sam Smith, Kim Petras",
-    "album": "Unholy (feat. Kim Petras)",
+    "album": "Unholy (feat. Kim Petras) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Sad / Melancholic"
@@ -7027,7 +7032,7 @@
   {
     "title": "Betty (Get Money)",
     "artist": "Yung Gravy",
-    "album": "Betty (Get Money)",
+    "album": "Betty (Get Money) - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Happy / Upbeat"
@@ -7037,7 +7042,7 @@
   {
     "title": "2 Mins of Pain (feat. Alborosie)",
     "artist": "Sleepy Hallow, Alborosie",
-    "album": "2 Mins of Pain (feat. Alborosie)",
+    "album": "2 Mins of Pain (feat. Alborosie) - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Neutral"
@@ -7047,7 +7052,7 @@
   {
     "title": "Goiaba",
     "artist": "Oaty.",
-    "album": "Goiaba",
+    "album": "Goiaba - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Neutral"
@@ -7067,7 +7072,7 @@
   {
     "title": "Don't Pray For Me",
     "artist": "Within Temptation",
-    "album": "Don't Pray For Me",
+    "album": "Don't Pray For Me - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Energetic / Hype"
@@ -7077,7 +7082,7 @@
   {
     "title": "The Last Stand",
     "artist": "Sabaton",
-    "album": "The Last Stand",
+    "album": "The Last Stand - Single",
     "genre": "Metal",
     "atmosphere": [
       "Neutral"
@@ -7109,7 +7114,7 @@
   {
     "title": "SHORTY QUE TE VAYA BN <3",
     "artist": "Rels B",
-    "album": "SHORTY QUE TE VAYA BN <3",
+    "album": "SHORTY QUE TE VAYA BN <3 - Single",
     "genre": "Other",
     "atmosphere": [
       "Dark / Moody"
@@ -7119,7 +7124,7 @@
   {
     "title": "Brown Sleep Noise",
     "artist": "Sleep Miracle",
-    "album": "Brown Sleep Noise",
+    "album": "Brown Sleep Noise - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -7130,7 +7135,7 @@
   {
     "title": "This Is Why",
     "artist": "Paramore",
-    "album": "This Is Why",
+    "album": "This Is Why - Single",
     "genre": "Rock",
     "atmosphere": [
       "Energetic / Hype",
@@ -7161,7 +7166,7 @@
   {
     "title": "Destino o casualidad",
     "artist": "Melendi, Ha*Ash",
-    "album": "Destino o casualidad",
+    "album": "Destino o casualidad - Single",
     "genre": "Other",
     "atmosphere": [
       "Neutral"
@@ -7242,7 +7247,7 @@
   {
     "title": "On My Own",
     "artist": "Darci",
-    "album": "On My Own",
+    "album": "On My Own - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Neutral"
@@ -7252,7 +7257,7 @@
   {
     "title": "Better Days (NEIKED x Mae Muller x Polo G)",
     "artist": "NEIKED, Mae Muller, Polo G",
-    "album": "Better Days (NEIKED x Mae Muller x Polo G)",
+    "album": "Better Days (NEIKED x Mae Muller x Polo G) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -7282,7 +7287,7 @@
   {
     "title": "Glad You Exist",
     "artist": "Dan + Shay",
-    "album": "Glad You Exist",
+    "album": "Glad You Exist - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Happy / Upbeat"
@@ -7292,7 +7297,7 @@
   {
     "title": "everything i wanted",
     "artist": "Billie Eilish",
-    "album": "everything i wanted",
+    "album": "everything i wanted - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Sad / Melancholic",
@@ -7303,7 +7308,7 @@
   {
     "title": "Easy On Me",
     "artist": "Adele",
-    "album": "Easy On Me",
+    "album": "Easy On Me - Single",
     "genre": "Rock",
     "atmosphere": [
       "Sad / Melancholic"
@@ -7333,7 +7338,7 @@
   {
     "title": "Can We Kiss Forever?",
     "artist": "Kina, Adriana Proenza",
-    "album": "Can We Kiss Forever?",
+    "album": "Can We Kiss Forever? - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -7343,7 +7348,7 @@
   {
     "title": "tears in the club (feat. the weeknd)",
     "artist": "FKA twigs, The Weeknd",
-    "album": "tears in the club (feat. the weeknd)",
+    "album": "tears in the club (feat. the weeknd) - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Happy / Upbeat"
@@ -7353,7 +7358,7 @@
   {
     "title": "Left and Right (Feat. Jung Kook of BTS)",
     "artist": "Charlie Puth, Jung Kook, BTS",
-    "album": "Left and Right (Feat. Jung Kook of BTS)",
+    "album": "Left and Right (Feat. Jung Kook of BTS) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -7569,7 +7574,7 @@
   {
     "title": "The Joker",
     "artist": "Steve Miller Band",
-    "album": "The Joker",
+    "album": "The Joker - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Neutral"
@@ -7590,7 +7595,7 @@
   {
     "title": "Young Right Now",
     "artist": "Robin Schulz, Dennis Lloyd",
-    "album": "Young Right Now",
+    "album": "Young Right Now - Single",
     "genre": "Other",
     "atmosphere": [
       "Angry / Intense"
@@ -7661,7 +7666,7 @@
   {
     "title": "Heer Ranjha",
     "artist": "Bhuvan Bam",
-    "album": "Heer Ranjha",
+    "album": "Heer Ranjha - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Neutral"
@@ -7681,7 +7686,7 @@
   {
     "title": "Miss You",
     "artist": "Oliver Tree, Robin Schulz",
-    "album": "Miss You",
+    "album": "Miss You - Single",
     "genre": "Rock",
     "atmosphere": [
       "Angry / Intense"
@@ -7711,7 +7716,7 @@
   {
     "title": "Highway to Hell",
     "artist": "AC/DC",
-    "album": "Highway to Hell",
+    "album": "Highway to Hell - Single",
     "genre": "Rock",
     "atmosphere": [
       "Energetic / Hype"
@@ -7802,7 +7807,7 @@
   {
     "title": "Dvala",
     "artist": "Ever So Blue",
-    "album": "Dvala",
+    "album": "Dvala - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -7873,7 +7878,7 @@
   {
     "title": "cómo dormiste?",
     "artist": "Rels B",
-    "album": "cómo dormiste?",
+    "album": "cómo dormiste? - Single",
     "genre": "Pop",
     "atmosphere": [
       "Chill / Relaxed"
@@ -7883,7 +7888,7 @@
   {
     "title": "Freaks",
     "artist": "Surf Curse",
-    "album": "Freaks",
+    "album": "Freaks - Single",
     "genre": "Pop",
     "atmosphere": [
       "Angry / Intense",
@@ -7894,9 +7899,10 @@
   {
     "title": "Happier Than Ever",
     "artist": "Billie Eilish",
-    "album": "Happier Than Ever",
+    "album": "Happier Than Ever - Single",
     "genre": "Pop",
     "atmosphere": [
+      "Angry / Intense",
       "Sad / Melancholic"
     ],
     "popularity": 88
@@ -7924,7 +7930,7 @@
   {
     "title": "Hypnotize",
     "artist": "System Of A Down",
-    "album": "Hypnotize",
+    "album": "Hypnotize - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -7955,7 +7961,7 @@
   {
     "title": "It's Not So Bad",
     "artist": "Dybbukk, Sabrina Gomes, Dybbukk Covers",
-    "album": "It's Not So Bad",
+    "album": "It's Not So Bad - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Neutral"
@@ -8017,7 +8023,7 @@
   {
     "title": "Could I Love You Any More (feat. Jason Mraz)",
     "artist": "Reneé Dominique, Jason Mraz",
-    "album": "Could I Love You Any More (feat. Jason Mraz)",
+    "album": "Could I Love You Any More (feat. Jason Mraz) - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Sad / Melancholic"
@@ -8027,7 +8033,7 @@
   {
     "title": "Normal",
     "artist": "Feid",
-    "album": "Normal",
+    "album": "Normal - Single",
     "genre": "Pop",
     "atmosphere": [
       "Happy / Upbeat"
@@ -8037,7 +8043,7 @@
   {
     "title": "Numb",
     "artist": "Marshmello, Khalid",
-    "album": "Numb",
+    "album": "Numb - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -8088,7 +8094,7 @@
   {
     "title": "Bad Memories (feat. Elley Duhé & FAST BOY)",
     "artist": "MEDUZA, James Carter, Elley Duhé",
-    "album": "Bad Memories (feat. Elley Duhé & FAST BOY)",
+    "album": "Bad Memories (feat. Elley Duhé & FAST BOY) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -8232,7 +8238,7 @@
   {
     "title": "Coming for You (feat. A1 x J1)",
     "artist": "SwitchOTR, A1 x J1",
-    "album": "Coming for You (feat. A1 x J1)",
+    "album": "Coming for You (feat. A1 x J1) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Happy / Upbeat"
@@ -8410,7 +8416,7 @@
   {
     "title": "The Purge",
     "artist": "Within Temptation",
-    "album": "The Purge",
+    "album": "The Purge - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Neutral"
@@ -8430,7 +8436,7 @@
   {
     "title": "Rescue Me",
     "artist": "OneRepublic",
-    "album": "Rescue Me",
+    "album": "Rescue Me - Single",
     "genre": "Classical",
     "atmosphere": [
       "Happy / Upbeat"
@@ -8544,7 +8550,7 @@
   {
     "title": "Beautiful Imagination",
     "artist": "Little Circuits",
-    "album": "Beautiful Imagination",
+    "album": "Beautiful Imagination - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -8576,7 +8582,7 @@
   {
     "title": "Closer",
     "artist": "The Chainsmokers, Halsey",
-    "album": "Closer",
+    "album": "Closer - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat",
@@ -8628,7 +8634,7 @@
   {
     "title": "MIDDLE OF THE NIGHT",
     "artist": "Elley Duhé",
-    "album": "MIDDLE OF THE NIGHT",
+    "album": "MIDDLE OF THE NIGHT - Single",
     "genre": "Pop",
     "atmosphere": [
       "Dark / Moody"
@@ -8638,7 +8644,7 @@
   {
     "title": "Hour of Rest",
     "artist": "William Cas",
-    "album": "Hour of Rest",
+    "album": "Hour of Rest - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -8649,7 +8655,7 @@
   {
     "title": "Protection",
     "artist": "Massive Attack, Tracey Thorn",
-    "album": "Protection",
+    "album": "Protection - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Neutral"
@@ -8679,7 +8685,7 @@
   {
     "title": "Queen of Hearts",
     "artist": "Starla Edney",
-    "album": "Queen of Hearts",
+    "album": "Queen of Hearts - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Neutral"
@@ -8689,7 +8695,7 @@
   {
     "title": "Dione",
     "artist": "Teide",
-    "album": "Dione",
+    "album": "Dione - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -8700,7 +8706,7 @@
   {
     "title": "Grand",
     "artist": "Kane Brown",
-    "album": "Grand",
+    "album": "Grand - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Energetic / Hype"
@@ -8710,7 +8716,7 @@
   {
     "title": "The Drug In Me Is You",
     "artist": "Falling In Reverse",
-    "album": "The Drug In Me Is You",
+    "album": "The Drug In Me Is You - Single",
     "genre": "Metal",
     "atmosphere": [
       "Energetic / Hype",
@@ -8742,7 +8748,7 @@
   {
     "title": "Die Young (feat. 347aidan)",
     "artist": "Sleepy Hallow, 347aidan",
-    "album": "Die Young (feat. 347aidan)",
+    "album": "Die Young (feat. 347aidan) - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Happy / Upbeat"
@@ -8812,7 +8818,7 @@
   {
     "title": "Shouldn't Be",
     "artist": "Luke Chiang",
-    "album": "Shouldn't Be",
+    "album": "Shouldn't Be - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed",
@@ -8883,7 +8889,7 @@
   {
     "title": "M.",
     "artist": "Anıl Emre Daldal",
-    "album": "M.",
+    "album": "M. - Single",
     "genre": "Other",
     "atmosphere": [
       "Chill / Relaxed",
@@ -8935,7 +8941,7 @@
   {
     "title": "Cherry Blossoms",
     "artist": "Shady Moon",
-    "album": "Cherry Blossoms",
+    "album": "Cherry Blossoms - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed"
@@ -9089,7 +9095,7 @@
   {
     "title": "What A Wonderful World",
     "artist": "Louis Armstrong",
-    "album": "What A Wonderful World",
+    "album": "What A Wonderful World - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Sad / Melancholic"
@@ -9139,7 +9145,7 @@
   {
     "title": "Maze of Tranquility",
     "artist": "Martin Landström",
-    "album": "Maze of Tranquility",
+    "album": "Maze of Tranquility - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Sad / Melancholic"
@@ -9190,7 +9196,7 @@
   {
     "title": "Here's Your Perfect",
     "artist": "Jamie Miller",
-    "album": "Here's Your Perfect",
+    "album": "Here's Your Perfect - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Chill / Relaxed",
@@ -9211,7 +9217,7 @@
   {
     "title": "I Believe",
     "artist": "KAMRAD",
-    "album": "I Believe",
+    "album": "I Believe - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Happy / Upbeat"
@@ -9221,7 +9227,7 @@
   {
     "title": "Salsera",
     "artist": "The Echo Park Project",
-    "album": "Salsera",
+    "album": "Salsera - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Happy / Upbeat"
@@ -9231,7 +9237,7 @@
   {
     "title": "Thousand Miles",
     "artist": "The Kid LAROI",
-    "album": "Thousand Miles",
+    "album": "Thousand Miles - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Dark / Moody"
@@ -9281,7 +9287,7 @@
   {
     "title": "Brazil",
     "artist": "Declan McKenna",
-    "album": "What Do You Think About the Car?",
+    "album": "Brazil - Single",
     "genre": "Rock",
     "atmosphere": [
       "Happy / Upbeat"
@@ -9372,7 +9378,7 @@
   {
     "title": "One Kiss (with Dua Lipa)",
     "artist": "Calvin Harris, Dua Lipa",
-    "album": "One Kiss (with Dua Lipa)",
+    "album": "One Kiss (with Dua Lipa) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -9423,7 +9429,7 @@
   {
     "title": "I'll Keep You Safe",
     "artist": "sagun, Shiloh Dynasty",
-    "album": "I'll Keep You Safe",
+    "album": "I'll Keep You Safe - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed",
@@ -9446,7 +9452,7 @@
   {
     "title": "sTraNgeRs",
     "artist": "Bring Me The Horizon",
-    "album": "sTraNgeRs",
+    "album": "sTraNgeRs - Single",
     "genre": "Metal",
     "atmosphere": [
       "Energetic / Hype"
@@ -9456,7 +9462,7 @@
   {
     "title": "Run",
     "artist": "OneRepublic",
-    "album": "Run",
+    "album": "Run - Single",
     "genre": "Classical",
     "atmosphere": [
       "Energetic / Hype",
@@ -9488,7 +9494,7 @@
   {
     "title": "The Kind of Love We Make",
     "artist": "Luke Combs",
-    "album": "The Kind of Love We Make",
+    "album": "The Kind of Love We Make - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Neutral"
@@ -9508,7 +9514,7 @@
   {
     "title": "Words (feat. Zara Larsson)",
     "artist": "Alesso, Zara Larsson",
-    "album": "Words (feat. Zara Larsson)",
+    "album": "Words (feat. Zara Larsson) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Neutral"
@@ -9518,7 +9524,7 @@
   {
     "title": "Bad To Me",
     "artist": "Wizkid",
-    "album": "Bad To Me",
+    "album": "Bad To Me - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -9568,7 +9574,7 @@
   {
     "title": "Need You Now",
     "artist": "Lady A",
-    "album": "Need You Now",
+    "album": "Need You Now - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Angry / Intense"
@@ -9679,7 +9685,7 @@
   {
     "title": "ZOMBIFIED",
     "artist": "Falling In Reverse",
-    "album": "ZOMBIFIED",
+    "album": "ZOMBIFIED - Single",
     "genre": "Metal",
     "atmosphere": [
       "Neutral"
@@ -9700,7 +9706,7 @@
   {
     "title": "As It Was",
     "artist": "Harry Styles",
-    "album": "As It Was",
+    "album": "As It Was - Single",
     "genre": "Pop",
     "atmosphere": [
       "Energetic / Hype",
@@ -9742,7 +9748,7 @@
   {
     "title": "The Search",
     "artist": "NF",
-    "album": "The Search",
+    "album": "The Search - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Angry / Intense",
@@ -9777,14 +9783,15 @@
     "album": "Plastic Beach",
     "genre": "Rock",
     "atmosphere": [
-      "Happy / Upbeat"
+      "Dark / Moody",
+      "Focus / Study"
     ],
     "popularity": 80
   },
   {
     "title": "Hot In It",
     "artist": "Tiësto, Charli XCX",
-    "album": "Hot In It",
+    "album": "Hot In It - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -9795,7 +9802,7 @@
   {
     "title": "fools (can't help falling in love) (feat. Sody)",
     "artist": "Foster, Sody, Sarcastic Sounds",
-    "album": "fools (can't help falling in love) (feat. Sody)",
+    "album": "fools (can't help falling in love) (feat. Sody) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Dark / Moody"
@@ -9805,7 +9812,7 @@
   {
     "title": "Bad To The Bone",
     "artist": "George Thorogood & The Destroyers",
-    "album": "BAD TO THE BONE",
+    "album": "Bad To The Bone - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Energetic / Hype",
@@ -9846,7 +9853,7 @@
   {
     "title": "Una Mattina",
     "artist": "Ludovico Einaudi",
-    "album": "Una Mattina",
+    "album": "Una Mattina - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -9867,7 +9874,7 @@
   {
     "title": "My Friends (feat. Lil Durk)",
     "artist": "Ty Dolla $ign, Mustard, Lil Durk",
-    "album": "My Friends (feat. Lil Durk)",
+    "album": "My Friends (feat. Lil Durk) - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Neutral"
@@ -9899,7 +9906,7 @@
   {
     "title": "Everybody Loves Somebody",
     "artist": "Dean Martin",
-    "album": "Everybody Loves Somebody",
+    "album": "Everybody Loves Somebody - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Chill / Relaxed"
@@ -9959,7 +9966,7 @@
   {
     "title": "SUPERMODEL",
     "artist": "Måneskin",
-    "album": "SUPERMODEL",
+    "album": "SUPERMODEL - Single",
     "genre": "Pop",
     "atmosphere": [
       "Energetic / Hype",
@@ -9970,7 +9977,7 @@
   {
     "title": "Jolene",
     "artist": "Dolly Parton",
-    "album": "Jolene",
+    "album": "Jolene - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Happy / Upbeat"
@@ -10021,7 +10028,7 @@
   {
     "title": "Happen",
     "artist": "Nick Hakim",
-    "album": "Happen",
+    "album": "Happen - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Sad / Melancholic",
@@ -10042,7 +10049,7 @@
   {
     "title": "Volví",
     "artist": "Aventura, Bad Bunny",
-    "album": "Volví",
+    "album": "Volví - Single",
     "genre": "Pop",
     "atmosphere": [
       "Energetic / Hype",
@@ -10095,7 +10102,7 @@
   {
     "title": "Better Days",
     "artist": "OneRepublic",
-    "album": "Better Days",
+    "album": "Without Fear",
     "genre": "Classical",
     "atmosphere": [
       "Angry / Intense"
@@ -10166,7 +10173,7 @@
   {
     "title": "West Connect (feat. Central Cee)",
     "artist": "Luciano, Central Cee",
-    "album": "West Connect (feat. Central Cee)",
+    "album": "West Connect (feat. Central Cee) - Single",
     "genre": "Other",
     "atmosphere": [
       "Neutral"
@@ -10207,7 +10214,7 @@
   {
     "title": "La flaca",
     "artist": "Jarabe De Palo",
-    "album": "La Flaca",
+    "album": "La flaca - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat",
@@ -10230,7 +10237,7 @@
   {
     "title": "Victoria’s Secret",
     "artist": "Jax",
-    "album": "Victoria’s Secret",
+    "album": "Victoria’s Secret - Single",
     "genre": "Rock",
     "atmosphere": [
       "Neutral"
@@ -10271,7 +10278,7 @@
   {
     "title": "The Motto",
     "artist": "Tiësto, Ava Max",
-    "album": "The Motto",
+    "album": "The Motto - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype"
@@ -10281,7 +10288,7 @@
   {
     "title": "thank u, next",
     "artist": "Ariana Grande",
-    "album": "thank u, next",
+    "album": "thank u, next - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Neutral"
@@ -10302,7 +10309,7 @@
   {
     "title": "Beat the Odds",
     "artist": "Lil Tjay",
-    "album": "Beat the Odds",
+    "album": "Beat the Odds - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Neutral"
@@ -10322,7 +10329,7 @@
   {
     "title": "Hideaway",
     "artist": "Igulfrid",
-    "album": "Hideaway",
+    "album": "Hideaway - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -10540,7 +10547,7 @@
   {
     "title": "Move Your Body",
     "artist": "Öwnboss, Sevek",
-    "album": "Move Your Body",
+    "album": "Move Your Body - Single",
     "genre": "Other",
     "atmosphere": [
       "Angry / Intense"
@@ -10561,7 +10568,7 @@
   {
     "title": "When You're Gone",
     "artist": "Shawn Mendes",
-    "album": "When You're Gone",
+    "album": "When You're Gone - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Neutral"
@@ -10644,7 +10651,7 @@
   {
     "title": "Alone With You",
     "artist": "Arz",
-    "album": "Alone With You",
+    "album": "Alone With You - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed"
@@ -10728,7 +10735,7 @@
   {
     "title": "Body Like A Back Road",
     "artist": "Sam Hunt",
-    "album": "Body Like A Back Road",
+    "album": "Body Like A Back Road - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Chill / Relaxed",
@@ -10739,7 +10746,7 @@
   {
     "title": "A Thousand Years",
     "artist": "Christina Perri",
-    "album": "A Thousand Years",
+    "album": "A Thousand Years - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Sad / Melancholic"
@@ -10749,7 +10756,7 @@
   {
     "title": "Cafetín De Buenos Aires",
     "artist": "Edmundo Rivero",
-    "album": "Cafetín de Buenos Aires",
+    "album": "Cafetín De Buenos Aires - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Chill / Relaxed",
@@ -10771,7 +10778,7 @@
   {
     "title": "Leave a Light On",
     "artist": "Tom Walker",
-    "album": "Leave a Light On",
+    "album": "Leave a Light On - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Dark / Moody"
@@ -10801,7 +10808,7 @@
   {
     "title": "PUNTO 40",
     "artist": "Rauw Alejandro, Baby Rasta",
-    "album": "PUNTO 40",
+    "album": "PUNTO 40 - Single",
     "genre": "Pop",
     "atmosphere": [
       "Angry / Intense"
@@ -10904,7 +10911,7 @@
   {
     "title": "Living Life, In The Night",
     "artist": "Cheriimoya, Sierra Kidd",
-    "album": "Living Life, In The Night",
+    "album": "Living Life, In The Night - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -10995,7 +11002,7 @@
   {
     "title": "Cowboys from Hell",
     "artist": "Pantera",
-    "album": "Cowboys from Hell",
+    "album": "Cowboys from Hell - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Neutral"
@@ -11005,7 +11012,7 @@
   {
     "title": "colorblind",
     "artist": "Mokita",
-    "album": "colorblind",
+    "album": "colorblind - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Angry / Intense"
@@ -11025,7 +11032,7 @@
   {
     "title": "Memory",
     "artist": "Kane Brown, blackbear",
-    "album": "Memory",
+    "album": "Memory - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Happy / Upbeat"
@@ -11078,7 +11085,7 @@
   {
     "title": "Back In Black",
     "artist": "AC/DC",
-    "album": "Back In Black",
+    "album": "Back In Black - Single",
     "genre": "Rock",
     "atmosphere": [
       "Happy / Upbeat"
@@ -11088,7 +11095,7 @@
   {
     "title": "INDUSTRY BABY (feat. Jack Harlow)",
     "artist": "Lil Nas X, Jack Harlow",
-    "album": "INDUSTRY BABY (feat. Jack Harlow)",
+    "album": "INDUSTRY BABY (feat. Jack Harlow) - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Happy / Upbeat"
@@ -11210,7 +11217,7 @@
   {
     "title": "Deep Down (feat. Never Dull)",
     "artist": "Alok, Ella Eyre, Kenny Dope",
-    "album": "Deep Down (feat. Never Dull)",
+    "album": "Deep Down (feat. Never Dull) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -11251,7 +11258,7 @@
   {
     "title": "DISCOTEKA",
     "artist": "Lola Indigo, Maria Becerra",
-    "album": "DISCOTEKA",
+    "album": "DISCOTEKA - Single",
     "genre": "Other",
     "atmosphere": [
       "Neutral"
@@ -11271,7 +11278,7 @@
   {
     "title": "THE LONELIEST",
     "artist": "Måneskin",
-    "album": "THE LONELIEST",
+    "album": "THE LONELIEST - Single",
     "genre": "Pop",
     "atmosphere": [
       "Dark / Moody"
@@ -11373,7 +11380,7 @@
   {
     "title": "Glimpse of Us",
     "artist": "Joji",
-    "album": "Glimpse of Us",
+    "album": "Glimpse of Us - Single",
     "genre": "Pop",
     "atmosphere": [
       "Sad / Melancholic"
@@ -11404,7 +11411,7 @@
   {
     "title": "beside you",
     "artist": "keshi",
-    "album": "beside you",
+    "album": "beside you - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Energetic / Hype",
@@ -11436,7 +11443,7 @@
   {
     "title": "ALL GIRLS ARE THE SAME",
     "artist": "RØNIN",
-    "album": "ALL GIRLS ARE THE SAME",
+    "album": "ALL GIRLS ARE THE SAME - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed"
@@ -11487,7 +11494,7 @@
   {
     "title": "Nowesind",
     "artist": "Jacob David",
-    "album": "Nowesind",
+    "album": "Nowesind - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -11508,7 +11515,7 @@
   {
     "title": "BILLIE EILISH.",
     "artist": "Armani White",
-    "album": "BILLIE EILISH.",
+    "album": "BILLIE EILISH. - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Happy / Upbeat"
@@ -11559,7 +11566,7 @@
   {
     "title": "Happier",
     "artist": "Marshmello, Bastille",
-    "album": "Happier",
+    "album": "Happier - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -11590,7 +11597,7 @@
   {
     "title": "Where Are You Now",
     "artist": "Lost Frequencies, Calum Scott",
-    "album": "Where Are You Now",
+    "album": "Where Are You Now - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Neutral"
@@ -11610,7 +11617,7 @@
   {
     "title": "The Beauty of Everyday Things",
     "artist": "Hara Noda",
-    "album": "The Beauty of Everyday Things",
+    "album": "The Beauty of Everyday Things - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Sad / Melancholic",
@@ -11621,7 +11628,7 @@
   {
     "title": "Find Life",
     "artist": "Amaranthe",
-    "album": "Find Life",
+    "album": "Find Life - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Angry / Intense"
@@ -11712,7 +11719,7 @@
   {
     "title": "Control",
     "artist": "Zoe Wees",
-    "album": "Control",
+    "album": "Control - Single",
     "genre": "Other",
     "atmosphere": [
       "Sad / Melancholic"
@@ -11722,7 +11729,7 @@
   {
     "title": "positions",
     "artist": "Ariana Grande",
-    "album": "Positions",
+    "album": "positions - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Energetic / Hype",
@@ -11733,7 +11740,7 @@
   {
     "title": "Until I Found You",
     "artist": "Stephen Sanchez",
-    "album": "Until I Found You",
+    "album": "Until I Found You - Single",
     "genre": "Pop",
     "atmosphere": [
       "Sad / Melancholic"
@@ -11875,7 +11882,7 @@
   {
     "title": "La Llevo Al Cielo (Ft. Ñengo Flow)",
     "artist": "Chris Jedi, Anuel AA, Chencho Corleone",
-    "album": "La Llevo Al Cielo (Ft. Ñengo Flow)",
+    "album": "La Llevo Al Cielo (Ft. Ñengo Flow) - Single",
     "genre": "Pop",
     "atmosphere": [
       "Energetic / Hype",
@@ -11999,7 +12006,7 @@
   {
     "title": "Baby You're Worth It",
     "artist": "Kina",
-    "album": "Baby You're Worth It",
+    "album": "Baby You're Worth It - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -12030,7 +12037,7 @@
   {
     "title": "killer",
     "artist": "FKA twigs",
-    "album": "killer",
+    "album": "killer - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Happy / Upbeat"
@@ -12110,7 +12117,7 @@
   {
     "title": "The Gambler",
     "artist": "Kenny Rogers",
-    "album": "The Gambler",
+    "album": "The Gambler - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Happy / Upbeat"
@@ -12201,7 +12208,7 @@
   {
     "title": "2 Die 4",
     "artist": "Tove Lo",
-    "album": "2 Die 4",
+    "album": "2 Die 4 - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype"
@@ -12211,7 +12218,7 @@
   {
     "title": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
     "artist": "Doja Cat",
-    "album": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
+    "album": "Vegas (From the Original Motion Picture Soundtrack ELVIS) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -12284,7 +12291,7 @@
   {
     "title": "Voices In My Head",
     "artist": "Falling In Reverse",
-    "album": "Voices In My Head",
+    "album": "Voices In My Head - Single",
     "genre": "Metal",
     "atmosphere": [
       "Energetic / Hype",
@@ -12465,7 +12472,7 @@
   {
     "title": "I et andet liv",
     "artist": "Minik Knudsen",
-    "album": "I et andet liv",
+    "album": "I et andet liv - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -12506,7 +12513,7 @@
   {
     "title": "Quiet Storm",
     "artist": "Shierro",
-    "album": "Quiet Storm",
+    "album": "Quiet Storm - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Focus / Study"
@@ -12526,7 +12533,7 @@
   {
     "title": "Quieres",
     "artist": "Aitana, Emilia, Ptazeta",
-    "album": "Quieres",
+    "album": "Quieres - Single",
     "genre": "Other",
     "atmosphere": [
       "Happy / Upbeat"
@@ -12568,7 +12575,7 @@
   {
     "title": "Herinneringen",
     "artist": "Sohn Aelia",
-    "album": "Herinneringen",
+    "album": "Herinneringen - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic",
@@ -12579,7 +12586,7 @@
   {
     "title": "Rewrite The Stars",
     "artist": "Zac Efron, Zendaya",
-    "album": "Rewrite The Stars",
+    "album": "Rewrite The Stars - Single",
     "genre": "Other",
     "atmosphere": [
       "Dark / Moody"
@@ -12631,7 +12638,7 @@
   {
     "title": "Strawberries & Cigarettes",
     "artist": "Troye Sivan",
-    "album": "Strawberries & Cigarettes",
+    "album": "Strawberries & Cigarettes - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Dark / Moody"
@@ -12651,7 +12658,7 @@
   {
     "title": "The Moment",
     "artist": "Kenny G",
-    "album": "The Moment",
+    "album": "The Moment - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Sad / Melancholic"
@@ -12816,7 +12823,7 @@
   {
     "title": "nuts (feat. rainy bear)",
     "artist": "Lil Peep, rainy bear",
-    "album": "nuts (feat. rainy bear)",
+    "album": "nuts (feat. rainy bear) - Single",
     "genre": "Rock",
     "atmosphere": [
       "Angry / Intense"
@@ -12826,7 +12833,7 @@
   {
     "title": "NVMD",
     "artist": "Denise Julia",
-    "album": "NVMD",
+    "album": "NVMD - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Neutral"
@@ -12836,7 +12843,7 @@
   {
     "title": "Hero (feat. Josey Scott)",
     "artist": "Chad Kroeger, Josey Scott",
-    "album": "Hero (feat. Josey Scott)",
+    "album": "Hero (feat. Josey Scott) - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -12846,7 +12853,7 @@
   {
     "title": "New Gold (feat. Tame Impala and Bootie Brown)",
     "artist": "Gorillaz, Tame Impala, Bootie Brown",
-    "album": "New Gold (feat. Tame Impala and Bootie Brown)",
+    "album": "New Gold (feat. Tame Impala and Bootie Brown) - Single",
     "genre": "Rock",
     "atmosphere": [
       "Neutral"
@@ -12886,7 +12893,7 @@
   {
     "title": "Inner Courage",
     "artist": "Mr. Käfer, Eu93ne",
-    "album": "Inner Courage",
+    "album": "Inner Courage - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Focus / Study"
@@ -12936,7 +12943,7 @@
   {
     "title": "Broken",
     "artist": "Lund",
-    "album": "Broken",
+    "album": "Broken - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Dark / Moody"
@@ -12956,7 +12963,7 @@
   {
     "title": "Rain In Ibiza",
     "artist": "Felix Jaehn, The Stickmen Project, Calum Scott",
-    "album": "Rain In Ibiza",
+    "album": "Rain In Ibiza - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -12977,7 +12984,7 @@
   {
     "title": "Get You The Moon (feat. Snøw)",
     "artist": "Kina, Snøw",
-    "album": "Get You The Moon (feat. Snøw)",
+    "album": "Get You The Moon (feat. Snøw) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -12987,7 +12994,7 @@
   {
     "title": "Last Resort (Reloaded)",
     "artist": "Papa Roach, Jeris Johnson",
-    "album": "Last Resort (Reloaded)",
+    "album": "Last Resort (Reloaded) - Single",
     "genre": "Metal",
     "atmosphere": [
       "Neutral"
@@ -13069,7 +13076,7 @@
   {
     "title": "Toxicity",
     "artist": "System Of A Down",
-    "album": "Toxicity",
+    "album": "Toxicity - Single",
     "genre": "Rock",
     "atmosphere": [
       "Energetic / Hype"
@@ -13089,7 +13096,7 @@
   {
     "title": "abcdefu",
     "artist": "GAYLE",
-    "album": "abcdefu",
+    "album": "abcdefu - Single",
     "genre": "Rock",
     "atmosphere": [
       "Neutral"
@@ -13129,7 +13136,7 @@
   {
     "title": "Look At Me!",
     "artist": "XXXTENTACION",
-    "album": "Look At Me!",
+    "album": "Look At Me! - Single",
     "genre": "Rock",
     "atmosphere": [
       "Angry / Intense"
@@ -13209,7 +13216,7 @@
   {
     "title": "Miracle",
     "artist": "A Day To Remember",
-    "album": "Miracle",
+    "album": "Miracle - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -13229,7 +13236,7 @@
   {
     "title": "Your Man",
     "artist": "Josh Turner",
-    "album": "Your Man",
+    "album": "Your Man - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Happy / Upbeat"
@@ -13319,7 +13326,7 @@
   {
     "title": "Glory to the Brave",
     "artist": "HammerFall",
-    "album": "Glory to the Brave",
+    "album": "Glory to the Brave - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Dark / Moody"
@@ -13369,7 +13376,7 @@
   {
     "title": "Give Me Light",
     "artist": "Marti West",
-    "album": "Give Me Light",
+    "album": "Give Me Light - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Chill / Relaxed",
@@ -13381,7 +13388,7 @@
   {
     "title": "you broke me first",
     "artist": "Tate McRae",
-    "album": "you broke me first",
+    "album": "you broke me first - Single",
     "genre": "Pop",
     "atmosphere": [
       "Sad / Melancholic"
@@ -13402,7 +13409,7 @@
   {
     "title": "Bam Bam (feat. Ed Sheeran)",
     "artist": "Camila Cabello, Ed Sheeran",
-    "album": "Bam Bam (feat. Ed Sheeran)",
+    "album": "Bam Bam (feat. Ed Sheeran) - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Happy / Upbeat"
@@ -13485,7 +13492,7 @@
   {
     "title": "Porfa no te vayas",
     "artist": "Beret, Morat",
-    "album": "Porfa no te vayas",
+    "album": "Porfa no te vayas - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -13496,7 +13503,7 @@
   {
     "title": "Strawberry Skies",
     "artist": "Kid Travis",
-    "album": "Strawberry Skies",
+    "album": "Strawberry Skies - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed",
@@ -13517,7 +13524,7 @@
   {
     "title": "I Love You So",
     "artist": "The Walters",
-    "album": "I Love You So",
+    "album": "I Love You So - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Neutral"
@@ -13569,7 +13576,7 @@
   {
     "title": "Hold On",
     "artist": "Chord Overstreet",
-    "album": "Hold On",
+    "album": "Hold On - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -13579,7 +13586,7 @@
   {
     "title": "Your Love (9PM)",
     "artist": "ATB, Topic, A7S",
-    "album": "Your Love (9PM)",
+    "album": "Your Love (9PM) - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype"
@@ -13599,7 +13606,7 @@
   {
     "title": "DÁKITI",
     "artist": "Bad Bunny, Jhayco",
-    "album": "DÁKITI",
+    "album": "DÁKITI - Single",
     "genre": "Pop",
     "atmosphere": [
       "Dark / Moody"
@@ -13609,7 +13616,7 @@
   {
     "title": "You Proof",
     "artist": "Morgan Wallen",
-    "album": "You Proof",
+    "album": "You Proof - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Energetic / Hype",
@@ -13702,7 +13709,7 @@
   {
     "title": "Pink Venom",
     "artist": "BLACKPINK",
-    "album": "Pink Venom",
+    "album": "Pink Venom - Single",
     "genre": "Pop",
     "atmosphere": [
       "Happy / Upbeat"
@@ -13722,7 +13729,7 @@
   {
     "title": "Falling for U",
     "artist": "Peachy!, mxmtoon",
-    "album": "Falling for U",
+    "album": "Falling for U - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed",
@@ -13743,7 +13750,7 @@
   {
     "title": "Poppy",
     "artist": "Dpsht",
-    "album": "Poppy",
+    "album": "Poppy - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Focus / Study"
@@ -13854,7 +13861,7 @@
   {
     "title": "Symbios",
     "artist": "Ever So Blue",
-    "album": "Symbios",
+    "album": "Symbios - Single",
     "genre": "Classical",
     "atmosphere": [
       "Chill / Relaxed",
@@ -13949,7 +13956,7 @@
   {
     "title": "In The Stars",
     "artist": "Benson Boone",
-    "album": "In The Stars",
+    "album": "In The Stars - Single",
     "genre": "Pop",
     "atmosphere": [
       "Dark / Moody"
@@ -13969,7 +13976,7 @@
   {
     "title": "Popular Monster",
     "artist": "Falling In Reverse",
-    "album": "Popular Monster",
+    "album": "Popular Monster - Single",
     "genre": "Metal",
     "atmosphere": [
       "Angry / Intense"
@@ -13999,7 +14006,7 @@
   {
     "title": "BABY OTAKU",
     "artist": "Pablo Pesadilla, Polimá Westcoast, Nickoog Clk",
-    "album": "BABY OTAKU",
+    "album": "BABY OTAKU - Single",
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
@@ -14009,7 +14016,7 @@
   {
     "title": "The Last Goodbye (feat. Bettye LaVette)",
     "artist": "ODESZA, Bettye LaVette",
-    "album": "The Last Goodbye (feat. Bettye LaVette)",
+    "album": "The Last Goodbye (feat. Bettye LaVette) - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Angry / Intense"
@@ -14071,7 +14078,7 @@
   {
     "title": "Make You Mine",
     "artist": "PUBLIC",
-    "album": "Make You Mine",
+    "album": "Make You Mine - Single",
     "genre": "Indie/Alternative",
     "atmosphere": [
       "Happy / Upbeat"
@@ -14081,7 +14088,7 @@
   {
     "title": "The Loser",
     "artist": "Verzache",
-    "album": "The Loser",
+    "album": "The Loser - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Sad / Melancholic"
@@ -14112,7 +14119,7 @@
   {
     "title": "STAY (with Justin Bieber)",
     "artist": "The Kid LAROI, Justin Bieber",
-    "album": "STAY (with Justin Bieber)",
+    "album": "STAY (with Justin Bieber) - Single",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
       "Energetic / Hype"
@@ -14143,7 +14150,7 @@
   {
     "title": "Como Antes",
     "artist": "Rels B",
-    "album": "Como Antes",
+    "album": "Como Antes - Single",
     "genre": "Other",
     "atmosphere": [
       "Sad / Melancholic"
@@ -14185,9 +14192,10 @@
   {
     "title": "goosebumps",
     "artist": "Travis Scott",
-    "album": "Birds In The Trap Sing McKnight",
+    "album": "Birds in the Trap Sing McKnight",
     "genre": "Hip-Hop/Rap",
     "atmosphere": [
+      "Dark / Moody",
       "Energetic / Hype"
     ],
     "popularity": 84
@@ -14245,7 +14253,7 @@
   {
     "title": "Envolver",
     "artist": "Anitta",
-    "album": "Envolver",
+    "album": "Envolver - Single",
     "genre": "Electronic/Dance",
     "atmosphere": [
       "Angry / Intense"
@@ -14277,7 +14285,7 @@
   {
     "title": "Happy Together",
     "artist": "The Turtles",
-    "album": "Happy Together",
+    "album": "Happy Together - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Chill / Relaxed"
@@ -14338,7 +14346,7 @@
   {
     "title": "Bamba (feat. Aitch & BIA)",
     "artist": "Luciano, Aitch, BIA",
-    "album": "Bamba (feat. Aitch & BIA)",
+    "album": "Bamba (feat. Aitch & BIA) - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype",
@@ -14369,7 +14377,7 @@
   {
     "title": "Gnossienne No. 1",
     "artist": "Erik Satie, Alena Cherny",
-    "album": "Gnossienne No. 1",
+    "album": "Gnossienne No. 1 - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -14421,7 +14429,7 @@
   {
     "title": "Estelle",
     "artist": "Doris Casella",
-    "album": "Estelle",
+    "album": "Estelle - Single",
     "genre": "Classical",
     "atmosphere": [
       "Sad / Melancholic",
@@ -14462,7 +14470,7 @@
   {
     "title": "Please Don't Go",
     "artist": "Joel Adams",
-    "album": "Please Don't Go",
+    "album": "Please Don't Go - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Angry / Intense"
@@ -14513,7 +14521,7 @@
   {
     "title": "Sweet Caroline",
     "artist": "Neil Diamond",
-    "album": "Sweet Caroline",
+    "album": "Sweet Caroline - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Chill / Relaxed",
@@ -14534,7 +14542,7 @@
   {
     "title": "Dead and Cold",
     "artist": "SadBoyProlific",
-    "album": "Dead and Cold",
+    "album": "Dead and Cold - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed",
@@ -14567,7 +14575,7 @@
   {
     "title": "You're Somebody Else",
     "artist": "flora cash",
-    "album": "You're Somebody Else",
+    "album": "You're Somebody Else - Single",
     "genre": "Country/Folk",
     "atmosphere": [
       "Sad / Melancholic"
@@ -14608,10 +14616,11 @@
   {
     "title": "Blank Space",
     "artist": "Taylor Swift",
-    "album": "1989 (Deluxe)",
+    "album": "1989",
     "genre": "Pop",
     "atmosphere": [
-      "Neutral"
+      "Happy / Upbeat",
+      "Energetic / Hype"
     ],
     "popularity": 85
   },
@@ -14650,7 +14659,7 @@
   {
     "title": "SPLAT",
     "artist": "Connor Price",
-    "album": "SPLAT",
+    "album": "SPLAT - Single",
     "genre": "Lo-fi/Ambient",
     "atmosphere": [
       "Chill / Relaxed"
@@ -14722,7 +14731,7 @@
   {
     "title": "Chop (Nouvelle École)",
     "artist": "Fresh",
-    "album": "Chop (Nouvelle École)",
+    "album": "Chop (Nouvelle École) - Single",
     "genre": "Other",
     "atmosphere": [
       "Energetic / Hype"
@@ -14795,7 +14804,7 @@
   {
     "title": "Amarain",
     "artist": "Amr Diab",
-    "album": "Amarain",
+    "album": "Amarain - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -14806,7 +14815,7 @@
   {
     "title": "Boshret Kheir",
     "artist": "Hussein Al Jassmi",
-    "album": "Boshret Kheir",
+    "album": "Boshret Kheir - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -14828,7 +14837,7 @@
   {
     "title": "Fi Youm We Leila",
     "artist": "Warda",
-    "album": "Fi Youm We Leila",
+    "album": "Fi Youm We Leila - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -14839,7 +14848,7 @@
   {
     "title": "Salini",
     "artist": "Wegz",
-    "album": "Salini",
+    "album": "Salini - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic",
@@ -14915,7 +14924,7 @@
   {
     "title": "Garh Tany",
     "artist": "Sherine",
-    "album": "Garh Tany",
+    "album": "Garh Tany - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic"
@@ -14936,7 +14945,7 @@
   {
     "title": "Bazat",
     "artist": "Wegz",
-    "album": "Bazat",
+    "album": "Bazat - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -14957,7 +14966,7 @@
   {
     "title": "El Bakht",
     "artist": "Wegz",
-    "album": "El Bakht",
+    "album": "El Bakht - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -15012,7 +15021,7 @@
   {
     "title": "Tesla",
     "artist": "Marwan Moussa",
-    "album": "Florida Dark",
+    "album": "Florida",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15045,7 +15054,7 @@
   {
     "title": "Salek",
     "artist": "Hassan Shakosh, Wegz",
-    "album": "Salek",
+    "album": "Salek - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15056,7 +15065,7 @@
   {
     "title": "Oud El Batal",
     "artist": "Hassan Shakosh, Omar Kamal",
-    "album": "Oud El Batal",
+    "album": "Oud El Batal - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15100,7 +15109,7 @@
   {
     "title": "Rayeh Fen",
     "artist": "Hamza Namira",
-    "album": "Rayeh Fen",
+    "album": "Rayeh Fen - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -15122,7 +15131,7 @@
   {
     "title": "Qariat El Fengan",
     "artist": "Abdel Halim Hafez",
-    "album": "Qariat El Fengan",
+    "album": "Qariat El Fengan - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Dark / Moody",
@@ -15144,7 +15153,7 @@
   {
     "title": "Tamally Ma'ak",
     "artist": "Amr Diab",
-    "album": "Tamally Ma'ak",
+    "album": "Tamally Ma'ak - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -15155,7 +15164,7 @@
   {
     "title": "Ah W Noss",
     "artist": "Nancy Ajram",
-    "album": "Ah W Noss",
+    "album": "Ah W Noss - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15188,7 +15197,7 @@
   {
     "title": "Asyad El Soot",
     "artist": "Wegz",
-    "album": "Asyad El Soot",
+    "album": "Asyad El Soot - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Angry / Intense",
@@ -15210,7 +15219,7 @@
   {
     "title": "Bent El Geran",
     "artist": "Hassan Shakosh, Omar Kamal",
-    "album": "Bent El Geran",
+    "album": "Bent El Geran - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15243,7 +15252,7 @@
   {
     "title": "Keifiy Keda",
     "artist": "Wegz, Disco Misr",
-    "album": "Keifiy Keda",
+    "album": "Keifiy Keda - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -15265,7 +15274,7 @@
   {
     "title": "Free",
     "artist": "Marwan Pablo",
-    "album": "Free",
+    "album": "Free - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -15287,7 +15296,7 @@
   {
     "title": "Enta Omri",
     "artist": "Umm Kulthum",
-    "album": "Enta Omri",
+    "album": "Enta Omri - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -15309,7 +15318,7 @@
   {
     "title": "Bel Bont El Areed",
     "artist": "Hussein Al Jassmi",
-    "album": "Bel Bont El Areed",
+    "album": "Bel Bont El Areed - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15320,7 +15329,7 @@
   {
     "title": "Siret El Hob",
     "artist": "Umm Kulthum",
-    "album": "Siret El Hob",
+    "album": "Siret El Hob - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -15331,7 +15340,7 @@
   {
     "title": "Wayah",
     "artist": "Amr Diab",
-    "album": "Wayah",
+    "album": "Wayah - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15342,7 +15351,7 @@
   {
     "title": "Elli Ba'ana",
     "artist": "Ragheb Alama",
-    "album": "Elli Ba'ana",
+    "album": "Elli Ba'ana - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15363,7 +15372,7 @@
   {
     "title": "Barbary",
     "artist": "Marwan Pablo",
-    "album": "Barbary",
+    "album": "Barbary - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Angry / Intense",
@@ -15396,7 +15405,7 @@
   {
     "title": "Kifak Inta",
     "artist": "Fairouz",
-    "album": "Kifak Inta",
+    "album": "Kifak Inta - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -15407,7 +15416,7 @@
   {
     "title": "Batal 3alam",
     "artist": "Marwan Moussa",
-    "album": "Bel Salama",
+    "album": "Florida",
     "genre": "Arabic",
     "atmosphere": [
       "Angry / Intense",
@@ -15418,7 +15427,7 @@
   {
     "title": "Msh Hnsak",
     "artist": "Abyusif",
-    "album": "Msh Hnsak",
+    "album": "Msh Hnsak - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic",
@@ -15484,7 +15493,7 @@
   {
     "title": "El Gemeza",
     "artist": "Marwan Pablo",
-    "album": "El Gemeza",
+    "album": "El Gemeza - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -15527,7 +15536,7 @@
   {
     "title": "Mawlood Sanat 80",
     "artist": "Hamza Namira",
-    "album": "Mawlood Sanat 80",
+    "album": "Mawlood Sanat 80 - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -15549,7 +15558,7 @@
   {
     "title": "Sheta",
     "artist": "Mohamed Mounir",
-    "album": "Sheta",
+    "album": "Sheta - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic",
@@ -15571,7 +15580,7 @@
   {
     "title": "Sheraton",
     "artist": "Marwan Moussa",
-    "album": "Florida",
+    "album": "Bel Monasba",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -15582,7 +15591,7 @@
   {
     "title": "Ba'eed Anak",
     "artist": "Umm Kulthum",
-    "album": "Ba'eed Anak",
+    "album": "Ba'eed Anak - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic",
@@ -15593,7 +15602,7 @@
   {
     "title": "Zay El Hawa",
     "artist": "Abdel Halim Hafez",
-    "album": "Zay El Hawa",
+    "album": "Zay El Hawa - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -15604,7 +15613,7 @@
   {
     "title": "Ana Gheir",
     "artist": "Amr Diab",
-    "album": "Ana Gheir",
+    "album": "Ana Gheir - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15637,7 +15646,7 @@
   {
     "title": "Ya Ana Ya La",
     "artist": "Amr Diab",
-    "album": "Ya Ana Ya La",
+    "album": "Ya Ana Ya La - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15670,7 +15679,7 @@
   {
     "title": "Batwanes Beek",
     "artist": "Warda",
-    "album": "Batwanes Beek",
+    "album": "Batwanes Beek - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -15735,7 +15744,7 @@
   {
     "title": "Masha'er",
     "artist": "Sherine",
-    "album": "Masha'er",
+    "album": "Masha'er - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic",
@@ -15746,7 +15755,7 @@
   {
     "title": "Harramt Ahebbak",
     "artist": "Warda",
-    "album": "Harramt Ahebbak",
+    "album": "Harramt Ahebbak - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -15832,7 +15841,7 @@
   {
     "title": "Basha E3temed",
     "artist": "Abyusif, Abo El Anwar",
-    "album": "Basha E3temed",
+    "album": "Basha E3temed - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Angry / Intense",
@@ -15843,7 +15852,7 @@
   {
     "title": "Matkhafsh Men Bokra",
     "artist": "Cairokee",
-    "album": "Matkhafsh Men Bokra",
+    "album": "Matkhafsh Men Bokra - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -15854,7 +15863,7 @@
   {
     "title": "Wasa' Wasa'",
     "artist": "Ahmed Saad",
-    "album": "Wasa' Wasa'",
+    "album": "Wasa' Wasa' - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -15865,7 +15874,7 @@
   {
     "title": "Taheya",
     "artist": "Abyusif",
-    "album": "Taheya",
+    "album": "Taheya - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -15876,7 +15885,7 @@
   {
     "title": "Kanet Hatefreq",
     "artist": "Massar Egbari",
-    "album": "Kanet Hatefreq",
+    "album": "Kanet Hatefreq - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic",
@@ -15887,7 +15896,7 @@
   {
     "title": "Alf Leila Wa Leila",
     "artist": "Umm Kulthum",
-    "album": "Alf Leila Wa Leila",
+    "album": "Alf Leila Wa Leila - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -15898,7 +15907,7 @@
   {
     "title": "Serena",
     "artist": "Enba, Muslim",
-    "album": "Serena",
+    "album": "Serena - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -15909,7 +15918,7 @@
   {
     "title": "Nour El Ein",
     "artist": "Amr Diab",
-    "album": "Nour El Ein",
+    "album": "Nour El Ein - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -15930,7 +15939,7 @@
   {
     "title": "Alo",
     "artist": "Marwan Moussa, Afroto",
-    "album": "Alo",
+    "album": "Alo - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -15951,7 +15960,7 @@
   {
     "title": "Dorak Gai",
     "artist": "Wegz",
-    "album": "Dorak Gai",
+    "album": "Dorak Gai - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Angry / Intense",
@@ -15984,7 +15993,7 @@
   {
     "title": "Eish Besho'ak",
     "artist": "Tamer Hosny",
-    "album": "Eish Besho'ak",
+    "album": "Eish Besho'ak - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -16006,7 +16015,7 @@
   {
     "title": "Omrena Ma Nergaa",
     "artist": "Mohamed Hamaki",
-    "album": "Omrena Ma Nergaa",
+    "album": "Omrena Ma Nergaa - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic"
@@ -16049,7 +16058,7 @@
   {
     "title": "El Sekka Shemal",
     "artist": "Cairokee",
-    "album": "El Sekka Shemal",
+    "album": "El Sekka Shemal - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Angry / Intense",
@@ -16093,7 +16102,7 @@
   {
     "title": "Noor Al Ain",
     "artist": "Amr Diab",
-    "album": "Noor Al Ain",
+    "album": "Noor Al Ain - Single",
     "genre": "Arabic",
     "popularity": 94,
     "atmosphere": [
@@ -16137,7 +16146,7 @@
   {
     "title": "Fi 3esh2 El Banat",
     "artist": "Mohamed Mounir",
-    "album": "Fi 3esh2 El Banat",
+    "album": "Fi 3esh2 El Banat - Single",
     "genre": "Arabic",
     "popularity": 92,
     "atmosphere": [
@@ -16225,7 +16234,7 @@
   {
     "title": "Btmanna Ansak",
     "artist": "Sherine",
-    "album": "Btmanna Ansak",
+    "album": "Btmanna Ansak - Single",
     "genre": "Arabic",
     "popularity": 91,
     "atmosphere": [
@@ -16423,7 +16432,7 @@
   {
     "title": "Omry Maak",
     "artist": "Angham",
-    "album": "Omry Maak",
+    "album": "Omry Maak - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -16478,7 +16487,7 @@
   {
     "title": "Felous Baba",
     "artist": "Ahmed Saad & DYSTINCT",
-    "album": "Felous Baba",
+    "album": "Felous Baba - Single",
     "genre": "Arabic",
     "popularity": 80,
     "atmosphere": [
@@ -16896,7 +16905,7 @@
   {
     "title": "Amar Amareen | قمر قمرين",
     "artist": "Moustafa Amar",
-    "album": "Amar Amareen | قمر قمرين",
+    "album": "Amar Amareen | قمر قمرين - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -17083,7 +17092,7 @@
   {
     "title": "Sahrany",
     "artist": "Ihab Tawfiq",
-    "album": "Sahrany",
+    "album": "Sahrany - Single",
     "genre": "Arabic",
     "popularity": 79,
     "atmosphere": [
@@ -17116,7 +17125,7 @@
   {
     "title": "Ahla Menhom",
     "artist": "Ihab Tawfiq",
-    "album": "Ahla Menhom",
+    "album": "Ahla Menhom - Single",
     "genre": "Arabic",
     "popularity": 82,
     "atmosphere": [
@@ -17347,7 +17356,7 @@
   {
     "title": "Wa7ed Wa7ed",
     "artist": "Abyusif",
-    "album": "Wa7ed Wa7ed",
+    "album": "Wa7ed Wa7ed - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -17710,7 +17719,7 @@
   {
     "title": "Sultan",
     "artist": "Shabjdeed & Al Nather",
-    "album": "Sultan",
+    "album": "Sultan - Single",
     "genre": "Arabic",
     "popularity": 87,
     "atmosphere": [
@@ -18150,7 +18159,7 @@
   {
     "title": "Wust El Balad",
     "artist": "Wust El Balad",
-    "album": "Wust El Balad",
+    "album": "Wust El Balad - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -18370,7 +18379,7 @@
   {
     "title": "El Makina",
     "artist": "JadaL",
-    "album": "El Makina",
+    "album": "El Makina - Single",
     "genre": "Arabic",
     "popularity": 87,
     "atmosphere": [
@@ -19349,7 +19358,7 @@
   {
     "title": "Aghadan Alkak",
     "artist": "Umm Kulthum",
-    "album": "Aghadan Alkak",
+    "album": "Aghadan Alkak - Single",
     "genre": "Arabic",
     "popularity": 89,
     "atmosphere": [
@@ -19569,7 +19578,7 @@
   {
     "title": "Habibi ya metghareb (Live)",
     "artist": "Faiza Ahmed",
-    "album": "Habibi ya metghareb (Live)",
+    "album": "Habibi ya metghareb (Live) - Single",
     "genre": "Arabic",
     "popularity": 91,
     "atmosphere": [
@@ -19624,7 +19633,7 @@
   {
     "title": "Ya Magnon",
     "artist": "Assala",
-    "album": "Ya Magnon",
+    "album": "Ya Magnon - Single",
     "genre": "Arabic",
     "popularity": 95,
     "atmosphere": [
@@ -19767,7 +19776,7 @@
   {
     "title": "Sare2li Omri",
     "artist": "Wael Kfoury",
-    "album": "Sare2li Omri",
+    "album": "Sare2li Omri - Single",
     "genre": "Arabic",
     "popularity": 92,
     "atmosphere": [
@@ -19822,7 +19831,7 @@
   {
     "title": "Tab Leh",
     "artist": "Ragheb Alama",
-    "album": "Tab Leh",
+    "album": "Tab Leh - Single",
     "genre": "Arabic",
     "popularity": 88,
     "atmosphere": [
@@ -19833,7 +19842,7 @@
   {
     "title": "El Hob El Kebir",
     "artist": "Ragheb Alama",
-    "album": "El Hob El Kebir",
+    "album": "El Hob El Kebir - Single",
     "genre": "Arabic",
     "popularity": 87,
     "atmosphere": [
@@ -19899,7 +19908,7 @@
   {
     "title": "Elly Etmanetoh",
     "artist": "Nawal Al Zoghbi",
-    "album": "Elly Etmanetoh",
+    "album": "Elly Etmanetoh - Single",
     "genre": "Arabic",
     "popularity": 91,
     "atmosphere": [
@@ -20196,7 +20205,7 @@
   {
     "title": "Tamally Maak",
     "artist": "عمر دياب",
-    "album": "Tamally Maak",
+    "album": "Tamally Maak - Single",
     "genre": "Arabic",
     "popularity": 82,
     "atmosphere": [
@@ -20207,7 +20216,7 @@
   {
     "title": "Le Beirut",
     "artist": "Fairuz",
-    "album": "Le Beirut",
+    "album": "Le Beirut - Single",
     "genre": "Arabic",
     "popularity": 70,
     "atmosphere": [
@@ -20218,7 +20227,7 @@
   {
     "title": "Kelma",
     "artist": "Ramy Sabry",
-    "album": "Kelma",
+    "album": "Kelma - Single",
     "genre": "Arabic",
     "popularity": 74,
     "atmosphere": [
@@ -20229,7 +20238,7 @@
   {
     "title": "Ojos Así",
     "artist": "Shakira",
-    "album": "Ojos Así",
+    "album": "Ojos Así - Single",
     "genre": "Arabic",
     "popularity": 87,
     "atmosphere": [
@@ -20240,7 +20249,7 @@
   {
     "title": "Wahdon",
     "artist": "Fairuz",
-    "album": "Wahdon",
+    "album": "Wahdon - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -20251,7 +20260,7 @@
   {
     "title": "Sallimleh Alayh",
     "artist": "Fairuz",
-    "album": "Sallimleh Alayh",
+    "album": "Sallimleh Alayh - Single",
     "genre": "Arabic",
     "popularity": 75,
     "atmosphere": [
@@ -20262,7 +20271,7 @@
   {
     "title": "Ya Rayah",
     "artist": "Rachid Taha",
-    "album": "Ya Rayah",
+    "album": "Ya Rayah - Single",
     "genre": "Arabic",
     "popularity": 82,
     "atmosphere": [
@@ -20273,7 +20282,7 @@
   {
     "title": "Kifak Inta",
     "artist": "Fairuz",
-    "album": "Kifak Inta",
+    "album": "Kifak Inta - Single",
     "genre": "Arabic",
     "popularity": 91,
     "atmosphere": [
@@ -20284,7 +20293,7 @@
   {
     "title": "Ghir Enta",
     "artist": "Souad Massi",
-    "album": "Ghir Enta",
+    "album": "Ghir Enta - Single",
     "genre": "Arabic",
     "popularity": 84,
     "atmosphere": [
@@ -20295,7 +20304,7 @@
   {
     "title": "Didi",
     "artist": "Khaled",
-    "album": "Didi",
+    "album": "Didi - Single",
     "genre": "Arabic",
     "popularity": 86,
     "atmosphere": [
@@ -20306,7 +20315,7 @@
   {
     "title": "Ana Ayesh",
     "artist": "عمر دياب",
-    "album": "Ana Ayesh",
+    "album": "Ana Ayesh - Single",
     "genre": "Arabic",
     "popularity": 73,
     "atmosphere": [
@@ -20317,7 +20326,7 @@
   {
     "title": "Wala Ala Baloh",
     "artist": "عمر دياب",
-    "album": "Wala Ala Baloh",
+    "album": "Wala Ala Baloh - Single",
     "genre": "Arabic",
     "popularity": 72,
     "atmosphere": [
@@ -20328,7 +20337,7 @@
   {
     "title": "Aïcha",
     "artist": "Khaled",
-    "album": "Aïcha",
+    "album": "Aïcha - Single",
     "genre": "Arabic",
     "popularity": 69,
     "atmosphere": [
@@ -20339,7 +20348,7 @@
   {
     "title": "Wahrane Wahrane",
     "artist": "Khaled",
-    "album": "Wahrane Wahrane",
+    "album": "Wahrane Wahrane - Single",
     "genre": "Arabic",
     "popularity": 62,
     "atmosphere": [
@@ -20350,7 +20359,7 @@
   {
     "title": "Fatet Sineen",
     "artist": "Elissa",
-    "album": "Fatet Sineen",
+    "album": "Fatet Sineen - Single",
     "genre": "Arabic",
     "popularity": 82,
     "atmosphere": [
@@ -20361,7 +20370,7 @@
   {
     "title": "Barra Barra",
     "artist": "Rachid Taha",
-    "album": "Barra Barra",
+    "album": "Barra Barra - Single",
     "genre": "Arabic",
     "popularity": 84,
     "atmosphere": [
@@ -20372,7 +20381,7 @@
   {
     "title": "Amarain",
     "artist": "عمر دياب",
-    "album": "Amarain",
+    "album": "Amarain - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -20383,7 +20392,7 @@
   {
     "title": "Masâr",
     "artist": "Le Trio Joubran",
-    "album": "Masâr",
+    "album": "Masâr - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -20394,7 +20403,7 @@
   {
     "title": "Matrahak Bi Albi",
     "artist": "Majida El Roumi",
-    "album": "Matrahak Bi Albi",
+    "album": "Matrahak Bi Albi - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -20405,7 +20414,7 @@
   {
     "title": "Rock El Casbah",
     "artist": "Rachid Taha",
-    "album": "Rock El Casbah",
+    "album": "Rock El Casbah - Single",
     "genre": "Arabic",
     "popularity": 80,
     "atmosphere": [
@@ -20416,7 +20425,7 @@
   {
     "title": "Alabina",
     "artist": "Alabina",
-    "album": "Alabina",
+    "album": "Alabina - Single",
     "genre": "Arabic",
     "popularity": 74,
     "atmosphere": [
@@ -20427,7 +20436,7 @@
   {
     "title": "Salma ya salama",
     "artist": "Dalida",
-    "album": "Salma ya salama",
+    "album": "Salma ya salama - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -20438,7 +20447,7 @@
   {
     "title": "Kermalak",
     "artist": "Elissa",
-    "album": "Kermalak",
+    "album": "Kermalak - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -20449,7 +20458,7 @@
   {
     "title": "Raoui",
     "artist": "Souad Massi",
-    "album": "Raoui",
+    "album": "Raoui - Single",
     "genre": "Arabic",
     "popularity": 72,
     "atmosphere": [
@@ -20460,7 +20469,7 @@
   {
     "title": "Sahra",
     "artist": "Khaled",
-    "album": "Sahra",
+    "album": "Sahra - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -20471,7 +20480,7 @@
   {
     "title": "Bastanak",
     "artist": "Elissa",
-    "album": "Bastanak",
+    "album": "Bastanak - Single",
     "genre": "Arabic",
     "popularity": 80,
     "atmosphere": [
@@ -20482,7 +20491,7 @@
   {
     "title": "Mon Amie La Rose",
     "artist": "Natacha Atlas",
-    "album": "Mon Amie La Rose",
+    "album": "Mon Amie La Rose - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -20493,7 +20502,7 @@
   {
     "title": "Aktar Wahed",
     "artist": "عمر دياب",
-    "album": "Aktar Wahed",
+    "album": "Aktar Wahed - Single",
     "genre": "Arabic",
     "popularity": 83,
     "atmosphere": [
@@ -20504,7 +20513,7 @@
   {
     "title": "She likes a boy",
     "artist": "Nxdia",
-    "album": "She likes a boy",
+    "album": "She likes a boy - Single",
     "genre": "Arabic",
     "popularity": 91,
     "atmosphere": [
@@ -20515,7 +20524,7 @@
   {
     "title": "Sah",
     "artist": "Al Massrieen",
-    "album": "Sah",
+    "album": "Sah - Single",
     "genre": "Arabic",
     "popularity": 75,
     "atmosphere": [
@@ -20526,7 +20535,7 @@
   {
     "title": "Nour El Ain",
     "artist": "عمر دياب",
-    "album": "Nour El Ain",
+    "album": "Nour El Ain - Single",
     "genre": "Arabic",
     "popularity": 88,
     "atmosphere": [
@@ -20537,7 +20546,7 @@
   {
     "title": "Faker Zaman",
     "artist": "Ramy Sabry",
-    "album": "Faker Zaman",
+    "album": "Faker Zaman - Single",
     "genre": "Arabic",
     "popularity": 62,
     "atmosphere": [
@@ -20548,7 +20557,7 @@
   {
     "title": "Helwa Ya Baladi",
     "artist": "Dalida",
-    "album": "Helwa Ya Baladi",
+    "album": "Helwa Ya Baladi - Single",
     "genre": "Arabic",
     "popularity": 71,
     "atmosphere": [
@@ -20559,7 +20568,7 @@
   {
     "title": "Bahlam Beek",
     "artist": "Abdel Halim Hafez",
-    "album": "Bahlam Beek",
+    "album": "Bahlam Beek - Single",
     "genre": "Arabic",
     "popularity": 89,
     "atmosphere": [
@@ -20570,7 +20579,7 @@
   {
     "title": "Zeina",
     "artist": "Mohamed Abdel Wahab",
-    "album": "Zeina",
+    "album": "Zeina - Single",
     "genre": "Arabic",
     "popularity": 69,
     "atmosphere": [
@@ -20581,7 +20590,7 @@
   {
     "title": "Baladi We Hetta",
     "artist": "Hossam Ramzy",
-    "album": "Baladi We Hetta",
+    "album": "Baladi We Hetta - Single",
     "genre": "Arabic",
     "popularity": 71,
     "atmosphere": [
@@ -20592,7 +20601,7 @@
   {
     "title": "From Memphis To Heliopolis",
     "artist": "Phil Thornton & Hossam Ramzy",
-    "album": "From Memphis To Heliopolis",
+    "album": "From Memphis To Heliopolis - Single",
     "genre": "Arabic",
     "popularity": 69,
     "atmosphere": [
@@ -20603,7 +20612,7 @@
   {
     "title": "Sufi Dialogue",
     "artist": "Soliman Gamil",
-    "album": "Sufi Dialogue",
+    "album": "Sufi Dialogue - Single",
     "genre": "Arabic",
     "popularity": 70,
     "atmosphere": [
@@ -20614,7 +20623,7 @@
   {
     "title": "Talakik",
     "artist": "Hakim",
-    "album": "Talakik",
+    "album": "Talakik - Single",
     "genre": "Arabic",
     "popularity": 73,
     "atmosphere": [
@@ -20625,7 +20634,7 @@
   {
     "title": "Hely Meli",
     "artist": "Hamid El Shaeri",
-    "album": "Hely Meli",
+    "album": "Hely Meli - Single",
     "genre": "Arabic",
     "popularity": 83,
     "atmosphere": [
@@ -20636,7 +20645,7 @@
   {
     "title": "Sahirtou",
     "artist": "Mohammed Abdel Wahab",
-    "album": "Sahirtou",
+    "album": "Sahirtou - Single",
     "genre": "Arabic",
     "popularity": 79,
     "atmosphere": [
@@ -20647,7 +20656,7 @@
   {
     "title": "Masturbating the War God",
     "artist": "Nile",
-    "album": "Masturbating the War God",
+    "album": "Masturbating the War God - Single",
     "genre": "Arabic",
     "popularity": 80,
     "atmosphere": [
@@ -20658,7 +20667,7 @@
   {
     "title": "La Muchacha Turca (Simarik)",
     "artist": "Hakim",
-    "album": "La Muchacha Turca (Simarik)",
+    "album": "La Muchacha Turca (Simarik) - Single",
     "genre": "Arabic",
     "popularity": 72,
     "atmosphere": [
@@ -20669,7 +20678,7 @@
   {
     "title": "Makontesh-Mebayen",
     "artist": "Tamer Hosny",
-    "album": "Makontesh-Mebayen",
+    "album": "Makontesh-Mebayen - Single",
     "genre": "Arabic",
     "popularity": 91,
     "atmosphere": [
@@ -20680,7 +20689,7 @@
   {
     "title": "Othrak Ma-ak Othrak",
     "artist": "Hossam Ramzy",
-    "album": "Othrak Ma-ak Othrak",
+    "album": "Othrak Ma-ak Othrak - Single",
     "genre": "Arabic",
     "popularity": 90,
     "atmosphere": [
@@ -20691,7 +20700,7 @@
   {
     "title": "Unas, Slayer of the Gods",
     "artist": "Nile",
-    "album": "Unas, Slayer of the Gods",
+    "album": "Unas, Slayer of the Gods - Single",
     "genre": "Arabic",
     "popularity": 70,
     "atmosphere": [
@@ -20702,7 +20711,7 @@
   {
     "title": "Kaliny Maak",
     "artist": "Ramy Ayach",
-    "album": "Kaliny Maak",
+    "album": "Kaliny Maak - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -20713,7 +20722,7 @@
   {
     "title": "Agheeb",
     "artist": "عمر دياب",
-    "album": "Agheeb",
+    "album": "Agheeb - Single",
     "genre": "Arabic",
     "popularity": 90,
     "atmosphere": [
@@ -20724,7 +20733,7 @@
   {
     "title": "Habet",
     "artist": "Hakim",
-    "album": "Habet",
+    "album": "Habet - Single",
     "genre": "Arabic",
     "popularity": 88,
     "atmosphere": [
@@ -20735,7 +20744,7 @@
   {
     "title": "Organic Hydropoly Spores",
     "artist": "Drexciya",
-    "album": "Organic Hydropoly Spores",
+    "album": "Organic Hydropoly Spores - Single",
     "genre": "Arabic",
     "popularity": 75,
     "atmosphere": [
@@ -20746,7 +20755,7 @@
   {
     "title": "Lamastak",
     "artist": "Amr Mostafa",
-    "album": "Lamastak",
+    "album": "Lamastak - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -20757,7 +20766,7 @@
   {
     "title": "Crazy Over You",
     "artist": "BLACKPINK",
-    "album": "Crazy Over You",
+    "album": "Crazy Over You - Single",
     "genre": "Arabic",
     "popularity": 83,
     "atmosphere": [
@@ -20768,7 +20777,7 @@
   {
     "title": "Yabn El Halal",
     "artist": "Haifa Wehbe",
-    "album": "Yabn El Halal",
+    "album": "Yabn El Halal - Single",
     "genre": "Arabic",
     "popularity": 84,
     "atmosphere": [
@@ -20779,7 +20788,7 @@
   {
     "title": "Aicha (Version Mixte)",
     "artist": "Khaled",
-    "album": "Aicha (Version Mixte)",
+    "album": "Aicha (Version Mixte) - Single",
     "genre": "Arabic",
     "popularity": 74,
     "atmosphere": [
@@ -20790,7 +20799,7 @@
   {
     "title": "Qarabe Laya",
     "artist": "Wael Kfoury",
-    "album": "Qarabe Laya",
+    "album": "Qarabe Laya - Single",
     "genre": "Arabic",
     "popularity": 81,
     "atmosphere": [
@@ -20801,7 +20810,7 @@
   {
     "title": "Jeet",
     "artist": "Carole Samaha",
-    "album": "Jeet",
+    "album": "Jeet - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -20812,7 +20821,7 @@
   {
     "title": "Damascus (feat. Omar Souleyman and Yasiin Bey)",
     "artist": "Gorillaz",
-    "album": "Damascus (feat. Omar Souleyman and Yasiin Bey)",
+    "album": "Damascus (feat. Omar Souleyman and Yasiin Bey) - Single",
     "genre": "Arabic",
     "popularity": 84,
     "atmosphere": [
@@ -20823,7 +20832,7 @@
   {
     "title": "Hawelt Ansak",
     "artist": "Aline Khalaf",
-    "album": "Hawelt Ansak",
+    "album": "Hawelt Ansak - Single",
     "genre": "Arabic",
     "popularity": 83,
     "atmosphere": [
@@ -20834,7 +20843,7 @@
   {
     "title": "Shmaali شمالي",
     "artist": "Yasmine Hamdan",
-    "album": "Shmaali شمالي",
+    "album": "Shmaali شمالي - Single",
     "genre": "Arabic",
     "popularity": 82,
     "atmosphere": [
@@ -20845,7 +20854,7 @@
   {
     "title": "JOROPO",
     "artist": "Judeline",
-    "album": "JOROPO",
+    "album": "JOROPO - Single",
     "genre": "Arabic",
     "popularity": 69,
     "atmosphere": [
@@ -20856,7 +20865,7 @@
   {
     "title": "Ahebah Kolesh",
     "artist": "Waleed Al Shami",
-    "album": "Ahebah Kolesh",
+    "album": "Ahebah Kolesh - Single",
     "genre": "Arabic",
     "popularity": 79,
     "atmosphere": [
@@ -20867,7 +20876,7 @@
   {
     "title": "Ghaeb Any Laeh",
     "artist": "Fadl Shaker",
-    "album": "Ghaeb Any Laeh",
+    "album": "Ghaeb Any Laeh - Single",
     "genre": "Arabic",
     "popularity": 81,
     "atmosphere": [
@@ -20878,7 +20887,7 @@
   {
     "title": "Fakerni",
     "artist": "Haifa Wehbe",
-    "album": "Fakerni",
+    "album": "Fakerni - Single",
     "genre": "Arabic",
     "popularity": 69,
     "atmosphere": [
@@ -20889,7 +20898,7 @@
   {
     "title": "Akhbarak Eyh",
     "artist": "Maya Nasri",
-    "album": "Akhbarak Eyh",
+    "album": "Akhbarak Eyh - Single",
     "genre": "Arabic",
     "popularity": 81,
     "atmosphere": [
@@ -20900,7 +20909,7 @@
   {
     "title": "Ma Tedri",
     "artist": "Baha'a",
-    "album": "Ma Tedri",
+    "album": "Ma Tedri - Single",
     "genre": "Arabic",
     "popularity": 71,
     "atmosphere": [
@@ -20911,7 +20920,7 @@
   {
     "title": "Lasmarani",
     "artist": "Maya Nasri",
-    "album": "Lasmarani",
+    "album": "Lasmarani - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -20922,7 +20931,7 @@
   {
     "title": "The beautiful losers الحلوين الخسرانين",
     "artist": "Yasmine Hamdan",
-    "album": "The beautiful losers الحلوين الخسرانين",
+    "album": "The beautiful losers الحلوين الخسرانين - Single",
     "genre": "Arabic",
     "popularity": 70,
     "atmosphere": [
@@ -20933,7 +20942,7 @@
   {
     "title": "Khalani",
     "artist": "Myriam Fares",
-    "album": "Khalani",
+    "album": "Khalani - Single",
     "genre": "Arabic",
     "popularity": 73,
     "atmosphere": [
@@ -20944,7 +20953,7 @@
   {
     "title": "Angel - Shygirl x Fatima Al Qadiri",
     "artist": "Shygirl",
-    "album": "Angel - Shygirl x Fatima Al Qadiri",
+    "album": "Angel - Shygirl x Fatima Al Qadiri - Single",
     "genre": "Arabic",
     "popularity": 73,
     "atmosphere": [
@@ -20955,7 +20964,7 @@
   {
     "title": "Ya Banat",
     "artist": "Nancy Ajram",
-    "album": "Ya Banat",
+    "album": "Ya Banat - Single",
     "genre": "Arabic",
     "popularity": 66,
     "atmosphere": [
@@ -20966,7 +20975,7 @@
   {
     "title": "We Meen Ekhtar",
     "artist": "Sherine",
-    "album": "We Meen Ekhtar",
+    "album": "We Meen Ekhtar - Single",
     "genre": "Arabic",
     "popularity": 69,
     "atmosphere": [
@@ -20977,7 +20986,7 @@
   {
     "title": "Mor مر التجني",
     "artist": "Yasmine Hamdan",
-    "album": "Mor مر التجني",
+    "album": "Mor مر التجني - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -20988,7 +20997,7 @@
   {
     "title": "Yay",
     "artist": "Nancy Ajram",
-    "album": "Yay",
+    "album": "Yay - Single",
     "genre": "Arabic",
     "popularity": 85,
     "atmosphere": [
@@ -20999,7 +21008,7 @@
   {
     "title": "Wala Dary",
     "artist": "Asala",
-    "album": "Wala Dary",
+    "album": "Wala Dary - Single",
     "genre": "Arabic",
     "popularity": 89,
     "atmosphere": [
@@ -21010,7 +21019,7 @@
   {
     "title": "Reminiscence غروب",
     "artist": "Yasmine Hamdan",
-    "album": "Reminiscence غروب",
+    "album": "Reminiscence غروب - Single",
     "genre": "Arabic",
     "popularity": 68,
     "atmosphere": [
@@ -21021,7 +21030,7 @@
   {
     "title": "Galbi",
     "artist": "Abdy",
-    "album": "Galbi",
+    "album": "Galbi - Single",
     "genre": "Arabic",
     "popularity": 63,
     "atmosphere": [
@@ -21032,7 +21041,7 @@
   {
     "title": "Dafaa Robaai",
     "artist": "Nadah El Shazly",
-    "album": "Dafaa Robaai",
+    "album": "Dafaa Robaai - Single",
     "genre": "Arabic",
     "popularity": 66,
     "atmosphere": [
@@ -21043,7 +21052,7 @@
   {
     "title": "Kaabi Aali",
     "artist": "Nadah El Shazly",
-    "album": "Kaabi Aali",
+    "album": "Kaabi Aali - Single",
     "genre": "Arabic",
     "popularity": 71,
     "atmosphere": [
@@ -21054,7 +21063,7 @@
   {
     "title": "Cavalry",
     "artist": "Mashrou' Leila",
-    "album": "Cavalry",
+    "album": "Cavalry - Single",
     "genre": "Arabic",
     "popularity": 69,
     "atmosphere": [
@@ -21065,7 +21074,7 @@
   {
     "title": "Moksha",
     "artist": "Vas",
-    "album": "Moksha",
+    "album": "Moksha - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -21076,7 +21085,7 @@
   {
     "title": "Kidda",
     "artist": "Natacha Atlas",
-    "album": "Kidda",
+    "album": "Kidda - Single",
     "genre": "Arabic",
     "popularity": 65,
     "atmosphere": [
@@ -21087,7 +21096,7 @@
   {
     "title": "Euphrates Bled",
     "artist": "Knossos",
-    "album": "Euphrates Bled",
+    "album": "Euphrates Bled - Single",
     "genre": "Arabic",
     "popularity": 76,
     "atmosphere": [
@@ -21098,7 +21107,7 @@
   {
     "title": "Izgrejala",
     "artist": "Vas",
-    "album": "Izgrejala",
+    "album": "Izgrejala - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -21109,7 +21118,7 @@
   {
     "title": "Zambra",
     "artist": "Willie & Lobo",
-    "album": "Zambra",
+    "album": "Zambra - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -21120,7 +21129,7 @@
   {
     "title": "Disciples Of The Sacred Oath II",
     "artist": "Orphaned Land",
-    "album": "Disciples Of The Sacred Oath II",
+    "album": "Disciples Of The Sacred Oath II - Single",
     "genre": "Arabic",
     "popularity": 62,
     "atmosphere": [
@@ -21131,7 +21140,7 @@
   {
     "title": "The (Ineffable) Trick",
     "artist": "TyCyPhy",
-    "album": "The (Ineffable) Trick",
+    "album": "The (Ineffable) Trick - Single",
     "genre": "Arabic",
     "popularity": 90,
     "atmosphere": [
@@ -21142,7 +21151,7 @@
   {
     "title": "Ma Tegi Hena",
     "artist": "Nancy Ajram",
-    "album": "Ma Tegi Hena",
+    "album": "Ma Tegi Hena - Single",
     "genre": "Arabic",
     "popularity": 75,
     "atmosphere": [
@@ -21153,7 +21162,7 @@
   {
     "title": "On Earth",
     "artist": "Woob",
-    "album": "On Earth",
+    "album": "On Earth - Single",
     "genre": "Arabic",
     "popularity": 81,
     "atmosphere": [
@@ -21164,7 +21173,7 @@
   {
     "title": "Dawartibini",
     "artist": "Ras Sinai Project",
-    "album": "Dawartibini",
+    "album": "Dawartibini - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -21175,7 +21184,7 @@
   {
     "title": "Chaos Of Paradise",
     "artist": "Axiom Of Choice",
-    "album": "Chaos Of Paradise",
+    "album": "Chaos Of Paradise - Single",
     "genre": "Arabic",
     "popularity": 87,
     "atmosphere": [
@@ -21186,7 +21195,7 @@
   {
     "title": "Rakset Dala'a",
     "artist": "Ahmad El Asmar",
-    "album": "Rakset Dala'a",
+    "album": "Rakset Dala'a - Single",
     "genre": "Arabic",
     "popularity": 74,
     "atmosphere": [
@@ -21197,7 +21206,7 @@
   {
     "title": "Caspian Winds",
     "artist": "Omar Faruk Tekbilek",
-    "album": "Caspian Winds",
+    "album": "Caspian Winds - Single",
     "genre": "Arabic",
     "popularity": 88,
     "atmosphere": [
@@ -21208,7 +21217,7 @@
   {
     "title": "Hand of Fatima",
     "artist": "Muslimgauze",
-    "album": "Hand of Fatima",
+    "album": "Hand of Fatima - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -21219,7 +21228,7 @@
   {
     "title": "Serpentine",
     "artist": "Solace",
-    "album": "Serpentine",
+    "album": "Serpentine - Single",
     "genre": "Arabic",
     "popularity": 71,
     "atmosphere": [
@@ -21230,7 +21239,7 @@
   {
     "title": "Gerizler Basi",
     "artist": "Okan Murat Öztürk",
-    "album": "Gerizler Basi",
+    "album": "Gerizler Basi - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -21241,7 +21250,7 @@
   {
     "title": "Aracas",
     "artist": "Light Rain",
-    "album": "Aracas",
+    "album": "Aracas - Single",
     "genre": "Arabic",
     "popularity": 62,
     "atmosphere": [
@@ -21252,7 +21261,7 @@
   {
     "title": "Arainia",
     "artist": "Kara Nomadica",
-    "album": "Arainia",
+    "album": "Arainia - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -21263,7 +21272,7 @@
   {
     "title": "Mauvais Sang",
     "artist": "Khaled",
-    "album": "Mauvais Sang",
+    "album": "Mauvais Sang - Single",
     "genre": "Arabic",
     "popularity": 66,
     "atmosphere": [
@@ -21274,7 +21283,7 @@
   {
     "title": "Zar Dance (Ayyub)  2/4",
     "artist": "Solace",
-    "album": "Zar Dance (Ayyub)  2/4",
+    "album": "Zar Dance (Ayyub)  2/4 - Single",
     "genre": "Arabic",
     "popularity": 66,
     "atmosphere": [
@@ -21285,7 +21294,7 @@
   {
     "title": "Huzûr",
     "artist": "Pouriya Raisi",
-    "album": "Huzûr",
+    "album": "Huzûr - Single",
     "genre": "Arabic",
     "popularity": 84,
     "atmosphere": [
@@ -21296,7 +21305,7 @@
   {
     "title": "Wala Marra",
     "artist": "Khaled Aggag",
-    "album": "Wala Marra",
+    "album": "Wala Marra - Single",
     "genre": "Arabic",
     "popularity": 92,
     "atmosphere": [
@@ -21307,7 +21316,7 @@
   {
     "title": "Ghareibah el Nas",
     "artist": "Wael Jassar",
-    "album": "Ghareibah el Nas",
+    "album": "Ghareibah el Nas - Single",
     "genre": "Arabic",
     "popularity": 90,
     "atmosphere": [
@@ -21318,7 +21327,7 @@
   {
     "title": "Noor-Al-Ain",
     "artist": "عمر دياب",
-    "album": "Noor-Al-Ain",
+    "album": "Noor-Al-Ain - Single",
     "genre": "Arabic",
     "popularity": 83,
     "atmosphere": [
@@ -21329,7 +21338,7 @@
   {
     "title": "Drop Your Guns",
     "artist": "Control Freak",
-    "album": "Drop Your Guns",
+    "album": "Drop Your Guns - Single",
     "genre": "Arabic",
     "popularity": 76,
     "atmosphere": [
@@ -21340,7 +21349,7 @@
   {
     "title": "Mystics And Fools",
     "artist": "Axiom Of Choice",
-    "album": "Mystics And Fools",
+    "album": "Mystics And Fools - Single",
     "genre": "Arabic",
     "popularity": 87,
     "atmosphere": [
@@ -21351,7 +21360,7 @@
   {
     "title": "Gone Away Again",
     "artist": "Rogér Fakhr",
-    "album": "Gone Away Again",
+    "album": "Gone Away Again - Single",
     "genre": "Arabic",
     "popularity": 65,
     "atmosphere": [
@@ -21362,7 +21371,7 @@
   {
     "title": "EPANO STO TRAPEZI",
     "artist": "Marina Satti",
-    "album": "EPANO STO TRAPEZI",
+    "album": "EPANO STO TRAPEZI - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -21373,7 +21382,7 @@
   {
     "title": "مهرجان أعطيني على طواحيني شباب فلسطين",
     "artist": "Jabid",
-    "album": "مهرجان أعطيني على طواحيني شباب فلسطين",
+    "album": "مهرجان أعطيني على طواحيني شباب فلسطين - Single",
     "genre": "Arabic",
     "popularity": 85,
     "atmosphere": [
@@ -21384,7 +21393,7 @@
   {
     "title": "LALALALA",
     "artist": "Marina Satti",
-    "album": "LALALALA",
+    "album": "LALALALA - Single",
     "genre": "Arabic",
     "popularity": 76,
     "atmosphere": [
@@ -21395,7 +21404,7 @@
   {
     "title": "Eid",
     "artist": "Nadah El Shazly",
-    "album": "Eid",
+    "album": "Eid - Single",
     "genre": "Arabic",
     "popularity": 63,
     "atmosphere": [
@@ -21406,7 +21415,7 @@
   {
     "title": "Ghorzetein",
     "artist": "Nadah El Shazly",
-    "album": "Ghorzetein",
+    "album": "Ghorzetein - Single",
     "genre": "Arabic",
     "popularity": 86,
     "atmosphere": [
@@ -21417,7 +21426,7 @@
   {
     "title": "Banit",
     "artist": "Nadah El Shazly",
-    "album": "Banit",
+    "album": "Banit - Single",
     "genre": "Arabic",
     "popularity": 82,
     "atmosphere": [
@@ -21428,7 +21437,7 @@
   {
     "title": "Dabke System",
     "artist": "47soul",
-    "album": "Dabke System",
+    "album": "Dabke System - Single",
     "genre": "Arabic",
     "popularity": 63,
     "atmosphere": [
@@ -21439,7 +21448,7 @@
   {
     "title": "The Spy Who Spoke Too Much",
     "artist": "Praed Orchestra!",
-    "album": "The Spy Who Spoke Too Much",
+    "album": "The Spy Who Spoke Too Much - Single",
     "genre": "Arabic",
     "popularity": 71,
     "atmosphere": [
@@ -21450,7 +21459,7 @@
   {
     "title": "Helwa Ya Baladee",
     "artist": "أوكا و أورتيجا",
-    "album": "Helwa Ya Baladee",
+    "album": "Helwa Ya Baladee - Single",
     "genre": "Arabic",
     "popularity": 75,
     "atmosphere": [
@@ -21461,7 +21470,7 @@
   {
     "title": "Garh Tany",
     "artist": "شيرين",
-    "album": "Garh Tany",
+    "album": "Garh Tany - Single",
     "genre": "Arabic",
     "popularity": 63,
     "atmosphere": [
@@ -21472,7 +21481,7 @@
   {
     "title": "بيأكلوك مـربة",
     "artist": "عبد الباسط حمودة",
-    "album": "بيأكلوك مـربة",
+    "album": "بيأكلوك مـربة - Single",
     "genre": "Arabic",
     "popularity": 84,
     "atmosphere": [
@@ -21483,7 +21492,7 @@
   {
     "title": "Palmyra",
     "artist": "Nadah El Shazly",
-    "album": "Palmyra",
+    "album": "Palmyra - Single",
     "genre": "Arabic",
     "popularity": 62,
     "atmosphere": [
@@ -21494,7 +21503,7 @@
   {
     "title": "Jafnoho Allama el Ghazal",
     "artist": "Mohamed Abdel Wahab",
-    "album": "Jafnoho Allama el Ghazal",
+    "album": "Jafnoho Allama el Ghazal - Single",
     "genre": "Arabic",
     "popularity": 62,
     "atmosphere": [
@@ -21505,7 +21514,7 @@
   {
     "title": "Hanenak Haneni",
     "artist": "George Wassouf",
-    "album": "Hanenak Haneni",
+    "album": "Hanenak Haneni - Single",
     "genre": "Arabic",
     "popularity": 72,
     "atmosphere": [
@@ -21516,7 +21525,7 @@
   {
     "title": "Aal Asfourieh",
     "artist": "Sabah",
-    "album": "Aal Asfourieh",
+    "album": "Aal Asfourieh - Single",
     "genre": "Arabic",
     "popularity": 78,
     "atmosphere": [
@@ -21527,7 +21536,7 @@
   {
     "title": "9otak Yanadene",
     "artist": "Mo7ammad 3abdo",
-    "album": "9otak Yanadene",
+    "album": "9otak Yanadene - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -21538,7 +21547,7 @@
   {
     "title": "Al Hob Keda",
     "artist": "Sayed Henkesh Ensemble",
-    "album": "Al Hob Keda",
+    "album": "Al Hob Keda - Single",
     "genre": "Arabic",
     "popularity": 88,
     "atmosphere": [
@@ -21549,7 +21558,7 @@
   {
     "title": "El Dahab",
     "artist": "George Wassouf",
-    "album": "El Dahab",
+    "album": "El Dahab - Single",
     "genre": "Arabic",
     "popularity": 89,
     "atmosphere": [
@@ -21560,7 +21569,7 @@
   {
     "title": "بالكيف",
     "artist": "Qahtan Al Attar",
-    "album": "بالكيف",
+    "album": "بالكيف - Single",
     "genre": "Arabic",
     "popularity": 72,
     "atmosphere": [
@@ -21571,7 +21580,7 @@
   {
     "title": "Samai Chat Araban (Taqsim nay,  Samai thaqil 10/8, samai darij 6/8)",
     "artist": "Classical Arabic Orchestra of Aleppo, Mohamad Maksoud",
-    "album": "Samai Chat Araban (Taqsim nay,  Samai thaqil 10/8, samai darij 6/8)",
+    "album": "Samai Chat Araban (Taqsim nay,  Samai thaqil 10/8, samai darij 6/8) - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -21582,7 +21591,7 @@
   {
     "title": "Kalimat Wadaa",
     "artist": "وائل جسار",
-    "album": "Kalimat Wadaa",
+    "album": "Kalimat Wadaa - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -21593,7 +21602,7 @@
   {
     "title": "Ya Habibi Taala",
     "artist": "Asmahan",
-    "album": "Ya Habibi Taala",
+    "album": "Ya Habibi Taala - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -21604,7 +21613,7 @@
   {
     "title": "Sarajevo",
     "artist": "Lotfi Bouchnak",
-    "album": "Sarajevo",
+    "album": "Sarajevo - Single",
     "genre": "Arabic",
     "popularity": 62,
     "atmosphere": [
@@ -21615,7 +21624,7 @@
   {
     "title": "Hasayef",
     "artist": "Mohammed Abdu",
-    "album": "Hasayef",
+    "album": "Hasayef - Single",
     "genre": "Arabic",
     "popularity": 79,
     "atmosphere": [
@@ -21626,7 +21635,7 @@
   {
     "title": "Ghader El Nass",
     "artist": "George Wassouf",
-    "album": "Ghader El Nass",
+    "album": "Ghader El Nass - Single",
     "genre": "Arabic",
     "popularity": 82,
     "atmosphere": [
@@ -21637,7 +21646,7 @@
   {
     "title": "Kalamak Ya Habibi",
     "artist": "George Wassouf",
-    "album": "Kalamak Ya Habibi",
+    "album": "Kalamak Ya Habibi - Single",
     "genre": "Arabic",
     "popularity": 90,
     "atmosphere": [
@@ -21648,7 +21657,7 @@
   {
     "title": "Ghannou Ya Hbab",
     "artist": "Samira Taoufik",
-    "album": "Ghannou Ya Hbab",
+    "album": "Ghannou Ya Hbab - Single",
     "genre": "Arabic",
     "popularity": 67,
     "atmosphere": [
@@ -21659,7 +21668,7 @@
   {
     "title": "Ouloulou El Haeia",
     "artist": "الفة بن رمضان",
-    "album": "Ouloulou El Haeia",
+    "album": "Ouloulou El Haeia - Single",
     "genre": "Arabic",
     "popularity": 74,
     "atmosphere": [
@@ -21670,7 +21679,7 @@
   {
     "title": "Ismaooni",
     "artist": "Warda",
-    "album": "Ismaooni",
+    "album": "Ismaooni - Single",
     "genre": "Arabic",
     "popularity": 91,
     "atmosphere": [
@@ -21681,7 +21690,7 @@
   {
     "title": "Halat Domou Al Sama",
     "artist": "Talal Maddah",
-    "album": "Halat Domou Al Sama",
+    "album": "Halat Domou Al Sama - Single",
     "genre": "Arabic",
     "popularity": 88,
     "atmosphere": [
@@ -21692,7 +21701,7 @@
   {
     "title": "Ya Emi Aashkan",
     "artist": "وائل جسار",
-    "album": "Ya Emi Aashkan",
+    "album": "Ya Emi Aashkan - Single",
     "genre": "Arabic",
     "popularity": 68,
     "atmosphere": [
@@ -21703,7 +21712,7 @@
   {
     "title": "Mouch Awaydak",
     "artist": "الفة بن رمضان",
-    "album": "Mouch Awaydak",
+    "album": "Mouch Awaydak - Single",
     "genre": "Arabic",
     "popularity": 68,
     "atmosphere": [
@@ -21714,7 +21723,7 @@
   {
     "title": "Jrit W Jérit",
     "artist": "الفة بن رمضان",
-    "album": "Jrit W Jérit",
+    "album": "Jrit W Jérit - Single",
     "genre": "Arabic",
     "popularity": 77,
     "atmosphere": [
@@ -21725,7 +21734,7 @@
   {
     "title": "Lmouni Elli '3aro Meni",
     "artist": "Loutfi Bouchnak",
-    "album": "Lmouni Elli '3aro Meni",
+    "album": "Lmouni Elli '3aro Meni - Single",
     "genre": "Arabic",
     "popularity": 73,
     "atmosphere": [
@@ -21736,7 +21745,7 @@
   {
     "title": "Kanz",
     "artist": "Jadal",
-    "album": "Kanz",
+    "album": "Kanz - Single",
     "genre": "Arabic",
     "popularity": 92,
     "atmosphere": [
@@ -21747,7 +21756,7 @@
   {
     "title": "Inni Mnih",
     "artist": "Mashrou' Leila",
-    "album": "Inni Mnih",
+    "album": "Inni Mnih - Single",
     "genre": "Arabic",
     "popularity": 64,
     "atmosphere": [
@@ -21758,7 +21767,7 @@
   {
     "title": "Salam",
     "artist": "Souad Massi",
-    "album": "Salam",
+    "album": "Salam - Single",
     "genre": "Arabic",
     "popularity": 85,
     "atmosphere": [
@@ -21769,7 +21778,7 @@
   {
     "title": "Icarus",
     "artist": "مشروع ليلى",
-    "album": "Icarus",
+    "album": "Icarus - Single",
     "genre": "Arabic",
     "popularity": 65,
     "atmosphere": [
@@ -21780,7 +21789,7 @@
   {
     "title": "Im Bimbillila7",
     "artist": "Mashrou’ Leila",
-    "album": "Im Bimbillila7",
+    "album": "Im Bimbillila7 - Single",
     "genre": "Arabic",
     "popularity": 89,
     "atmosphere": [
@@ -21791,7 +21800,7 @@
   {
     "title": "Habibi",
     "artist": "Mashrou’ Leila",
-    "album": "Habibi",
+    "album": "Habibi - Single",
     "genre": "Arabic",
     "popularity": 75,
     "atmosphere": [
@@ -21813,7 +21822,7 @@
   {
     "title": "My Way",
     "artist": "Frank Sinatra",
-    "album": "My Way",
+    "album": "My Way - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Focus / Study",
@@ -21824,7 +21833,7 @@
   {
     "title": "That's Life",
     "artist": "Frank Sinatra",
-    "album": "That's Life",
+    "album": "That's Life - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Happy / Upbeat",
@@ -21835,7 +21844,7 @@
   {
     "title": "Strangers in the Night",
     "artist": "Frank Sinatra",
-    "album": "Strangers in the Night",
+    "album": "Strangers in the Night - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Romantic",
@@ -21868,7 +21877,7 @@
   {
     "title": "Come Fly With Me",
     "artist": "Frank Sinatra",
-    "album": "Come Fly With Me",
+    "album": "Come Fly With Me - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Happy / Upbeat",
@@ -22054,7 +22063,7 @@
   {
     "title": "Thriller",
     "artist": "Michael Jackson",
-    "album": "Thriller",
+    "album": "Thriller - Single",
     "genre": "Pop",
     "atmosphere": [
       "Dark / Moody",
@@ -22087,7 +22096,7 @@
   {
     "title": "Bad",
     "artist": "Michael Jackson",
-    "album": "Bad",
+    "album": "Bad - Single",
     "genre": "Pop",
     "atmosphere": [
       "Energetic / Hype",
@@ -22241,7 +22250,7 @@
   {
     "title": "Let's Dance",
     "artist": "David Bowie",
-    "album": "Let's Dance",
+    "album": "Let's Dance - Single",
     "genre": "Rock",
     "atmosphere": [
       "Happy / Upbeat",
@@ -22306,7 +22315,7 @@
   {
     "title": "\"Heroes\" (2017 Remaster)",
     "artist": "David Bowie",
-    "album": "\"Heroes\" (2017 Remaster)",
+    "album": "\"Heroes\" (2017 Remaster) - Single",
     "genre": "Rock",
     "atmosphere": [
       "Dark / Moody",
@@ -22372,7 +22381,7 @@
   {
     "title": "Hey Jude",
     "artist": "The Beatles",
-    "album": "Hey Jude",
+    "album": "Hey Jude - Single",
     "genre": "Rock",
     "atmosphere": [
       "Happy / Upbeat",
@@ -22383,7 +22392,7 @@
   {
     "title": "Let It Be",
     "artist": "The Beatles",
-    "album": "Let It Be",
+    "album": "Let It Be - Single",
     "genre": "Rock",
     "atmosphere": [
       "Chill / Relaxed",
@@ -22493,7 +22502,7 @@
   {
     "title": "Help!",
     "artist": "The Beatles",
-    "album": "Help!",
+    "album": "Help! - Single",
     "genre": "Rock",
     "atmosphere": [
       "Happy / Upbeat",
@@ -22867,7 +22876,7 @@
   {
     "title": "For Once in My Life",
     "artist": "Stevie Wonder",
-    "album": "For Once in My Life",
+    "album": "For Once in My Life - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Happy / Upbeat",
@@ -22955,7 +22964,7 @@
   {
     "title": "Purple Rain",
     "artist": "Prince",
-    "album": "Purple Rain",
+    "album": "Purple Rain - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Romantic",
@@ -22977,7 +22986,7 @@
   {
     "title": "1999",
     "artist": "Prince",
-    "album": "1999",
+    "album": "1999 - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Happy / Upbeat",
@@ -23054,7 +23063,7 @@
   {
     "title": "Diamonds and Pearls",
     "artist": "Prince",
-    "album": "Diamonds and Pearls",
+    "album": "Diamonds and Pearls - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Energetic / Hype",
@@ -23153,7 +23162,7 @@
   {
     "title": "I'm Your Baby Tonight",
     "artist": "Whitney Houston",
-    "album": "I'm Your Baby Tonight",
+    "album": "I'm Your Baby Tonight - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Romantic",
@@ -23197,7 +23206,7 @@
   {
     "title": "Starboy",
     "artist": "The Weeknd",
-    "album": "Starboy",
+    "album": "Starboy - Single",
     "genre": "R&B/Soul",
     "atmosphere": [
       "Dark / Moody",
@@ -23241,7 +23250,7 @@
   {
     "title": "24K Magic",
     "artist": "Bruno Mars",
-    "album": "24K Magic",
+    "album": "24K Magic - Single",
     "genre": "Pop",
     "atmosphere": [
       "Happy / Upbeat",
@@ -23329,7 +23338,7 @@
   {
     "title": "Skyfall",
     "artist": "Adele",
-    "album": "Skyfall",
+    "album": "Skyfall - Single",
     "genre": "Pop",
     "atmosphere": [
       "Dark / Moody",
@@ -23790,7 +23799,7 @@
   {
     "title": "Milestones",
     "artist": "Miles Davis",
-    "album": "Milestones",
+    "album": "Milestones - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Chill / Relaxed",
@@ -23889,7 +23898,7 @@
   {
     "title": "I Put a Spell on You",
     "artist": "Nina Simone",
-    "album": "I Put a Spell on You",
+    "album": "I Put a Spell on You - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Dark / Moody",
@@ -23966,7 +23975,7 @@
   {
     "title": "Baltimore",
     "artist": "Nina Simone",
-    "album": "Baltimore",
+    "album": "Baltimore - Single",
     "genre": "Jazz",
     "atmosphere": [
       "Happy / Upbeat",
@@ -24175,7 +24184,7 @@
   {
     "title": "matador",
     "artist": "Marwan Moussa",
-    "album": "MATADOR",
+    "album": "matador - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -24472,7 +24481,7 @@
   {
     "title": "Matloob Zaeem",
     "artist": "Cairokee",
-    "album": "Matloob Zaeem",
+    "album": "Matloob Zaeem - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Energetic / Hype",
@@ -24802,7 +24811,7 @@
   {
     "title": "Nour El Ain",
     "artist": "Amr Diab",
-    "album": "Nour El Ain",
+    "album": "Nour El Ain - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -24835,7 +24844,7 @@
   {
     "title": "El Leila",
     "artist": "Amr Diab",
-    "album": "El Leila",
+    "album": "El Leila - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Happy / Upbeat",
@@ -24857,7 +24866,7 @@
   {
     "title": "180 Daraga",
     "artist": "Tamer Hosny",
-    "album": "180 Daraga",
+    "album": "180 Daraga - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Sad / Melancholic",
@@ -25099,7 +25108,7 @@
   {
     "title": "Konna Netlaka",
     "artist": "Fairouz",
-    "album": "Konna Netlaka",
+    "album": "Konna Netlaka - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Chill / Relaxed",
@@ -25187,7 +25196,7 @@
   {
     "title": "Fakarooni",
     "artist": "Umm Kulthum",
-    "album": "Fakarooni",
+    "album": "Fakarooni - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -25209,7 +25218,7 @@
   {
     "title": "From Gaza With Love",
     "artist": "Saint Levant",
-    "album": "From Gaza With Love",
+    "album": "From Gaza With Love - Single",
     "genre": "Arabic",
     "atmosphere": [
       "Romantic",
@@ -25469,5 +25478,885 @@
       "Dark / Moody"
     ],
     "popularity": 91
+  },
+  {
+    "title": "Habibi Leh",
+    "artist": "TUL8ATE",
+    "album": "Cocktail Al Gharam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "Matigy Aftah Albak",
+    "artist": "TUL8ATE",
+    "album": "Cocktail Al Gharam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Bahebak",
+    "artist": "TUL8ATE",
+    "album": "Cocktail Al Gharam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Ghareeb",
+    "artist": "TUL8ATE",
+    "album": "Cocktail Al Gharam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Aynaky",
+    "artist": "TUL8ATE",
+    "album": "Cocktail Al Gharam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Focus / Study"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "El Oyoun El Sood",
+    "artist": "TUL8ATE",
+    "album": "Cocktail Al Gharam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Tegheeb Leh",
+    "artist": "TUL8ATE",
+    "album": "Tegheeb Leh - EP",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Mataz3alsh",
+    "artist": "TUL8ATE",
+    "album": "Tegheeb Leh - EP",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Nafsy Feek",
+    "artist": "TUL8ATE",
+    "album": "Cocktail Al Gharam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Plan B",
+    "artist": "Lege-Cy",
+    "album": "Plan B - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Bitseer",
+    "artist": "Lege-Cy",
+    "album": "Plan B",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Sad / Melancholic"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Mama",
+    "artist": "Lege-Cy",
+    "album": "Plan B",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Focus / Study"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "3al Fada",
+    "artist": "Lege-Cy",
+    "album": "Fi Kol Makan",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Ghasb 3anny",
+    "artist": "Lege-Cy",
+    "album": "Ghasb 3anny - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Mesh Bel 7ozouz",
+    "artist": "Lege-Cy",
+    "album": "Plan B",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Dark / Moody"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Ashani",
+    "artist": "Siilawy",
+    "album": "Ashani - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Koddami",
+    "artist": "Siilawy",
+    "album": "Koddami - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Sad / Melancholic"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Lama Tkooni",
+    "artist": "Siilawy",
+    "album": "Lama Tkooni - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Al Kawn",
+    "artist": "Siilawy",
+    "album": "Al Kawn - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Yaba",
+    "artist": "Siilawy",
+    "album": "Yaba - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Focus / Study"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Malo",
+    "artist": "Siilawy",
+    "album": "Malo - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "2021",
+    "artist": "El Waili",
+    "album": "2021 - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Electronic/Dance",
+      "Energetic / Hype"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "El 3abd",
+    "artist": "El Waili",
+    "album": "El 3abd - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Dark / Moody"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Sahby (feat. Ziad Zaza)",
+    "artist": "El Waili",
+    "album": "Sahby - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "El Donyah",
+    "artist": "El Waili",
+    "album": "El Donyah - Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Focus / Study"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Hadal Ahbek",
+    "artist": "Issam Alnajjar",
+    "album": "Baree?",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Mn Gheirik Enti",
+    "artist": "Issam Alnajjar",
+    "album": "Baree?",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Si Tu Savais",
+    "artist": "Issam Alnajjar",
+    "album": "Baree?",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Comfortably Numb",
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "genre": "Rock",
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "album": "Wish You Were Here - Single",
+    "genre": "Rock",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "Time",
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon",
+    "genre": "Rock",
+    "atmosphere": [
+      "Dark / Moody",
+      "Focus / Study"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Money",
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon",
+    "genre": "Rock",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Another Brick in the Wall, Pt. 2",
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "genre": "Rock",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Shine On You Crazy Diamond (Pts. 1-5)",
+    "artist": "Pink Floyd",
+    "album": "Wish You Were Here",
+    "genre": "Rock",
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin IV",
+    "genre": "Rock",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Focus / Study"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "Kashmir",
+    "artist": "Led Zeppelin",
+    "album": "Physical Graffiti",
+    "genre": "Rock",
+    "atmosphere": [
+      "Dark / Moody",
+      "Energetic / Hype"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Whole Lotta Love",
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin II",
+    "genre": "Rock",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Immigrant Song",
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin III",
+    "genre": "Rock",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Black Dog",
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin IV",
+    "genre": "Rock",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Clint Eastwood",
+    "artist": "Gorillaz",
+    "album": "Gorillaz",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "On Melancholy Hill",
+    "artist": "Gorillaz",
+    "album": "Plastic Beach",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "DARE",
+    "artist": "Gorillaz",
+    "album": "Demon Days",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Summertime Sadness",
+    "artist": "Lana Del Rey",
+    "album": "Born to Die",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "Video Games",
+    "artist": "Lana Del Rey",
+    "album": "Born to Die",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Romantic",
+      "Sad / Melancholic"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Born to Die",
+    "artist": "Lana Del Rey",
+    "album": "Born to Die - Single",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Dark / Moody",
+      "Sad / Melancholic"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Young and Beautiful",
+    "artist": "Lana Del Rey",
+    "album": "The Great Gatsby",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Romantic",
+      "Sad / Melancholic"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Doin' Time",
+    "artist": "Lana Del Rey",
+    "album": "Norman Fucking Rockwell!",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Norman Fucking Rockwell",
+    "artist": "Lana Del Rey",
+    "album": "Norman Fucking Rockwell!",
+    "genre": "Indie/Alternative",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "See You Again (feat. Kali Uchis)",
+    "artist": "Tyler, The Creator",
+    "album": "Flower Boy",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "EARFQUAKE",
+    "artist": "Tyler, The Creator",
+    "album": "IGOR",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "NEW MAGIC WAND",
+    "artist": "Tyler, The Creator",
+    "album": "IGOR",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "BEST INTEREST",
+    "artist": "Tyler, The Creator",
+    "album": "BEST INTEREST - Single",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "ARE WE STILL FRIENDS?",
+    "artist": "Tyler, The Creator",
+    "album": "IGOR",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Self Care",
+    "artist": "Mac Miller",
+    "album": "Swimming",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Dark / Moody"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Good News",
+    "artist": "Mac Miller",
+    "album": "Circles",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Come Back to Earth",
+    "artist": "Mac Miller",
+    "album": "Swimming",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Sad / Melancholic"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Blue World",
+    "artist": "Mac Miller",
+    "album": "Circles",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "2009",
+    "artist": "Mac Miller",
+    "album": "Swimming",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Focus / Study"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Kill Bill",
+    "artist": "SZA",
+    "album": "SOS",
+    "genre": "R&B/Soul",
+    "atmosphere": [
+      "Angry / Intense",
+      "Dark / Moody"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "Snooze",
+    "artist": "SZA",
+    "album": "SOS",
+    "genre": "R&B/Soul",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Good Days",
+    "artist": "SZA",
+    "album": "SOS",
+    "genre": "R&B/Soul",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "The Weekend",
+    "artist": "SZA",
+    "album": "Ctrl",
+    "genre": "R&B/Soul",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Nobody Gets Me",
+    "artist": "SZA",
+    "album": "SOS",
+    "genre": "R&B/Soul",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "FE!N (feat. Playboi Carti)",
+    "artist": "Travis Scott",
+    "album": "UTOPIA",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "MY EYES",
+    "artist": "Travis Scott",
+    "album": "UTOPIA",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Energetic / Hype"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Cruel Summer",
+    "artist": "Taylor Swift",
+    "album": "Lover",
+    "genre": "Pop",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 99
+  },
+  {
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "album": "Midnights",
+    "genre": "Pop",
+    "atmosphere": [
+      "Dark / Moody",
+      "Happy / Upbeat"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Cardigan",
+    "artist": "Taylor Swift",
+    "album": "folklore",
+    "genre": "Pop",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Style",
+    "artist": "Taylor Swift",
+    "album": "1989",
+    "genre": "Pop",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Middle Child",
+    "artist": "J. Cole",
+    "album": "Middle Child - Single",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Wet Dreamz",
+    "artist": "J. Cole",
+    "album": "2014 Forest Hills Drive",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "Power Trip (feat. Miguel)",
+    "artist": "J. Cole",
+    "album": "Born Sinner",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Romantic",
+      "Dark / Moody"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Stronger",
+    "artist": "Kanye West",
+    "album": "Graduation",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "album": "Graduation",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Dark / Moody"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "Heartless",
+    "artist": "Kanye West",
+    "album": "808s & Heartbreak",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 95
+  },
+  {
+    "title": "Runaway",
+    "artist": "Kanye West",
+    "album": "My Beautiful Dark Twisted Fantasy",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 97
+  },
+  {
+    "title": "Ghost Town",
+    "artist": "Kanye West",
+    "album": "ye",
+    "genre": "Hip-Hop/Rap",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 94
+  },
+  {
+    "title": "ocean eyes",
+    "artist": "Billie Eilish",
+    "album": "dont smile at me",
+    "genre": "Pop",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 96
+  },
+  {
+    "title": "lovely (feat. Khalid)",
+    "artist": "Billie Eilish",
+    "album": "lovely - Single",
+    "genre": "Pop",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 98
+  },
+  {
+    "title": "BIRDS OF A FEATHER",
+    "artist": "Billie Eilish",
+    "album": "HIT ME HARD AND SOFT",
+    "genre": "Pop",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 99
   }
 ]

@@ -502,10 +502,27 @@ body {
 .result-card__artist {
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-card__album {
+  font-size: 0.74rem;
+  color: rgba(221, 230, 99, 0.78);
   margin-bottom: var(--sp-2);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.result-card__album .album-icon {
+  font-size: 0.76rem;
+  opacity: 0.85;
 }
 
 .result-card__footer {

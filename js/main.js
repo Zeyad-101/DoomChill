@@ -549,6 +549,7 @@ window.DoomChill.renderMoodResults = function(songs, opts = {}) {
       <div class="result-card__content">
         <p class="result-card__title" title="${esc(song.title)}">${esc(song.title)}</p>
         <p class="result-card__artist">${esc(song.artist)}</p>
+        <p class="result-card__album" title="${esc(song.album)}"><span class="album-icon" aria-hidden="true">💽</span> ${esc(song.album)}</p>
         <div class="result-card__footer">
           <div class="result-card__meta">
             <span class="genre-tag">${esc(song.genre)}</span>
