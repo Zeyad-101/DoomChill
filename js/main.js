@@ -449,9 +449,20 @@ async function fetchArtwork(title, artist, genre = '') {
       }
     }
 
-    // 2. Search with title only
+    // 2. Search with artist + title (Egypt storefront fallback)
+    res = await fetch(`https://itunes.apple.com/search?term=${term}&country=EG&entity=song&limit=1`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data.resultCount > 0 && data.results[0].artworkUrl100) {
+        const artUrl = data.results[0].artworkUrl100.replace('100x100bb', '600x600bb');
+        ARTWORK_CACHE.set(cacheKey, artUrl);
+        return artUrl;
+      }
+    }
+
+    // 3. Search with title only
     const termTitle = encodeURIComponent(cleanTitle);
-    res = await fetch(`https://itunes.apple.com/search?term=${termTitle}&entity=song&limit=1`);
+    res = await fetch(`https://itunes.apple.com/search?term=${termTitle}&country=EG&entity=song&limit=1`);
     if (res.ok) {
       const data = await res.json();
       if (data.resultCount > 0 && data.results[0].artworkUrl100) {

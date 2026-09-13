@@ -169,6 +169,87 @@
         wikiSummary: 'Teardrop is an atmospheric song by English trip-hop group Massive Attack, featuring vocals by Elizabeth Fraser of Cocteau Twins. Released as the second single from Mezzanine.',
         image: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/98/55/0a98555b-8d9d-3b46-660a-b91261557d17/00724384559953.rgb.jpg/600x600bb.jpg'
       }
+    },
+    {
+      query: 'cairokee',
+      data: {
+        track: 'Basrah w Atooh',
+        artist: 'Cairokee',
+        genre: 'Egyptian Rock',
+        trackTier: 'Global Hit',
+        album: 'Roma',
+        albumTier: 'Global Hit',
+        listeners: 980000,
+        playcount: 18500000,
+        releaseYear: '2022',
+        duration: '3:57',
+        tags: ['rock', 'egyptian', 'indie', 'alternative'],
+        stats: { popularityPct: 94, listenersPct: 88, playcountPct: 89 },
+        funFacts: [
+          'Streaming Impact: The flagship single from the chart-topping album Roma with over 18 million plays.',
+          'Sonic Identity: An evocative blend of Amir Eid\'s raw emotive vocals, soaring electric guitars, and cinematic synth textures.',
+          'Cultural Legacy: Cairokee cemented their position as the undisputed kings of modern Egyptian alternative rock.'
+        ],
+        tracklist: ['Basrah w Atooh', 'Roma', 'James Dean', 'Costarika', 'Ya Abyad Ya Eswed'],
+        artistBio: 'Cairokee is an Egyptian rock band formed in 2003, widely celebrated for their socially conscious lyrics and boundary-pushing Arabic rock sound.',
+        artistListeners: 1500000,
+        wikiSummary: 'Basrah w Atooh is a hit alternative rock ballad by Egyptian band Cairokee from their 2022 studio album Roma.',
+        image: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b8/ec/a9/b8eca9ad-5c62-43bb-a320-eb416ad8c49e/196925574547.jpg/600x600bb.jpg'
+      }
+    },
+    {
+      query: 'fady shewaya',
+      data: {
+        track: 'Fady Shewaya',
+        artist: 'Hamza Namira',
+        genre: 'Arabic Folk',
+        trackTier: 'Global Hit',
+        album: 'Mawlood Sanat 80',
+        albumTier: 'Global Hit',
+        listeners: 1100000,
+        playcount: 22000000,
+        releaseYear: '2020',
+        duration: '3:50',
+        tags: ['folk', 'egyptian', 'acoustic', 'ballad'],
+        stats: { popularityPct: 95, listenersPct: 90, playcountPct: 92 },
+        funFacts: [
+          'Streaming Impact: A viral phenomenon across the Arab world with over 150 million YouTube views and 22M+ audio streams.',
+          'Sonic Identity: Warm acoustic nylon guitar, reflective accordion chords, and nostalgic lyrics touching upon loneliness and friendship.',
+          'Cultural Legacy: Reconnected millions with the warm, storytelling tradition of classic Egyptian acoustic ballads.'
+        ],
+        tracklist: ['Fady Shewaya', 'Mawlood Sanat 80', 'Est3yzo', 'Dari Ya Alby', 'Reyah El Hayah'],
+        artistBio: 'Hamza Namira is an Egyptian singer-songwriter and multi-instrumentalist acclaimed for blending traditional Arab folk with modern pop arrangements.',
+        artistListeners: 1800000,
+        wikiSummary: 'Fady Shewaya is a massive hit song by Egyptian artist Hamza Namira from his acclaimed 2020 album Mawlood Sanat 80.',
+        image: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/80/e7/81/80e781ea-725a-fc8a-2c63-4217157bc2b9/195919782522.jpg/600x600bb.jpg'
+      }
+    },
+    {
+      query: 'kifak inta',
+      data: {
+        track: 'Kifak Inta',
+        artist: 'Fairuz',
+        genre: 'Arabic Classic',
+        trackTier: 'Global Hit',
+        album: 'Kifak Inta',
+        albumTier: 'Global Hit',
+        listeners: 1450000,
+        playcount: 28000000,
+        releaseYear: '1991',
+        duration: '3:45',
+        tags: ['classic', 'lebanese', 'tarab', 'nostalgia'],
+        stats: { popularityPct: 96, listenersPct: 93, playcountPct: 91 },
+        funFacts: [
+          'Streaming Impact: One of the most cherished and recognizable Arabic melodies ever recorded.',
+          'Sonic Identity: Written and composed by Ziad Rahbani, seamlessly fusing classic jazz harmonies with Fairuz\'s ethereal vocals.',
+          'Cultural Legacy: A cross-generational masterpiece that redefined the modern Arab chanson.'
+        ],
+        tracklist: ['Kifak Inta', 'Le Beirut', 'Habaitak Bel Saif', 'Nassam Alayna El Hawa', 'Saalouni El Nas'],
+        artistBio: 'Fairuz is a Lebanese musical icon and one of the most celebrated and influential singers in the history of the Arab world.',
+        artistListeners: 2200000,
+        wikiSummary: 'Kifak Inta is a timeless masterpiece composed by Ziad Rahbani and sung by the legendary Fairuz, released in 1991.',
+        image: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/10/8d/e7/108de755-9ba4-6047-b847-5d2ee7674149/190295822363.jpg/600x600bb.jpg'
+      }
     }
   ];
 

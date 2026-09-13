@@ -108,25 +108,37 @@ async function lastfmFetch(params) {
 async function fetchItunesMetadata(track, artist) {
   try {
     const term = encodeURIComponent(`${artist || ''} ${track || ''}`.trim());
-    const res = await fetch(`https://itunes.apple.com/search?term=${term}&entity=song&limit=1`);
-    if (res.ok) {
-      const data = await res.json();
-      if (data.results && data.results.length > 0) {
-        const item = data.results[0];
-        const art = item.artworkUrl100 ? item.artworkUrl100.replace('100x100bb', '600x600bb') : null;
-        const year = item.releaseDate ? item.releaseDate.slice(0, 4) : null;
-        return {
-          image: art,
-          releaseYear: year,
-          audioPreview: item.previewUrl || null,
-          itunesUrl: item.trackViewUrl || null,
-          durationMs: item.trackTimeMillis || 0,
-          collectionName: item.collectionName || null,
-          primaryGenre: item.primaryGenreName || null,
-          artistName: item.artistName || null,
-          trackName: item.trackName || null
-        };
-      }
+    let res = await fetch(`https://itunes.apple.com/search?term=${term}&entity=song&limit=1`);
+    let data = res.ok ? await res.json() : null;
+
+    // Fallback 1: Try with country=EG (Egypt storefront)
+    if (!data || !data.results || data.results.length === 0) {
+      res = await fetch(`https://itunes.apple.com/search?term=${term}&country=EG&entity=song&limit=1`);
+      if (res.ok) data = await res.json();
+    }
+
+    // Fallback 2: Try title only with country=EG
+    if (!data || !data.results || data.results.length === 0) {
+      const termTitle = encodeURIComponent((track || '').trim());
+      res = await fetch(`https://itunes.apple.com/search?term=${termTitle}&country=EG&entity=song&limit=1`);
+      if (res.ok) data = await res.json();
+    }
+
+    if (data && data.results && data.results.length > 0) {
+      const item = data.results[0];
+      const art = item.artworkUrl100 ? item.artworkUrl100.replace('100x100bb', '600x600bb') : null;
+      const year = item.releaseDate ? item.releaseDate.slice(0, 4) : null;
+      return {
+        image: art,
+        releaseYear: year,
+        audioPreview: item.previewUrl || null,
+        itunesUrl: item.trackViewUrl || null,
+        durationMs: item.trackTimeMillis || 0,
+        collectionName: item.collectionName || null,
+        primaryGenre: item.primaryGenreName || null,
+        artistName: item.artistName || null,
+        trackName: item.trackName || null
+      };
     }
   } catch (err) {
     // Non-fatal
@@ -136,7 +148,21 @@ async function fetchItunesMetadata(track, artist) {
 
 // ── Wikipedia Artist Portrait & Bio ───────────────────────────────────────────
 async function fetchWikipediaArtist(artist, fallbackQuery) {
-  const names = [artist, fallbackQuery].filter(Boolean);
+  const rawNames = [artist, fallbackQuery].filter(Boolean);
+  const names = [];
+  for (const n of rawNames) {
+    if (!names.includes(n)) names.push(n);
+    const var1 = n.replace(/Hussein/gi, 'Hussain');
+    if (!names.includes(var1)) names.push(var1);
+    const var2 = n.replace(/Hussain/gi, 'Hussein');
+    if (!names.includes(var2)) names.push(var2);
+    const var3 = n.replace(/Fairouz/gi, 'Fairuz');
+    if (!names.includes(var3)) names.push(var3);
+    const var4 = n.replace(/Fairuz/gi, 'Fairouz');
+    if (!names.includes(var4)) names.push(var4);
+    const var5 = n.replace(/Mohamed/gi, 'Mohammed');
+    if (!names.includes(var5)) names.push(var5);
+  }
   for (const name of names) {
     const trimmed = name.trim();
     if (!trimmed) continue;

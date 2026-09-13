@@ -130,17 +130,6 @@
     "popularity": 77
   },
   {
-    "title": "Ezz El Arab",
-    "artist": "Wegz",
-    "album": "FIFA World Cup Qatar 2022",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 89
-  },
-  {
     "title": "Nikita",
     "artist": "Elton John",
     "album": "Ice On Fire",
@@ -241,17 +230,6 @@
       "Energetic / Hype"
     ],
     "popularity": 65
-  },
-  {
-    "title": "Shukran Men Hena Lebokra",
-    "artist": "Amr Diab",
-    "album": "Single",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Romantic"
-    ],
-    "popularity": 85
   },
   {
     "title": "Knockin' On Heaven's Door",
@@ -532,17 +510,6 @@
     "popularity": 84
   },
   {
-    "title": "Amarain",
-    "artist": "Amr Diab",
-    "album": "Amarain",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 85
-  },
-  {
     "title": "God's Plan",
     "artist": "Drake",
     "album": "Scorpion",
@@ -606,17 +573,6 @@
     "popularity": 76
   },
   {
-    "title": "Boshret Kheir",
-    "artist": "Hussein Al Jassmi",
-    "album": "Boshret Kheir",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Happy / Upbeat"
-    ],
-    "popularity": 93
-  },
-  {
     "title": "Running Up That Hill (A Deal With God) - 2018 Remaster",
     "artist": "Kate Bush",
     "album": "Hounds of Love (2018 Remaster)",
@@ -625,17 +581,6 @@
       "Neutral"
     ],
     "popularity": 85
-  },
-  {
-    "title": "Wahed W Eshreen (21)",
-    "artist": "Wegz",
-    "album": "21",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Dark / Moody"
-    ],
-    "popularity": 86
   },
   {
     "title": "My Own Summer (Shove It)",
@@ -739,17 +684,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 83
-  },
-  {
-    "title": "Fi Youm We Leila",
-    "artist": "Warda",
-    "album": "Fi Youm We Leila",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 86
   },
   {
     "title": "Sommarvals",
@@ -857,17 +791,6 @@
     "popularity": 74
   },
   {
-    "title": "Salini",
-    "artist": "Wegz",
-    "album": "Salini",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 85
-  },
-  {
     "title": "The Sound of Silence - Acoustic Version",
     "artist": "Simon & Garfunkel",
     "album": "Wednesday Morning, 3 A.M.",
@@ -929,16 +852,6 @@
       "Romantic"
     ],
     "popularity": 57
-  },
-  {
-    "title": "Inta Eyh",
-    "artist": "Nancy Ajram",
-    "album": "Ah W Noss",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 87
   },
   {
     "title": "I'm Good (Blue)",
@@ -1198,17 +1111,6 @@
     "popularity": 71
   },
   {
-    "title": "Sallimleh Aleyh",
-    "artist": "Fairouz",
-    "album": "Wahdoun",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 89
-  },
-  {
     "title": "Stan",
     "artist": "Eminem, Dido",
     "album": "The Marshall Mathers LP",
@@ -1382,17 +1284,6 @@
     "popularity": 74
   },
   {
-    "title": "Kan Lak Ma'aya",
-    "artist": "Cairokee",
-    "album": "Abnaa El Batta El Soda",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 89
-  },
-  {
     "title": "Nookie",
     "artist": "Limp Bizkit",
     "album": "Significant Other",
@@ -1496,17 +1387,6 @@
     "popularity": 83
   },
   {
-    "title": "Moftaqed El Habiba",
-    "artist": "Sharmoofers",
-    "album": "Enfesam",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 85
-  },
-  {
     "title": "Black Out Days",
     "artist": "Phantogram",
     "album": "Voices",
@@ -1608,17 +1488,6 @@
     "popularity": 73
   },
   {
-    "title": "Samurai",
-    "artist": "Cairokee",
-    "album": "Roma",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Dark / Moody",
-      "Angry / Intense"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Heather",
     "artist": "Conan Gray",
     "album": "Kid Krow",
@@ -1637,17 +1506,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 84
-  },
-  {
-    "title": "Nehayat El Hekayat",
-    "artist": "Massar Egbari",
-    "album": "El Alb El Tayeb",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 85
   },
   {
     "title": "Saturno",
@@ -1689,16 +1547,6 @@
       "Romantic"
     ],
     "popularity": 81
-  },
-  {
-    "title": "Garh Tany",
-    "artist": "Sherine",
-    "album": "Garh Tany",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 84
   },
   {
     "title": "How You Remind Me",
@@ -1821,17 +1669,6 @@
       "Neutral"
     ],
     "popularity": 31
-  },
-  {
-    "title": "Ya Mali Ainy",
-    "artist": "Tamer Hosny",
-    "album": "Oamry Ebtada",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 85
   },
   {
     "title": "Ghost",
@@ -2009,17 +1846,6 @@
     "popularity": 68
   },
   {
-    "title": "Bazat",
-    "artist": "Wegz",
-    "album": "Bazat",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Chill / Relaxed"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "skeletons",
     "artist": "keshi",
     "album": "skeletons",
@@ -2099,16 +1925,6 @@
       "Angry / Intense"
     ],
     "popularity": 76
-  },
-  {
-    "title": "Arosty",
-    "artist": "Sharmoofers",
-    "album": "Enfesam",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat"
-    ],
-    "popularity": 84
   },
   {
     "title": "Sunsetz",
@@ -2376,28 +2192,6 @@
     "popularity": 83
   },
   {
-    "title": "El Bakht",
-    "artist": "Wegz",
-    "album": "El Bakht",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 93
-  },
-  {
-    "title": "Khalik Ma'aya",
-    "artist": "Amr Diab",
-    "album": "Allem Alby",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 83
-  },
-  {
     "title": "Feliz Cumpleaños Ferxxo",
     "artist": "Feid",
     "album": "FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM",
@@ -2481,17 +2275,6 @@
     "popularity": 81
   },
   {
-    "title": "Ah Ya Leil",
-    "artist": "Sherine",
-    "album": "Free Music 3",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Happy / Upbeat"
-    ],
-    "popularity": 87
-  },
-  {
     "title": "Wherever I Go",
     "artist": "OneRepublic",
     "album": "Oh My My (Deluxe)",
@@ -2500,17 +2283,6 @@
       "Dark / Moody"
     ],
     "popularity": 70
-  },
-  {
-    "title": "To'a We T'oom",
-    "artist": "Massar Egbari",
-    "album": "Toqa We T'oom",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Chill / Relaxed"
-    ],
-    "popularity": 84
   },
   {
     "title": "Sweet",
@@ -2675,17 +2447,6 @@
     "popularity": 77
   },
   {
-    "title": "Ya Sattar",
-    "artist": "Mohamed Hamaki",
-    "album": "Koll Youm Men Dah",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Romantic"
-    ],
-    "popularity": 87
-  },
-  {
     "title": "Spellbound",
     "artist": "Siouxsie and the Banshees",
     "album": "Juju",
@@ -2715,17 +2476,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 74
-  },
-  {
-    "title": "Tesla",
-    "artist": "Marwan Moussa",
-    "album": "Florida Dark",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 87
   },
   {
     "title": "Desencuentro",
@@ -2767,17 +2517,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 76
-  },
-  {
-    "title": "Nour Einy",
-    "artist": "Tamer Hosny",
-    "album": "Ikhtart Sah",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 83
   },
   {
     "title": "Malena (with Orquesta Tipica Porteña)",
@@ -2975,17 +2714,6 @@
     "popularity": 78
   },
   {
-    "title": "Dinosaur",
-    "artist": "Cairokee",
-    "album": "No'ta Beida",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Angry / Intense",
-      "Dark / Moody"
-    ],
-    "popularity": 84
-  },
-  {
     "title": "Jimmy Cooks (feat. 21 Savage)",
     "artist": "Drake, 21 Savage",
     "album": "Honestly, Nevermind",
@@ -3004,17 +2732,6 @@
       "Angry / Intense"
     ],
     "popularity": 55
-  },
-  {
-    "title": "Salek",
-    "artist": "Hassan Shakosh, Wegz",
-    "album": "Salek",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 88
   },
   {
     "title": "Otherwise",
@@ -3231,17 +2948,6 @@
     "popularity": 87
   },
   {
-    "title": "Oud El Batal",
-    "artist": "Hassan Shakosh, Omar Kamal",
-    "album": "Oud El Batal",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "Saturday Night’s Alright (For Fighting) - Remastered 2014",
     "artist": "Elton John",
     "album": "Goodbye Yellow Brick Road (Remastered)",
@@ -3399,17 +3105,6 @@
     "popularity": 73
   },
   {
-    "title": "El Leila Ya Samra",
-    "artist": "Mohamed Mounir",
-    "album": "Etkallemy",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Get It On",
     "artist": "T. Rex",
     "album": "Electric Warrior",
@@ -3451,17 +3146,6 @@
     "popularity": 71
   },
   {
-    "title": "El Youm El Helw Dah",
-    "artist": "Ahmed Saad",
-    "album": "Am El Gholam",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "Muerte En Hawaii",
     "artist": "Calle 13",
     "album": "Entren Los Que Quieran",
@@ -3470,17 +3154,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 71
-  },
-  {
-    "title": "Akhasmak Ah",
-    "artist": "Nancy Ajram",
-    "album": "Ya Salam",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 89
   },
   {
     "title": "Atlantis",
@@ -3502,17 +3175,6 @@
       "Focus / Study"
     ],
     "popularity": 71
-  },
-  {
-    "title": "Rayeh Fen",
-    "artist": "Hamza Namira",
-    "album": "Rayeh Fen",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Focus / Study"
-    ],
-    "popularity": 82
   },
   {
     "title": "Flor Pálida",
@@ -3585,17 +3247,6 @@
     "popularity": 72
   },
   {
-    "title": "Kol Haga Bet'addy",
-    "artist": "Cairokee",
-    "album": "Nas We Nas",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Happy / Upbeat"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Amaranthine",
     "artist": "Amaranthe",
     "album": "Amaranthe (Special Edition)",
@@ -3604,17 +3255,6 @@
       "Angry / Intense"
     ],
     "popularity": 54
-  },
-  {
-    "title": "Qariat El Fengan",
-    "artist": "Abdel Halim Hafez",
-    "album": "Qariat El Fengan",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Dark / Moody",
-      "Sad / Melancholic"
-    ],
-    "popularity": 89
   },
   {
     "title": "To Leave",
@@ -3915,17 +3555,6 @@
     "popularity": 86
   },
   {
-    "title": "Rayqa",
-    "artist": "Amr Diab",
-    "album": "Ayeshny",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Chill / Relaxed"
-    ],
-    "popularity": 84
-  },
-  {
     "title": "Candle In The Wind - Remastered 2014",
     "artist": "Elton John",
     "album": "Goodbye Yellow Brick Road (Remastered)",
@@ -4120,28 +3749,6 @@
     "popularity": 83
   },
   {
-    "title": "Tamally Ma'ak",
-    "artist": "Amr Diab",
-    "album": "Tamally Ma'ak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 92
-  },
-  {
-    "title": "Ah W Noss",
-    "artist": "Nancy Ajram",
-    "album": "Ah W Noss",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Love Song",
     "artist": "Sara Bareilles",
     "album": "Little Voice",
@@ -4193,17 +3800,6 @@
     "popularity": 84
   },
   {
-    "title": "Basrah W Atoh",
-    "artist": "Cairokee",
-    "album": "Roma",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 87
-  },
-  {
     "title": "Happier Than Ever - Edit",
     "artist": "Billie Eilish",
     "album": "Happier Than Ever (Edit)",
@@ -4243,17 +3839,6 @@
       "Dark / Moody"
     ],
     "popularity": 56
-  },
-  {
-    "title": "Marboot Be Astek",
-    "artist": "Cairokee",
-    "album": "Nas We Nas",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 86
   },
   {
     "title": "Tusa",
@@ -4367,17 +3952,6 @@
       "Energetic / Hype"
     ],
     "popularity": 60
-  },
-  {
-    "title": "Asyad El Soot",
-    "artist": "Wegz",
-    "album": "Asyad El Soot",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Angry / Intense",
-      "Energetic / Hype"
-    ],
-    "popularity": 87
   },
   {
     "title": "Behind Blue Eyes",
@@ -4702,17 +4276,6 @@
     "popularity": 82
   },
   {
-    "title": "Aa Bali Habibi",
-    "artist": "Elissa",
-    "album": "Tsadaq Bmein",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 89
-  },
-  {
     "title": "The Winner Takes It All",
     "artist": "ABBA",
     "album": "Super Trouper",
@@ -4721,17 +4284,6 @@
       "Energetic / Hype"
     ],
     "popularity": 75
-  },
-  {
-    "title": "Bent El Geran",
-    "artist": "Hassan Shakosh, Omar Kamal",
-    "album": "Bent El Geran",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 92
   },
   {
     "title": "All The Right Moves",
@@ -4930,17 +4482,6 @@
     "popularity": 90
   },
   {
-    "title": "Ahla Haga Feeki",
-    "artist": "Mohamed Hamaki",
-    "album": "Kheles El Kalam",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 86
-  },
-  {
     "title": "After LIKE",
     "artist": "IVE",
     "album": "After LIKE",
@@ -5132,17 +4673,6 @@
     "popularity": 81
   },
   {
-    "title": "Zay Manty",
-    "artist": "Amr Diab",
-    "album": "Sahran",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 83
-  },
-  {
     "title": "The Next Episode",
     "artist": "Dr. Dre, Snoop Dogg",
     "album": "2001",
@@ -5266,17 +4796,6 @@
     "popularity": 79
   },
   {
-    "title": "Keifiy Keda",
-    "artist": "Wegz, Disco Misr",
-    "album": "Keifiy Keda",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Happy / Upbeat"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "Losing My Religion",
     "artist": "R.E.M.",
     "album": "Out Of Time (25th Anniversary Edition)",
@@ -5317,17 +4836,6 @@
       "Neutral"
     ],
     "popularity": 53
-  },
-  {
-    "title": "5 Santy",
-    "artist": "Sharmoofers",
-    "album": "Do You Speak Sharmoofers",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 86
   },
   {
     "title": "Blue Train",
@@ -5422,17 +4930,6 @@
     "popularity": 51
   },
   {
-    "title": "Free",
-    "artist": "Marwan Pablo",
-    "album": "Free",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Happy / Upbeat"
-    ],
-    "popularity": 85
-  },
-  {
     "title": "Guerrilla Radio",
     "artist": "Rage Against The Machine",
     "album": "The Battle Of Los Angeles",
@@ -5461,17 +4958,6 @@
       "Neutral"
     ],
     "popularity": 73
-  },
-  {
-    "title": "We Malo",
-    "artist": "Amr Diab",
-    "album": "Kammel Kalamak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 88
   },
   {
     "title": "Wasted On You",
@@ -5545,17 +5031,6 @@
     "popularity": 82
   },
   {
-    "title": "Enta Omri",
-    "artist": "Umm Kulthum",
-    "album": "Enta Omri",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "Good Time",
     "artist": "Alan Jackson",
     "album": "Good Time",
@@ -5605,17 +5080,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 83
-  },
-  {
-    "title": "Betmoun",
-    "artist": "Elissa",
-    "album": "Ayami Beek",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 87
   },
   {
     "title": "Without Me",
@@ -5842,17 +5306,6 @@
     "popularity": 81
   },
   {
-    "title": "Bel Bont El Areed",
-    "artist": "Hussein Al Jassmi",
-    "album": "Bel Bont El Areed",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 92
-  },
-  {
     "title": "Hex",
     "artist": "80purppp",
     "album": "Hex",
@@ -5895,17 +5348,6 @@
     "popularity": 74
   },
   {
-    "title": "Siret El Hob",
-    "artist": "Umm Kulthum",
-    "album": "Siret El Hob",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Sad / Melancholic"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Black Out Days - Future Islands Remix (Slowed)",
     "artist": "Phantogram, xxtristanxo, Slowed Radio",
     "album": "Black Out Days [Future Islands Remix (Slowed)]",
@@ -5926,17 +5368,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 83
-  },
-  {
-    "title": "Wayah",
-    "artist": "Amr Diab",
-    "album": "Wayah",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 86
   },
   {
     "title": "Naranjo en Flor (En Directo)",
@@ -6183,27 +5614,6 @@
       "Focus / Study"
     ],
     "popularity": 70
-  },
-  {
-    "title": "Elli Ba'ana",
-    "artist": "Ragheb Alama",
-    "album": "Elli Ba'ana",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 88
-  },
-  {
-    "title": "Erga'ly",
-    "artist": "Tamer Hosny",
-    "album": "Hob",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 84
   },
   {
     "title": "Let Me Love You",
@@ -6510,17 +5920,6 @@
     "popularity": 72
   },
   {
-    "title": "Barbary",
-    "artist": "Marwan Pablo",
-    "album": "Barbary",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Angry / Intense",
-      "Energetic / Hype"
-    ],
-    "popularity": 87
-  },
-  {
     "title": "Thank God",
     "artist": "Kane Brown, Katelyn Brown",
     "album": "Different Man",
@@ -6542,17 +5941,6 @@
     "popularity": 76
   },
   {
-    "title": "La Malama",
-    "artist": "Mohamed Hamaki",
-    "album": "Ya Fatenny",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 84
-  },
-  {
     "title": "Little Dark Age",
     "artist": "MGMT",
     "album": "Little Dark Age",
@@ -6571,17 +5959,6 @@
       "Neutral"
     ],
     "popularity": 79
-  },
-  {
-    "title": "Gana El Hawa",
-    "artist": "Abdel Halim Hafez",
-    "album": "Abi Foq El Shagara",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Romantic"
-    ],
-    "popularity": 88
   },
   {
     "title": "Nuvole Bianche",
@@ -6656,17 +6033,6 @@
     "popularity": 83
   },
   {
-    "title": "Kifak Inta",
-    "artist": "Fairouz",
-    "album": "Kifak Inta",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 91
-  },
-  {
     "title": "All Summer Long",
     "artist": "Kid Rock",
     "album": "Rock n Roll Jesus",
@@ -6675,17 +6041,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 73
-  },
-  {
-    "title": "Batal 3alam",
-    "artist": "Marwan Moussa",
-    "album": "Bel Salama",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Angry / Intense",
-      "Energetic / Hype"
-    ],
-    "popularity": 86
   },
   {
     "title": "Daylight",
@@ -6844,17 +6199,6 @@
     "popularity": 37
   },
   {
-    "title": "Msh Hnsak",
-    "artist": "Abyusif",
-    "album": "Msh Hnsak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Dark / Moody"
-    ],
-    "popularity": 84
-  },
-  {
     "title": "Hive Mind",
     "artist": "Slipknot",
     "album": "The End, So Far",
@@ -6893,17 +6237,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 71
-  },
-  {
-    "title": "Nassam Alayna El Hawa",
-    "artist": "Fairouz",
-    "album": "Bi Kroum El Qasab",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 92
   },
   {
     "title": "La Cumparsita",
@@ -7112,17 +6445,6 @@
     "popularity": 71
   },
   {
-    "title": "Ghabet",
-    "artist": "Marwan Pablo",
-    "album": "CTRL",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Dark / Moody",
-      "Chill / Relaxed"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "You Give Love A Bad Name",
     "artist": "Bon Jovi",
     "album": "Slippery When Wet",
@@ -7185,17 +6507,6 @@
     "popularity": 51
   },
   {
-    "title": "Naseeny Leih",
-    "artist": "Tamer Hosny",
-    "album": "Eish Besho'ak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 89
-  },
-  {
     "title": "Californication",
     "artist": "Red Hot Chili Peppers",
     "album": "Californication (Deluxe Edition)",
@@ -7215,17 +6526,6 @@
       "Focus / Study"
     ],
     "popularity": 74
-  },
-  {
-    "title": "Ta'ala Adalla'ak",
-    "artist": "Bahaa Sultan",
-    "album": "Segara",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Romantic"
-    ],
-    "popularity": 90
   },
   {
     "title": "Yo No Soy Celoso",
@@ -7248,17 +6548,6 @@
     "popularity": 63
   },
   {
-    "title": "Ahwak",
-    "artist": "Abdel Halim Hafez",
-    "album": "Banat El Youm",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "Saturday Sun",
     "artist": "Vance Joy",
     "album": "Nation of Two",
@@ -7277,17 +6566,6 @@
       "Neutral"
     ],
     "popularity": 90
-  },
-  {
-    "title": "El Gemeza",
-    "artist": "Marwan Pablo",
-    "album": "El Gemeza",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Angry / Intense"
-    ],
-    "popularity": 89
   },
   {
     "title": "Today",
@@ -7351,17 +6629,6 @@
     "popularity": 86
   },
   {
-    "title": "Sayrena Ya Donia",
-    "artist": "Ahmed Saad",
-    "album": "For Elem El Ghab",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 91
-  },
-  {
     "title": "Spit It Out",
     "artist": "Slipknot",
     "album": "Slipknot (10th Anniversary Edition)",
@@ -7411,17 +6678,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 87
-  },
-  {
-    "title": "Albak Ya Hawl Allah",
-    "artist": "Bahaa Sultan",
-    "album": "Yalli Bayaa",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Dark / Moody"
-    ],
-    "popularity": 84
   },
   {
     "title": "Mood (feat. iann dior)",
@@ -8105,16 +7361,6 @@
     "popularity": 92
   },
   {
-    "title": "Keda Ya Albi",
-    "artist": "Sherine",
-    "album": "Taree'i",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Tití Me Preguntó",
     "artist": "Bad Bunny",
     "album": "Un Verano Sin Ti",
@@ -8123,28 +7369,6 @@
       "Angry / Intense"
     ],
     "popularity": 97
-  },
-  {
-    "title": "Mawlood Sanat 80",
-    "artist": "Hamza Namira",
-    "album": "Mawlood Sanat 80",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Happy / Upbeat"
-    ],
-    "popularity": 86
-  },
-  {
-    "title": "Ya Abyad Ya Eswad",
-    "artist": "Cairokee",
-    "album": "Abnaa El Batta El Soda",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Dark / Moody",
-      "Sad / Melancholic"
-    ],
-    "popularity": 91
   },
   {
     "title": "Faster",
@@ -8165,17 +7389,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 78
-  },
-  {
-    "title": "Sheta",
-    "artist": "Mohamed Mounir",
-    "album": "Sheta",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 85
   },
   {
     "title": "Running Up That Hill (A Deal With God)",
@@ -8781,17 +7994,6 @@
     "popularity": 39
   },
   {
-    "title": "Helw El Makan",
-    "artist": "Tamer Hosny",
-    "album": "El Feloos",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 86
-  },
-  {
     "title": "All of Me",
     "artist": "John Legend",
     "album": "Love In The Future (Expanded Edition)",
@@ -8823,17 +8025,6 @@
     "popularity": 61
   },
   {
-    "title": "Sheraton",
-    "artist": "Marwan Moussa",
-    "album": "Florida",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Happy / Upbeat"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Normal",
     "artist": "Feid",
     "album": "Normal",
@@ -8842,17 +8033,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 85
-  },
-  {
-    "title": "Ba'eed Anak",
-    "artist": "Umm Kulthum",
-    "album": "Ba'eed Anak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 87
   },
   {
     "title": "Numb",
@@ -9269,17 +8449,6 @@
     "popularity": 76
   },
   {
-    "title": "Zay El Hawa",
-    "artist": "Abdel Halim Hafez",
-    "album": "Zay El Hawa",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Happy / Upbeat"
-    ],
-    "popularity": 86
-  },
-  {
     "title": "jealousy (feat. rema)",
     "artist": "FKA twigs, Rema",
     "album": "CAPRISONGS",
@@ -9405,17 +8574,6 @@
     "popularity": 96
   },
   {
-    "title": "Ana Gheir",
-    "artist": "Amr Diab",
-    "album": "Ana Gheir",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Romantic"
-    ],
-    "popularity": 82
-  },
-  {
     "title": "Closer",
     "artist": "The Chainsmokers, Halsey",
     "album": "Closer",
@@ -9455,17 +8613,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 76
-  },
-  {
-    "title": "Sabry Aleel",
-    "artist": "Sherine",
-    "album": "Lazem Ayesh",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 88
   },
   {
     "title": "Heaven's a Lie",
@@ -9518,17 +8665,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 66
-  },
-  {
-    "title": "Habaytak Bi Sayf",
-    "artist": "Fairouz",
-    "album": "Sahret Hob",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 90
   },
   {
     "title": "Butter",
@@ -9614,17 +8750,6 @@
     "popularity": 81
   },
   {
-    "title": "Ya Ana Ya La",
-    "artist": "Amr Diab",
-    "album": "Ya Ana Ya La",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 84
-  },
-  {
     "title": "Pink Matter",
     "artist": "Frank Ocean, André 3000",
     "album": "channel ORANGE",
@@ -9665,17 +8790,6 @@
     "popularity": 74
   },
   {
-    "title": "Eishk El Banat",
-    "artist": "Mohamed Mounir",
-    "album": "Fi Eshq El Banat",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 83
-  },
-  {
     "title": "Sweet Dreams (Are Made of This) - Remastered",
     "artist": "Eurythmics, Annie Lennox, Dave Stewart",
     "album": "Sweet Dreams (Are Made Of This)",
@@ -9694,17 +8808,6 @@
       "Angry / Intense"
     ],
     "popularity": 86
-  },
-  {
-    "title": "Bayen Habeit",
-    "artist": "Amr Diab, Marshmello",
-    "album": "Kol Hayaty",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Chill / Relaxed"
-    ],
-    "popularity": 88
   },
   {
     "title": "Shouldn't Be",
@@ -10012,17 +9115,6 @@
       "Neutral"
     ],
     "popularity": 87
-  },
-  {
-    "title": "Batwanes Beek",
-    "artist": "Warda",
-    "album": "Batwanes Beek",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 91
   },
   {
     "title": "Rome Wasn't Built in a Day",
@@ -10454,17 +9546,6 @@
     "popularity": 83
   },
   {
-    "title": "Ma Balash",
-    "artist": "Mohamed Hamaki",
-    "album": "Omrena Ma Nergaa",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "Basket Case",
     "artist": "Green Day",
     "album": "Dookie",
@@ -10483,17 +9564,6 @@
       "Dark / Moody"
     ],
     "popularity": 71
-  },
-  {
-    "title": "Nefsy Ab'a Gambo",
-    "artist": "Mohamed Hamaki",
-    "album": "Mn Alby Baghny",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Romantic"
-    ],
-    "popularity": 85
   },
   {
     "title": "Need You Now",
@@ -10681,17 +9751,6 @@
     "popularity": 74
   },
   {
-    "title": "Ouyoun El Alb",
-    "artist": "Bahaa Sultan",
-    "album": "Kan Zaman",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 86
-  },
-  {
     "title": "Venom",
     "artist": "Icon For Hire",
     "album": "Amorphous (Extended Edition)",
@@ -10753,17 +9812,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 71
-  },
-  {
-    "title": "Kolly Melkak",
-    "artist": "Sherine",
-    "album": "Ana Keteer",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 89
   },
   {
     "title": "Night Changes",
@@ -10961,16 +10009,6 @@
     "popularity": 69
   },
   {
-    "title": "So Ya So",
-    "artist": "Mohamed Mounir",
-    "album": "Meshtaqeen",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat"
-    ],
-    "popularity": 82
-  },
-  {
     "title": "Better Than Me",
     "artist": "The Brobecks",
     "album": "Violent Things",
@@ -11034,38 +10072,6 @@
     "popularity": 81
   },
   {
-    "title": "Masha'er",
-    "artist": "Sherine",
-    "album": "Masha'er",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 91
-  },
-  {
-    "title": "Harramt Ahebbak",
-    "artist": "Warda",
-    "album": "Harramt Ahebbak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Romantic"
-    ],
-    "popularity": 88
-  },
-  {
-    "title": "Ana Ghalat",
-    "artist": "Bahaa Sultan",
-    "album": "Segara",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 87
-  },
-  {
     "title": "Prohibidox",
     "artist": "Feid",
     "album": "FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM",
@@ -11117,16 +10123,6 @@
     "popularity": 87
   },
   {
-    "title": "Etnaset",
-    "artist": "Muslim",
-    "album": "Arousty",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "All I Want",
     "artist": "Kodaline",
     "album": "In A Perfect World (Expanded Edition)",
@@ -11176,28 +10172,6 @@
       "Neutral"
     ],
     "popularity": 73
-  },
-  {
-    "title": "Shamandora",
-    "artist": "Mohamed Mounir",
-    "album": "Fi Eshq El Banat",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Romantic"
-    ],
-    "popularity": 84
-  },
-  {
-    "title": "Layla",
-    "artist": "Cairokee",
-    "album": "No'ta Beida",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 87
   },
   {
     "title": "Godzilla (feat. Juice WRLD)",
@@ -11363,17 +10337,6 @@
     "genre": "Pop",
     "atmosphere": [
       "Neutral"
-    ],
-    "popularity": 85
-  },
-  {
-    "title": "Hobbo Ganna",
-    "artist": "Sherine",
-    "album": "Nassay",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
     ],
     "popularity": 85
   },
@@ -11596,17 +10559,6 @@
     "popularity": 80
   },
   {
-    "title": "Qusad Einy",
-    "artist": "Amr Diab",
-    "album": "Leily Nahary",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Sad / Melancholic"
-    ],
-    "popularity": 87
-  },
-  {
     "title": "When You're Gone",
     "artist": "Shawn Mendes",
     "album": "When You're Gone",
@@ -11721,17 +10673,6 @@
     "popularity": 68
   },
   {
-    "title": "Ana La Habibi",
-    "artist": "Fairouz",
-    "album": "Fairouz Classics",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "6 Underground",
     "artist": "Sneaker Pimps",
     "album": "Becoming X",
@@ -11836,17 +10777,6 @@
       "Dark / Moody"
     ],
     "popularity": 71
-  },
-  {
-    "title": "Basha E3temed",
-    "artist": "Abyusif, Abo El Anwar",
-    "album": "Basha E3temed",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Angry / Intense",
-      "Energetic / Hype"
-    ],
-    "popularity": 86
   },
   {
     "title": "Hell Is Round The Corner",
@@ -11980,17 +10910,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 83
-  },
-  {
-    "title": "Matkhafsh Men Bokra",
-    "artist": "Cairokee",
-    "album": "Matkhafsh Men Bokra",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Focus / Study"
-    ],
-    "popularity": 82
   },
   {
     "title": "Centerfold",
@@ -12207,17 +11126,6 @@
     "popularity": 66
   },
   {
-    "title": "Wasa' Wasa'",
-    "artist": "Ahmed Saad",
-    "album": "Wasa' Wasa'",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Happy / Upbeat"
-    ],
-    "popularity": 89
-  },
-  {
     "title": "Something Just Like This",
     "artist": "The Chainsmokers, Coldplay",
     "album": "Memories...Do Not Open",
@@ -12319,17 +11227,6 @@
       "Angry / Intense"
     ],
     "popularity": 69
-  },
-  {
-    "title": "Taheya",
-    "artist": "Abyusif",
-    "album": "Taheya",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Angry / Intense"
-    ],
-    "popularity": 83
   },
   {
     "title": "Somebody Like That",
@@ -12568,17 +11465,6 @@
     "popularity": 69
   },
   {
-    "title": "Kanet Hatefreq",
-    "artist": "Massar Egbari",
-    "album": "Kanet Hatefreq",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 83
-  },
-  {
     "title": "Mississippi Queen",
     "artist": "Mountain",
     "album": "Climbing!",
@@ -12587,17 +11473,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 71
-  },
-  {
-    "title": "Alf Leila Wa Leila",
-    "artist": "Umm Kulthum",
-    "album": "Alf Leila Wa Leila",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 91
   },
   {
     "title": "Gasoline",
@@ -12700,17 +11575,6 @@
       "Sad / Melancholic"
     ],
     "popularity": 80
-  },
-  {
-    "title": "Serena",
-    "artist": "Enba, Muslim",
-    "album": "Serena",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Angry / Intense"
-    ],
-    "popularity": 87
   },
   {
     "title": "Over My Head (Cable Car)",
@@ -12949,17 +11813,6 @@
     "popularity": 87
   },
   {
-    "title": "Nour El Ein",
-    "artist": "Amr Diab",
-    "album": "Nour El Ein",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Energetic / Hype",
-      "Happy / Upbeat"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "A Little Bit Off",
     "artist": "Five Finger Death Punch",
     "album": "F8",
@@ -12978,16 +11831,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 81
-  },
-  {
-    "title": "Dari Ya Alby",
-    "artist": "Hamza Namira",
-    "album": "Hateer Min Tany",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 91
   },
   {
     "title": "Forty Six & 2",
@@ -13103,17 +11946,6 @@
     "popularity": 73
   },
   {
-    "title": "Alo",
-    "artist": "Marwan Moussa, Afroto",
-    "album": "Alo",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Happy / Upbeat"
-    ],
-    "popularity": 85
-  },
-  {
     "title": "Prologue - Tango Apasionada",
     "artist": "Astor Piazzolla",
     "album": "Rough Dancer And The Cyclical Night",
@@ -13206,16 +12038,6 @@
     "popularity": 60
   },
   {
-    "title": "Adressi",
-    "artist": "Mohamed Hamaki",
-    "album": "Ya Fatenny",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat"
-    ],
-    "popularity": 85
-  },
-  {
     "title": "Raining Blood",
     "artist": "Slayer",
     "album": "Reign In Blood (Expanded)",
@@ -13264,17 +12086,6 @@
       "Energetic / Hype"
     ],
     "popularity": 74
-  },
-  {
-    "title": "Dorak Gai",
-    "artist": "Wegz",
-    "album": "Dorak Gai",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Angry / Intense",
-      "Energetic / Hype"
-    ],
-    "popularity": 91
   },
   {
     "title": "Beyond",
@@ -13661,17 +12472,6 @@
       "Focus / Study"
     ],
     "popularity": 70
-  },
-  {
-    "title": "El Watar El Hassas",
-    "artist": "Sherine",
-    "album": "Nassay",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Romantic"
-    ],
-    "popularity": 86
   },
   {
     "title": "The Sea",
@@ -14134,17 +12934,6 @@
     "popularity": 75
   },
   {
-    "title": "Koll Mara",
-    "artist": "Tamer Hosny",
-    "album": "Enayyah Bthebak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Broken",
     "artist": "Lund",
     "album": "Broken",
@@ -14378,17 +13167,6 @@
     "popularity": 71
   },
   {
-    "title": "Eish Besho'ak",
-    "artist": "Tamer Hosny",
-    "album": "Eish Besho'ak",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 87
-  },
-  {
     "title": "Koop Island Blues",
     "artist": "Koop",
     "album": "Koop Islands",
@@ -14397,17 +13175,6 @@
       "Romantic"
     ],
     "popularity": 59
-  },
-  {
-    "title": "Haga Mestabaya",
-    "artist": "Mohamed Hamaki",
-    "album": "Mn Alby Baghny",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Romantic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 88
   },
   {
     "title": "Wish I Had An Angel",
@@ -14448,16 +13215,6 @@
       "Angry / Intense"
     ],
     "popularity": 69
-  },
-  {
-    "title": "Omrena Ma Nergaa",
-    "artist": "Mohamed Hamaki",
-    "album": "Omrena Ma Nergaa",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic"
-    ],
-    "popularity": 83
   },
   {
     "title": "La vie en rose",
@@ -14570,17 +13327,6 @@
     "popularity": 50
   },
   {
-    "title": "Ekhteyarati",
-    "artist": "Ahmed Saad",
-    "album": "Mr. X",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Happy / Upbeat",
-      "Energetic / Hype"
-    ],
-    "popularity": 88
-  },
-  {
     "title": "Killing My Dreams",
     "artist": "Elysion",
     "album": "Silent Scream",
@@ -14631,17 +13377,6 @@
       "Focus / Study"
     ],
     "popularity": 50
-  },
-  {
-    "title": "Cherophobia",
-    "artist": "Massar Egbari",
-    "album": "Eqra El Khabar",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 87
   },
   {
     "title": "you broke me first",
@@ -15139,17 +13874,6 @@
     "popularity": 69
   },
   {
-    "title": "Fady Shewaya",
-    "artist": "Hamza Namira",
-    "album": "Mawlood Sanat 80",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Sad / Melancholic"
-    ],
-    "popularity": 90
-  },
-  {
     "title": "Fell In Love With a Girl",
     "artist": "The White Stripes",
     "album": "White Blood Cells",
@@ -15612,17 +14336,6 @@
     "popularity": 57
   },
   {
-    "title": "El Sekka Shemal",
-    "artist": "Cairokee",
-    "album": "El Sekka Shemal",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Angry / Intense",
-      "Energetic / Hype"
-    ],
-    "popularity": 85
-  },
-  {
     "title": "Bamba (feat. Aitch & BIA)",
     "artist": "Luciano, Aitch, BIA",
     "album": "Bamba (feat. Aitch & BIA)",
@@ -15747,17 +14460,6 @@
     "popularity": 82
   },
   {
-    "title": "Younis",
-    "artist": "Mohamed Mounir",
-    "album": "Ta'm El Beyoot",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Chill / Relaxed",
-      "Happy / Upbeat"
-    ],
-    "popularity": 86
-  },
-  {
     "title": "Please Don't Go",
     "artist": "Joel Adams",
     "album": "Please Don't Go",
@@ -15796,17 +14498,6 @@
       "Happy / Upbeat"
     ],
     "popularity": 81
-  },
-  {
-    "title": "Zaman",
-    "artist": "Sherine",
-    "album": "Nassay",
-    "genre": "Arabic",
-    "atmosphere": [
-      "Sad / Melancholic",
-      "Chill / Relaxed"
-    ],
-    "popularity": 82
   },
   {
     "title": "Masterpiece",
@@ -16078,5 +14769,7034 @@
       "Sad / Melancholic"
     ],
     "popularity": 61
+  },
+  {
+    "title": "Ezz El Arab",
+    "artist": "Wegz",
+    "album": "FIFA World Cup Qatar 2022",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Shukran Men Hena Lebokra",
+    "artist": "Amr Diab",
+    "album": "Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Amarain",
+    "artist": "Amr Diab",
+    "album": "Amarain",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Boshret Kheir",
+    "artist": "Hussein Al Jassmi",
+    "album": "Boshret Kheir",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Wahed W Eshreen (21)",
+    "artist": "Wegz",
+    "album": "21",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Dark / Moody"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Fi Youm We Leila",
+    "artist": "Warda",
+    "album": "Fi Youm We Leila",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Salini",
+    "artist": "Wegz",
+    "album": "Salini",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Inta Eyh",
+    "artist": "Nancy Ajram",
+    "album": "Ah W Noss",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Sallimleh Aleyh",
+    "artist": "Fairouz",
+    "album": "Wahdoun",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Kan Lak Ma'aya",
+    "artist": "Cairokee",
+    "album": "Abnaa El Batta El Soda",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Moftaqed El Habiba",
+    "artist": "Sharmoofers",
+    "album": "Enfesam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Samurai",
+    "artist": "Cairokee",
+    "album": "Roma",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Angry / Intense"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Nehayat El Hekayat",
+    "artist": "Massar Egbari",
+    "album": "El Alb El Tayeb",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Garh Tany",
+    "artist": "Sherine",
+    "album": "Garh Tany",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Ya Mali Ainy",
+    "artist": "Tamer Hosny",
+    "album": "Oamry Ebtada",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Bazat",
+    "artist": "Wegz",
+    "album": "Bazat",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Arosty",
+    "artist": "Sharmoofers",
+    "album": "Enfesam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "El Bakht",
+    "artist": "Wegz",
+    "album": "El Bakht",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Khalik Ma'aya",
+    "artist": "Amr Diab",
+    "album": "Allem Alby",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Ah Ya Leil",
+    "artist": "Sherine",
+    "album": "Free Music 3",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "To'a We T'oom",
+    "artist": "Massar Egbari",
+    "album": "Toqa We T'oom",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Ya Sattar",
+    "artist": "Mohamed Hamaki",
+    "album": "Koll Youm Men Dah",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Tesla",
+    "artist": "Marwan Moussa",
+    "album": "Florida Dark",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Nour Einy",
+    "artist": "Tamer Hosny",
+    "album": "Ikhtart Sah",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Dinosaur",
+    "artist": "Cairokee",
+    "album": "No'ta Beida",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Dark / Moody"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Salek",
+    "artist": "Hassan Shakosh, Wegz",
+    "album": "Salek",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Oud El Batal",
+    "artist": "Hassan Shakosh, Omar Kamal",
+    "album": "Oud El Batal",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "El Leila Ya Samra",
+    "artist": "Mohamed Mounir",
+    "album": "Etkallemy",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "El Youm El Helw Dah",
+    "artist": "Ahmed Saad",
+    "album": "Am El Gholam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Akhasmak Ah",
+    "artist": "Nancy Ajram",
+    "album": "Ya Salam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Rayeh Fen",
+    "artist": "Hamza Namira",
+    "album": "Rayeh Fen",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Focus / Study"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Kol Haga Bet'addy",
+    "artist": "Cairokee",
+    "album": "Nas We Nas",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Qariat El Fengan",
+    "artist": "Abdel Halim Hafez",
+    "album": "Qariat El Fengan",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Sad / Melancholic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Rayqa",
+    "artist": "Amr Diab",
+    "album": "Ayeshny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Tamally Ma'ak",
+    "artist": "Amr Diab",
+    "album": "Tamally Ma'ak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Ah W Noss",
+    "artist": "Nancy Ajram",
+    "album": "Ah W Noss",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Basrah W Atoh",
+    "artist": "Cairokee",
+    "album": "Roma",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Marboot Be Astek",
+    "artist": "Cairokee",
+    "album": "Nas We Nas",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Asyad El Soot",
+    "artist": "Wegz",
+    "album": "Asyad El Soot",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Aa Bali Habibi",
+    "artist": "Elissa",
+    "album": "Tsadaq Bmein",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Bent El Geran",
+    "artist": "Hassan Shakosh, Omar Kamal",
+    "album": "Bent El Geran",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Ahla Haga Feeki",
+    "artist": "Mohamed Hamaki",
+    "album": "Kheles El Kalam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Zay Manty",
+    "artist": "Amr Diab",
+    "album": "Sahran",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Keifiy Keda",
+    "artist": "Wegz, Disco Misr",
+    "album": "Keifiy Keda",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "5 Santy",
+    "artist": "Sharmoofers",
+    "album": "Do You Speak Sharmoofers",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Free",
+    "artist": "Marwan Pablo",
+    "album": "Free",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "We Malo",
+    "artist": "Amr Diab",
+    "album": "Kammel Kalamak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Enta Omri",
+    "artist": "Umm Kulthum",
+    "album": "Enta Omri",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Betmoun",
+    "artist": "Elissa",
+    "album": "Ayami Beek",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Bel Bont El Areed",
+    "artist": "Hussein Al Jassmi",
+    "album": "Bel Bont El Areed",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Siret El Hob",
+    "artist": "Umm Kulthum",
+    "album": "Siret El Hob",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Sad / Melancholic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Wayah",
+    "artist": "Amr Diab",
+    "album": "Wayah",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Elli Ba'ana",
+    "artist": "Ragheb Alama",
+    "album": "Elli Ba'ana",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Erga'ly",
+    "artist": "Tamer Hosny",
+    "album": "Hob",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Barbary",
+    "artist": "Marwan Pablo",
+    "album": "Barbary",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "La Malama",
+    "artist": "Mohamed Hamaki",
+    "album": "Ya Fatenny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Gana El Hawa",
+    "artist": "Abdel Halim Hafez",
+    "album": "Abi Foq El Shagara",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Kifak Inta",
+    "artist": "Fairouz",
+    "album": "Kifak Inta",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Batal 3alam",
+    "artist": "Marwan Moussa",
+    "album": "Bel Salama",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Msh Hnsak",
+    "artist": "Abyusif",
+    "album": "Msh Hnsak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Nassam Alayna El Hawa",
+    "artist": "Fairouz",
+    "album": "Bi Kroum El Qasab",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Ghabet",
+    "artist": "Marwan Pablo",
+    "album": "CTRL",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Naseeny Leih",
+    "artist": "Tamer Hosny",
+    "album": "Eish Besho'ak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Ta'ala Adalla'ak",
+    "artist": "Bahaa Sultan",
+    "album": "Segara",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Ahwak",
+    "artist": "Abdel Halim Hafez",
+    "album": "Banat El Youm",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "El Gemeza",
+    "artist": "Marwan Pablo",
+    "album": "El Gemeza",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Sayrena Ya Donia",
+    "artist": "Ahmed Saad",
+    "album": "For Elem El Ghab",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Albak Ya Hawl Allah",
+    "artist": "Bahaa Sultan",
+    "album": "Yalli Bayaa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Keda Ya Albi",
+    "artist": "Sherine",
+    "album": "Taree'i",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Mawlood Sanat 80",
+    "artist": "Hamza Namira",
+    "album": "Mawlood Sanat 80",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Ya Abyad Ya Eswad",
+    "artist": "Cairokee",
+    "album": "Abnaa El Batta El Soda",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Sad / Melancholic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Sheta",
+    "artist": "Mohamed Mounir",
+    "album": "Sheta",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Helw El Makan",
+    "artist": "Tamer Hosny",
+    "album": "El Feloos",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Sheraton",
+    "artist": "Marwan Moussa",
+    "album": "Florida",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Ba'eed Anak",
+    "artist": "Umm Kulthum",
+    "album": "Ba'eed Anak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Zay El Hawa",
+    "artist": "Abdel Halim Hafez",
+    "album": "Zay El Hawa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Ana Gheir",
+    "artist": "Amr Diab",
+    "album": "Ana Gheir",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Sabry Aleel",
+    "artist": "Sherine",
+    "album": "Lazem Ayesh",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Habaytak Bi Sayf",
+    "artist": "Fairouz",
+    "album": "Sahret Hob",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Ya Ana Ya La",
+    "artist": "Amr Diab",
+    "album": "Ya Ana Ya La",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Eishk El Banat",
+    "artist": "Mohamed Mounir",
+    "album": "Fi Eshq El Banat",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Bayen Habeit",
+    "artist": "Amr Diab, Marshmello",
+    "album": "Kol Hayaty",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Batwanes Beek",
+    "artist": "Warda",
+    "album": "Batwanes Beek",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Ma Balash",
+    "artist": "Mohamed Hamaki",
+    "album": "Omrena Ma Nergaa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Nefsy Ab'a Gambo",
+    "artist": "Mohamed Hamaki",
+    "album": "Mn Alby Baghny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Ouyoun El Alb",
+    "artist": "Bahaa Sultan",
+    "album": "Kan Zaman",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Kolly Melkak",
+    "artist": "Sherine",
+    "album": "Ana Keteer",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "So Ya So",
+    "artist": "Mohamed Mounir",
+    "album": "Meshtaqeen",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Masha'er",
+    "artist": "Sherine",
+    "album": "Masha'er",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Harramt Ahebbak",
+    "artist": "Warda",
+    "album": "Harramt Ahebbak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Ana Ghalat",
+    "artist": "Bahaa Sultan",
+    "album": "Segara",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Etnaset",
+    "artist": "Muslim",
+    "album": "Arousty",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Shamandora",
+    "artist": "Mohamed Mounir",
+    "album": "Fi Eshq El Banat",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Layla",
+    "artist": "Cairokee",
+    "album": "No'ta Beida",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Hobbo Ganna",
+    "artist": "Sherine",
+    "album": "Nassay",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Qusad Einy",
+    "artist": "Amr Diab",
+    "album": "Leily Nahary",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Sad / Melancholic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Ana La Habibi",
+    "artist": "Fairouz",
+    "album": "Fairouz Classics",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Basha E3temed",
+    "artist": "Abyusif, Abo El Anwar",
+    "album": "Basha E3temed",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Matkhafsh Men Bokra",
+    "artist": "Cairokee",
+    "album": "Matkhafsh Men Bokra",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Focus / Study"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Wasa' Wasa'",
+    "artist": "Ahmed Saad",
+    "album": "Wasa' Wasa'",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Taheya",
+    "artist": "Abyusif",
+    "album": "Taheya",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Kanet Hatefreq",
+    "artist": "Massar Egbari",
+    "album": "Kanet Hatefreq",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Alf Leila Wa Leila",
+    "artist": "Umm Kulthum",
+    "album": "Alf Leila Wa Leila",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Serena",
+    "artist": "Enba, Muslim",
+    "album": "Serena",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Nour El Ein",
+    "artist": "Amr Diab",
+    "album": "Nour El Ein",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Dari Ya Alby",
+    "artist": "Hamza Namira",
+    "album": "Hateer Min Tany",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Alo",
+    "artist": "Marwan Moussa, Afroto",
+    "album": "Alo",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Adressi",
+    "artist": "Mohamed Hamaki",
+    "album": "Ya Fatenny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Dorak Gai",
+    "artist": "Wegz",
+    "album": "Dorak Gai",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "El Watar El Hassas",
+    "artist": "Sherine",
+    "album": "Nassay",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Koll Mara",
+    "artist": "Tamer Hosny",
+    "album": "Enayyah Bthebak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Eish Besho'ak",
+    "artist": "Tamer Hosny",
+    "album": "Eish Besho'ak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Haga Mestabaya",
+    "artist": "Mohamed Hamaki",
+    "album": "Mn Alby Baghny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Omrena Ma Nergaa",
+    "artist": "Mohamed Hamaki",
+    "album": "Omrena Ma Nergaa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Ekhteyarati",
+    "artist": "Ahmed Saad",
+    "album": "Mr. X",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Cherophobia",
+    "artist": "Massar Egbari",
+    "album": "Eqra El Khabar",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Fady Shewaya",
+    "artist": "Hamza Namira",
+    "album": "Mawlood Sanat 80",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Sad / Melancholic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "El Sekka Shemal",
+    "artist": "Cairokee",
+    "album": "El Sekka Shemal",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Younis",
+    "artist": "Mohamed Mounir",
+    "album": "Ta'm El Beyoot",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Zaman",
+    "artist": "Sherine",
+    "album": "Nassay",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Tamly Maak",
+    "artist": "Amr Diab",
+    "album": "Tamally Maak",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Noor Al Ain",
+    "artist": "Amr Diab",
+    "album": "Noor Al Ain",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Khatfoony (feat. Jana Diab)",
+    "artist": "Amr Diab",
+    "album": "Ebtadena",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Lola El Banat",
+    "artist": "Amr Diab",
+    "album": "Habeitek",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Baba",
+    "artist": "Amr Diab",
+    "album": "Ebtadena",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Fi 3esh2 El Banat",
+    "artist": "Mohamed Mounir",
+    "album": "Fi 3esh2 El Banat",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "لِلّي",
+    "artist": "Mohamed Mounir",
+    "album": "لِلّي - Single",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hara El Saqueen",
+    "artist": "Mohamed Mounir",
+    "album": "Ya Ahl El Arab Wel Tarab",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Kalam Forsan (feat. Mohamed Mounir)",
+    "artist": "Wegz",
+    "album": "Kalam Forsan (feat. Mohamed Mounir) - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "A Yasmarany",
+    "artist": "Mohamed Mounir",
+    "album": "Ahmar Shafaief",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Bahar Elhaia",
+    "artist": "Mohamed Mounir",
+    "album": "Ahmar Shafaief",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Men Gheir Kusouf",
+    "artist": "Mohamed Mounir",
+    "album": "Taam El Biyout",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kalam Eneih",
+    "artist": "Sherine",
+    "album": "Nassay",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Btmanna Ansak",
+    "artist": "Sherine",
+    "album": "Btmanna Ansak",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Sabry Aalil",
+    "artist": "Sherine",
+    "album": "Garh Tany",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "3la Bali",
+    "artist": "Sherine",
+    "album": "Lazem A3eesh",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tebaa'n Tebaa'n",
+    "artist": "Sherine",
+    "album": "Tebaa'n Tebaa'n - Single",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Layaly",
+    "artist": "Sherine",
+    "album": "Ana Kteer",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "احلى حاجة فيكى",
+    "artist": "Mohamed Hamaki",
+    "album": "خلص الكلام",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Bahareya",
+    "artist": "Mohamed Hamaki & Sherine",
+    "album": "Sammaouny",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Oddam El Nas",
+    "artist": "Mohamed Hamaki",
+    "album": "Kol Yom Men Dah",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Baeit Maah",
+    "artist": "Mohamed Hamaki",
+    "album": "Kol Yom Men Dah",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Bent El Eh",
+    "artist": "Tamer Hosny",
+    "album": "Ya Bent El Eih",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Maleket Gamal El Kon",
+    "artist": "AL SHAMI & Tamer Hosny",
+    "album": "Maleket Gamal El Kon - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Erga3ly",
+    "artist": "Tamer Hosny",
+    "album": "Ya Bent El Eih",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Wala 3aref",
+    "artist": "Tamer Hosny",
+    "album": "Ya Bent El Eih",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Heya Di",
+    "artist": "Tamer Hosny",
+    "album": "Aarrab Kaman",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kol Sana Wenta Tayeb",
+    "artist": "Tamer Hosny",
+    "album": "Ya Bent El Eih",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "هو انت مين",
+    "artist": "Angham",
+    "album": "تيجي نسيب",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Mesh Habibi Bas",
+    "artist": "Angham",
+    "album": "Mesh Habibi Bas - Single",
+    "genre": "Arabic",
+    "popularity": 95,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Sidi Wesalak",
+    "artist": "Angham",
+    "album": "Leih Sebtaha",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Omry Maak",
+    "artist": "Angham",
+    "album": "Omry Maak",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Loha Bahta",
+    "artist": "Angham",
+    "album": "Loha Bahta - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "مكسرات",
+    "artist": "Ahmed Saad",
+    "album": "\"بيستهبل \"الوش الاول - EP",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Wasa3 Wasa3",
+    "artist": "Ahmed Saad",
+    "album": "Wasa3 Wasa3 - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "طيبة تاني لأ (feat. Karim Mahmoud Abdelaziz) [من فيلم طلقني]",
+    "artist": "Ahmed Saad",
+    "album": "طيبة تاني لأ (feat. Karim Mahmoud Abdelaziz) [من فيلم طلقني] - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Felous Baba",
+    "artist": "Ahmed Saad & DYSTINCT",
+    "album": "Felous Baba",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Ya Layaly (feat. Ruby)",
+    "artist": "Ahmed Saad",
+    "album": "Ya Layaly (feat. Ruby) - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "تاني",
+    "artist": "Ahmed Saad & Ruby",
+    "album": "\"بيستهبل \"الوش الاول - EP",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Kooty",
+    "artist": "Ahmed Saad",
+    "album": "THE HYPE ALBUM - EP",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Beraha Ya Sheekha",
+    "artist": "Bahaa Sultan",
+    "album": "Beraha Ya Sheekha - Single",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sahby Ya Sahby",
+    "artist": "Bahaa Sultan",
+    "album": "Sahby Ya Sahby - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ta3ala Adalla3ak",
+    "artist": "Bahaa Sultan",
+    "album": "Cigara",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "انا من غيرك",
+    "artist": "Bahaa Sultan",
+    "album": "انا من غيرك - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ma3aya",
+    "artist": "Bahaa Sultan",
+    "album": "Ma3aya - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sawa Sawa",
+    "artist": "Bahaa Sultan",
+    "album": "Sawa Sawa - Single",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Oum O2af (feat. تامر حسني)",
+    "artist": "Bahaa Sultan",
+    "album": "Oum O2af",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "We Akhyran",
+    "artist": "Mahmoud El Esseily & Sabren Elnegily",
+    "album": "We Akhyran - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Amoot Ana",
+    "artist": "Mahmoud El Esseily",
+    "album": "Amoot Ana - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Habibi We Ebn Habibi (From Kamel El Adad ++ Series)",
+    "artist": "Mahmoud El Esseily",
+    "album": "Habibi We Ebn Habibi (From Kamel El Adad ++ Series) - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "3ammak We 3am 3ammak",
+    "artist": "Mahmoud El Esseily & Essam Sasa",
+    "album": "3ammak We 3am 3ammak - Single",
+    "genre": "Arabic",
+    "popularity": 95,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "7Elm B3eed",
+    "artist": "Mahmoud El Esseily",
+    "album": "7Elm B3eed - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ya Nas",
+    "artist": "Mahmoud El Esseily",
+    "album": "Ya Nas - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Keda Keda Bayza (feat. Aly Fathallah)",
+    "artist": "Mahmoud El Esseily",
+    "album": "Keda Keda Bayza (feat. Aly Fathallah) - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Heya",
+    "artist": "Mahmoud El Esseily",
+    "album": "Heya - Single",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ruby",
+    "artist": "Kaiser Chiefs",
+    "album": "Yours Truly, Angry Mob (Deluxe)",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ruby",
+    "artist": "Ray Charles",
+    "album": "True Genius",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ruby (Are You Mad At Your Man)",
+    "artist": "Buck Owens",
+    "album": "All-Time Greatest Hits, Vol. 2",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ruby",
+    "artist": "Foster the People",
+    "album": "Ruby - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ruby (Don't Take Your Love To Town)",
+    "artist": "Roger Miller",
+    "album": "King Of The Road: The Genius Of Roger Miller",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ruby",
+    "artist": "Connor Price & Oliver Cronin",
+    "album": "Ruby - Single",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ruby",
+    "artist": "Dave Rawlings Machine",
+    "album": "A Friend of a Friend",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ruby",
+    "artist": "WOOZI",
+    "album": "Ruby - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Seket Leh",
+    "artist": "Ramy Sabry",
+    "album": "Ramy Sabry Collection",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "يمكن خير",
+    "artist": "Ramy Sabry",
+    "album": "معايا هتبدع",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mabrouk Alina",
+    "artist": "Ramy Sabry",
+    "album": "Mabrouk Alina - Single",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Ah Ya Alby",
+    "artist": "Hakim",
+    "album": "Tamni Aleek - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Salamou Aleikom",
+    "artist": "Hakim",
+    "album": "Talakeek",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Wala Wahed",
+    "artist": "Hakim",
+    "album": "Hayel",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "يا حبيبنا | ريدبُل مزيكا صالونات",
+    "artist": "Red Bull Sika, Hakim & Houda Bondok",
+    "album": "يا حبيبنا | ريدبُل مزيكا صالونات - Single",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Halawet Rooh",
+    "artist": "Hakim",
+    "album": "Halawet Rooh - Single",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Hakim",
+    "artist": "Kamelancien",
+    "album": "Le charme en personne",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hakim",
+    "artist": "Tricky",
+    "album": "Mixed Race",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hakim",
+    "artist": "Diego Herrera",
+    "album": "Música en Silencio",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Amar Amareen | قمر قمرين",
+    "artist": "Moustafa Amar",
+    "album": "Amar Amareen | قمر قمرين",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Amout Ana | أموت أنا",
+    "artist": "Moustafa Amar",
+    "album": "Amar Amareen | قمر قمرين",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "El Boad | البُعد",
+    "artist": "Moustafa Amar",
+    "album": "Amar Amareen | قمر قمرين",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana | أنا",
+    "artist": "Moustafa Amar",
+    "album": "Amar Amareen | قمر قمرين",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hatgheeb | هاتغيب",
+    "artist": "Moustafa Amar",
+    "album": "Amar Amareen | قمر قمرين",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Habeet | حبيت",
+    "artist": "Moustafa Amar",
+    "album": "Amar Amareen | قمر قمرين",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kaddab | كداب",
+    "artist": "Moustafa Amar",
+    "album": "Amar Amareen | قمر قمرين",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Habiby Da",
+    "artist": "Hesham Abbas",
+    "album": "Habiby Da - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Fenoh",
+    "artist": "Hesham Abbas",
+    "album": "Gowa Fe Alby (Gowa Fe Alby)",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Wana Amel Eih",
+    "artist": "Hesham Abbas",
+    "album": "The Best of Hisham Abbas",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "السهر و الإنبساط (feat. Hamid El Shaery & Hisham Abbas)",
+    "artist": "Akram Hosny",
+    "album": "السهر و الإنبساط (feat. Hamid El Shaery & Hisham Abbas) - Single",
+    "genre": "Arabic",
+    "popularity": 95,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Leila Hafla",
+    "artist": "Hesham Abbas",
+    "album": "Ya Lela",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Khallik Hena",
+    "artist": "Hesham Abbas",
+    "album": "Aamel Dagga",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aieny",
+    "artist": "Hamid El Shari & Hesham Abbas",
+    "album": "Agmal Aghany El Duetto El Arabia",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "حبيبى ده (نارى نارين)",
+    "artist": "Hesham Abbas",
+    "album": "حبيبى ده",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Allah Aleik Ya Seedy",
+    "artist": "Ihab Tawfiq",
+    "album": "Homma Kelmetain",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tetraga Feya",
+    "artist": "Ihab Tawfiq",
+    "album": "Habeeb El Alb",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Sahrany",
+    "artist": "Ihab Tawfiq",
+    "album": "Sahrany",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aktar Mn Keda Eh",
+    "artist": "Ihab Tawfiq",
+    "album": "Yashak Amar",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Habeeby",
+    "artist": "Ihab Tawfiq",
+    "album": "High Quality Vol 7",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ahla Menhom",
+    "artist": "Ihab Tawfiq",
+    "album": "Ahla Menhom",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Moshtaq",
+    "artist": "Ihab Tawfiq",
+    "album": "Habeeb El Alb",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Ayam El Helwa",
+    "artist": "Ihab Tawfiq",
+    "album": "Sahrany",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "البخت",
+    "artist": "Wegz",
+    "album": "البخت - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "El Ayam",
+    "artist": "Wegz",
+    "album": "El Ayam - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "Mama Afrikya (feat. Seyi Vibez)",
+    "artist": "Wegz",
+    "album": "Aqareb",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Salka (feat. Wegz)",
+    "artist": "Hassan Shakosh",
+    "album": "Salka (feat. Wegz) - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Amira",
+    "artist": "Wegz & Ash",
+    "album": "Amira - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shoft Kalam",
+    "artist": "Marwan Pablo, Lege-Cy & HatemBas",
+    "album": "Shoft Kalam - Single",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "El Mabda2",
+    "artist": "Marwan Pablo",
+    "album": "The Last Piece of Art",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "KARMA",
+    "artist": "Marwan Pablo & Abyusif",
+    "album": "7OB&KASHAT - EP",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Matafetch",
+    "artist": "Marwan Pablo",
+    "album": "The Last Piece of Art",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "SINdBAD",
+    "artist": "Marwan Pablo",
+    "album": "Sindbad - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "FLEXIN",
+    "artist": "Marwan Pablo",
+    "album": "٥ نظام - EP",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "بطل عالم",
+    "artist": "Marwan Moussa",
+    "album": "عقد احتراف - EP",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "KALAMANTINA /  كلمنتينا",
+    "artist": "Saint Levant & Marwan Moussa",
+    "album": "Love Letters / رسائل حب - EP",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "KALEMENY BELEL",
+    "artist": "Marwan Moussa & Lege-Cy",
+    "album": "الرجل الذي فقد قلبه",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Brazil (feat. Marwan Moussa)",
+    "artist": "Afroto",
+    "album": "San Stefano",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Fahmek",
+    "artist": "Marwan Moussa",
+    "album": "Beeny we Beenek - EP",
+    "genre": "Arabic",
+    "popularity": 95,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tab W Malou",
+    "artist": "Abyusif",
+    "album": "Tab W Malou - Single",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Atta3",
+    "artist": "Lella Fadda & Abyusif",
+    "album": "Atta3 - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Wa7ed Wa7ed",
+    "artist": "Abyusif",
+    "album": "Wa7ed Wa7ed",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Hal Di Kat Hayatak",
+    "artist": "Abyusif",
+    "album": "Hal Di Kat Hayatak - Single",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "MA YORAM (feat. Abyusif)",
+    "artist": "Lil Baba",
+    "album": "MA YORAM (feat. Abyusif) - Single",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mesa (feat. Lil Baba)",
+    "artist": "Abyusif",
+    "album": "Mesa (feat. Lil Baba) - Single",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Basha E3temed (feat. Lil Baba)",
+    "artist": "Abyusif & Abo El Anwar",
+    "album": "Basha E3temed (feat. Lil Baba) - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "KEBDA (feat. Onuy)",
+    "artist": "Afroto",
+    "album": "أفضل أغانى 2024",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Sogara",
+    "artist": "Afroto",
+    "album": "Sogara - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Far2 Khebra",
+    "artist": "Afroto",
+    "album": "Far2 Khebra - Single",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Msh Bel 7ozoz",
+    "artist": "Afroto",
+    "album": "Msh Bel 7ozoz - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Ala Ba'ady (feat. Marwan Moussa)",
+    "artist": "Afroto",
+    "album": "Ala Ba'ady (feat. Marwan Moussa) - Single",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "VODOO (feat. ZIAD ZAZA)",
+    "artist": "Afroto",
+    "album": "أفضل أغانى 2024",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Rajieen (feat. Saif safadi, Dana Salah, Ghaliaa, Afroto, Nordo, Shroof, A5rass - الاخرس, Issam Alnajjar, Balti, Amir Eid, وسام قطب, Dina El Wedidi, Bataineh, Omar Rammal, اليونق, Randarofficial, Vortex, Smallx, A.L.A, Fuad Gritli, Donia Wael, zeyne, Marwan Moussa, Marwan Pablo & Dafencii)",
+    "artist": "Rajieen",
+    "album": "Rajieen (feat. Saif Safadi, Dana Salah, Ghaliaa, Afroto, NORDO, Shroof, A5rass, Issam Alnajjar, Balti, Amir Eid, Wessam Qutob, Dina El Wedidi, Bataineh, Alyoung, Randar, Vortex, Smallx, A.L.A, Donia Wael, zeyne, Marwan Moussa, Marwan Pablo & Dafencii) - Single",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "LAW NASYANY",
+    "artist": "Lege-Cy & Ismail Nosrat",
+    "album": "LAW NASYANY - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Neyya",
+    "artist": "Lege-Cy",
+    "album": "El Neyya - Single",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "WALA MEEN (feat. Lege-Cy & Ismail Nosrat)",
+    "artist": "ZIAD ZAZA",
+    "album": "WALA MEEN (feat. Lege-Cy & Ismail Nosrat) - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Msh Awl Marra",
+    "artist": "Lege-Cy & Ghaliaa",
+    "album": "Msh Awl Marra - Single",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Betadeen",
+    "artist": "Lege-Cy",
+    "album": "Agzakhana",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Waat El Daye3",
+    "artist": "Lege-Cy",
+    "album": "El Waat El Daye3 - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "สู้เด้ (Chicka Boom)",
+    "artist": "FLI:P",
+    "album": "สู้เด้ (Chicka Boom) - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Eyes on You (มองนานๆ) (Vitamin A)",
+    "artist": "FLI:P, Hải Đăng Doo & Kelvin Huynh Alves",
+    "album": "Eyes on You (มองนานๆ) (Vitamin A) - Single",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "ไม่อ่อม (MA OM) [feat. Flip] [Live Perf Ver.]",
+    "artist": "bamm",
+    "album": "ไม่อ่อม (MA OM) [Live Perf Ver.] [feat. Flip] - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Flip--Flop",
+    "artist": "Zach Top",
+    "album": "Ain't In It For My Health",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Cantaloop (Flip Fantasia)",
+    "artist": "Us3",
+    "album": "Hand On the Torch",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
+    "artist": "Mark Ronson",
+    "album": "Late Night Feelings",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "FLIP : FL1P",
+    "artist": "Sik-K",
+    "album": "FL1P",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tainu Khabar Nahi Lofi Flip",
+    "artist": "Arijit Singh, Sachin-Jigar & Silent Ocean",
+    "album": "Lofi Love Stories",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tal Abib",
+    "artist": "Shabjdeed & Al Nather",
+    "album": "Sultan",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "YOUMI",
+    "artist": "Fawzi & Shabjdeed",
+    "album": "YOUMI - Single",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Rad Saree3 (feat. Riyadiyat)",
+    "artist": "Shabjdeed & Al Nather",
+    "album": "Sultan",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Fein El Dawa",
+    "artist": "Shabjdeed & Al Nather",
+    "album": "Sultan",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Nasheed",
+    "artist": "Shabjdeed & Al Nather",
+    "album": "Sultan",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tawafan",
+    "artist": "Shabjdeed & Al Nather",
+    "album": "Sultan",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Fe Swat",
+    "artist": "Shabjdeed & Al Nather",
+    "album": "Sultan",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sultan",
+    "artist": "Shabjdeed & Al Nather",
+    "album": "Sultan",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Blanco (feat. Husayn)",
+    "artist": "Abo El Anwar",
+    "album": "Akhro Noor",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Obituaries (feat. Shafiq Husayn)",
+    "artist": "Free Nationals",
+    "album": "Free Nationals",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Lift Off / Mic Check (feat. Shafiq Husayn)",
+    "artist": "Robert Glasper Experiment",
+    "album": "Black Radio",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Boshret Kheir",
+    "artist": "Hussain Al Jassmi",
+    "album": "Boshret Kheir - Single",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Bel Bont El3areedh",
+    "artist": "Hussain Al Jassmi",
+    "album": "Bel Bont El3areedh - Single",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ahebak",
+    "artist": "Hussain Al Jassmi",
+    "album": "Ahebak - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Kadaba",
+    "artist": "Karim Osama",
+    "album": "Kadaba - Single",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Taw3ya",
+    "artist": "Karim Osama",
+    "album": "OK. - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ymkin Ala Bali",
+    "artist": "Karim Osama & Riff",
+    "album": "Awdet El Ebn El Dal - EP",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "3L Abyad",
+    "artist": "Karim Osama & Sulisizer",
+    "album": "K.O - Single",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Eh Henak",
+    "artist": "Karim Osama, Riff & Big Moe",
+    "album": "K.O - Single",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Nazlet Seman",
+    "artist": "Karim Osama & EL Waili",
+    "album": "Awdet El Ebn El Dal - EP",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Howa Da Ba2a!!? (feat. Karim Osama & El Waili)",
+    "artist": "Tamer Hosny",
+    "album": "Leena Maaad",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "shaklekmagnona",
+    "artist": "Marwan Moussa & Karim Osama",
+    "album": "MATADOR",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Basrah w Atooh",
+    "artist": "Cairokee",
+    "album": "Roma",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Fadel",
+    "artist": "Cairokee",
+    "album": "Supernova",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Nesena",
+    "artist": "Cairokee",
+    "album": "Supernova",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Wahdy",
+    "artist": "Cairokee",
+    "album": "Supernova",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Negm",
+    "artist": "Cairokee",
+    "album": "Roma",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mategy",
+    "artist": "Cairokee",
+    "album": "Supernova",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kan Lak Ma'aya",
+    "artist": "Cairokee & Umm Kulthum",
+    "album": "The Ugly Ducklings",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "زامباهولا",
+    "artist": "Akram Hosny & Sharmoofers",
+    "album": "زامباهولا - Single",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Khalas Hasaytar",
+    "artist": "Sharmoofers",
+    "album": "Paranoia",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Easy Money",
+    "artist": "Sharmoofers",
+    "album": "Easy Money - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Single",
+    "artist": "Sharmoofers",
+    "album": "Single - Single",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Diva",
+    "artist": "Sharmoofers",
+    "album": "Caravan",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Mesh Far'A",
+    "artist": "Sharmoofers",
+    "album": "Paranoia",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Latina",
+    "artist": "Sharmoofers",
+    "album": "Latina - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Fakra",
+    "artist": "Massar Egbari",
+    "album": "El Album",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Zayek Ana",
+    "artist": "Massar Egbari",
+    "album": "Toaa We Teoam",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Cheerophobia",
+    "artist": "Massar Egbari",
+    "album": "Cheerophobia - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Nehayat El Hakawy",
+    "artist": "Massar Egbari",
+    "album": "El Album",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ba2eit Ghareeb",
+    "artist": "Massar Egbari",
+    "album": "Ba2eit Ghareeb - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "حد تايه",
+    "artist": "Massar Egbari",
+    "album": "حد تايه - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sayyad",
+    "artist": "Massar Egbari",
+    "album": "El Album",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Raghm El Masafa (feat. Asmaa Abo El Yazid)",
+    "artist": "Massar Egbari",
+    "album": "Raghm El Masafa (feat. Asmaa Abo El Yazid) - Single",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shams W Hawa",
+    "artist": "Hamza Namira",
+    "album": "Qarar Shakhsy",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Reyah El Hayah",
+    "artist": "Hamza Namira",
+    "album": "Reyah El Hayah - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ma'lesh",
+    "artist": "Hamza Namira",
+    "album": "Mawloud Sanat 80",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Wust El Balad",
+    "artist": "Wust El Balad",
+    "album": "Wust El Balad",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shashet El Telephone",
+    "artist": "Wust El Balad",
+    "album": "Bantalony El Jeans",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "El Leil Elly Maloosh Akher",
+    "artist": "Wust El Balad",
+    "album": "Bantalony El Jeans",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Rahat Ya Khal",
+    "artist": "Autostrad",
+    "album": "Autostrad 2011",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Alber",
+    "artist": "Autostrad",
+    "album": "Alber - Single",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Safar",
+    "artist": "Autostrad",
+    "album": "Yazan Rousan in Autostrad",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Istanna Shwai",
+    "artist": "Autostrad",
+    "album": "Autostrad 2011",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mirsal",
+    "artist": "Autostrad",
+    "album": "Yazan Rousan in Autostrad",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Rodi Sha'ratek (feat. Al-Aksi)",
+    "artist": "Autostrad",
+    "album": "Turathy (Inward Expansion)",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Orkod 3al Gym",
+    "artist": "Autostrad",
+    "album": "Orkod 3al Gym - Single",
+    "genre": "Arabic",
+    "popularity": 95,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Beghyabek",
+    "artist": "Autostrad",
+    "album": "Beghyabek - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mafi Mennik",
+    "artist": "Aziz Maraka",
+    "album": "Mafi Mennik - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ahla Wahda (feat. Aziz Maraka)",
+    "artist": "Disco Misr",
+    "album": "Ahla Wahda (feat. عزيز مرقة) - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Bint El Nas",
+    "artist": "Aziz Maraka",
+    "album": "Bint El Nas - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ahla Wahda (Slow Dance)",
+    "artist": "Aziz Maraka",
+    "album": "Ahla Wahda (Slow Dance) - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Bay",
+    "artist": "Aziz Maraka",
+    "album": "Ya Bay - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Bint Gawiyeh",
+    "artist": "Aziz Maraka",
+    "album": "Bint Gawiyeh - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Miganinani",
+    "artist": "Aziz Maraka",
+    "album": "Miganinani - Single",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Meen Gallek",
+    "artist": "Aziz Maraka",
+    "album": "Meen Gallek - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Yumain O Leila",
+    "artist": "JadaL",
+    "album": "Malyoun",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Makina",
+    "artist": "JadaL",
+    "album": "El Makina",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Bakhaf Min El Commitment",
+    "artist": "JadaL",
+    "album": "El Makina",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Min Shaf Habibi",
+    "artist": "JadaL",
+    "album": "Arabic Rocks",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ya Ahla O'yoon",
+    "artist": "JadaL",
+    "album": "Arabic Rocks",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Wahdeh Bteshbahek",
+    "artist": "JadaL",
+    "album": "Malyoun",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Jadal",
+    "artist": "Shkoon",
+    "album": ">1 Greater Than One - EP",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Jadal (Nandu Remix)",
+    "artist": "Shkoon",
+    "album": "Jadal (Nandu Remix) - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Fasateen",
+    "artist": "Mashrou' Leila",
+    "album": "Mashrou' Leila",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Shim el Yasmine",
+    "artist": "Mashrou' Leila",
+    "album": "Mashrou' Leila",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "3 Minutes",
+    "artist": "Mashrou' Leila",
+    "album": "Ibn El Leil",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Inni Mneeh",
+    "artist": "Mashrou' Leila",
+    "album": "El Hal Romancy - EP",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Imm El Jacket",
+    "artist": "Mashrou' Leila",
+    "album": "El Hal Romancy - EP",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Lil Watan",
+    "artist": "Mashrou' Leila",
+    "album": "Raasük",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Raksit Leila",
+    "artist": "Mashrou' Leila",
+    "album": "Mashrou' Leila",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Kalam",
+    "artist": "Mashrou' Leila",
+    "album": "Ibn El Leil",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "No Way Back",
+    "artist": "Adonis",
+    "album": "No Way Back - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "My Man Freestyle",
+    "artist": "Adonis",
+    "album": "My Man Freestyle - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "ADONIS",
+    "artist": "FIFTY FIFTY",
+    "album": "Day & Night - EP",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Adonis",
+    "artist": "STIM",
+    "album": "Adonis - Single",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Adonis",
+    "artist": "Birds ov Paradise",
+    "album": "Rainmaker",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Adonis",
+    "artist": "araabMUZIK",
+    "album": "Dream World",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Adonis",
+    "artist": "Ludwig Göransson",
+    "album": "Creed (Original Motion Picture Score)",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Adonis (feat. Delaney Jane)",
+    "artist": "Enzo Darren",
+    "album": "Tritonia - Chapter 002 (Bonus Track Version)",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Habibty (feat. Yasmin Raeis)",
+    "artist": "Hassan Shakosh",
+    "album": "Habibty (feat. Yasmin Raeis) - Single",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Mahragan Bent El Geran (feat. Omar Kamal)",
+    "artist": "Hassan Shakosh",
+    "album": "Mahragan Bent El Geran (feat. Omar Kamal) - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Baskotaya M2armesha (feat. Hamada Magdy)",
+    "artist": "Hassan Shakosh",
+    "album": "Baskotaya M2armesha (feat. Hamada Magdy) - Single",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Qombelt El Geel (feat. Hassan Shakosh)",
+    "artist": "Hamada Magdy",
+    "album": "قمبلة الجيل ( اختي وصحبتي ) [feat. Hassan Shakosh] - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "انتى الوحش (feat. Hamada Magdy)",
+    "artist": "Hassan Shakosh",
+    "album": "انتى الوحش (feat. Hamada Magdy) - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Oud Al batal",
+    "artist": "Hassan Shakosh & Omar Kamal",
+    "album": "Oud Al batal - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "لغبطيطا",
+    "artist": "Omar Kamal & Hassan Shakosh",
+    "album": "لغبطيطا - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "انتي معلمه",
+    "artist": "Omar Kamal & Hamo Bika",
+    "album": "انتي معلمه - Single",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "ضيعنا",
+    "artist": "Omar Kamal & Abd El Basset Hamouda",
+    "album": "ضيعنا - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Bonbony Sa2et Fi Nutella",
+    "artist": "Hassan Shakosh & Omar Kamal",
+    "album": "Bonbony Sa2et Fi Nutella - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "انتي قلبي",
+    "artist": "Omar Kamal & Shaimaa El Maghraby",
+    "album": "انتي قلبي - Single",
+    "genre": "Arabic",
+    "popularity": 95,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Felos Felos",
+    "artist": "Omar Kamal & Hamo Bika",
+    "album": "Felos Felos - Single",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Wada3 Ya Donia Wada3",
+    "artist": "Hamo Bika",
+    "album": "Wada3 Ya Donia Wada3 - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Ana Habetek W Garahteny",
+    "artist": "Hamo Bika",
+    "album": "Ana Habetek W Garahteny - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Rab El Kon Mayezna Bmeeza",
+    "artist": "Hamo Bika, Ali Kadora & Nour el Tot",
+    "album": "Rab El Kon Mayezna Bmeeza - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Shaklatony Fy Bahr Bera",
+    "artist": "Hamo Bika",
+    "album": "Shaklatony Fy Bahr Bera - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Aalam Fased",
+    "artist": "Hamo Bika",
+    "album": "Aalam Fased - Single",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Mahragan Ana Alby Dab",
+    "artist": "Hassan Shakosh & Hamo Bika",
+    "album": "Mahragan Ana Alby Dab - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "سيبك من اللي خلع (من فيلم حمص وحلاوة)",
+    "artist": "Essam Sasa",
+    "album": "سيبك من اللي خلع (من فيلم حمص وحلاوة) - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Qatalt Elhob",
+    "artist": "Essam Sasa",
+    "album": "Qatalt Elhob - Single",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "Islamic Call to Prayer",
+    "artist": "Muslim Argun",
+    "album": "Islamic Call to Prayer - Single",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aleb Fel Dafater",
+    "artist": "Muslim - مُسلِم",
+    "album": "Aleb Fel Dafater - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "MUSLIM (feat. Prospect, Akhi Abu, Muhammad Abu Elijah, Masikah & Ilyas Mao)",
+    "artist": "Qalby Studios, Essam & Muslim Belal",
+    "album": "My Heart",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Mama",
+    "artist": "Muslim",
+    "album": "Mama - Single",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "ايه يا حلوة",
+    "artist": "Coolpix & Muslim",
+    "album": "ايه يا حلوة - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Muslim",
+    "artist": "Halal Music",
+    "album": "Halal Beats",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aal Doghrey",
+    "artist": "رضا البحراوى",
+    "album": "Aal Doghrey - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "100 Wesh W Lon",
+    "artist": "رضا البحراوى",
+    "album": "100 Wesh W Lon - Single",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Entom Meen",
+    "artist": "رضا البحراوى",
+    "album": "Entom Meen - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Lafena El Donya",
+    "artist": "رضا البحراوى & Muslim",
+    "album": "Lafena El Donya - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Nas Meny W Men Damy",
+    "artist": "رضا البحراوى",
+    "album": "Nas Meny W Men Damy - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "El Nemr (El Nemr Series)",
+    "artist": "رضا البحراوى",
+    "album": "El Nemr (El Nemr Series) - EP",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shebeana Menkom Khiana",
+    "artist": "رضا البحراوى",
+    "album": "Shebeana Menkom Khiana - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Enta A Ya Gada' (El Nemr Series)",
+    "artist": "رضا البحراوى",
+    "album": "El Nemr (El Nemr Series) - EP",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Yealam Rabena",
+    "artist": "Ahmed Sheba",
+    "album": "Yealam Rabena - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "100 Wesh (feat. Diab, Ahmed Sheba & مصطفي حجاج)",
+    "artist": "Tamer Hosny",
+    "album": "Eish Besho'ak",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "احنا الصعايدة",
+    "artist": "Ahmed Sheba",
+    "album": "احنا الصعايدة - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Mesh Fadelko",
+    "artist": "Ahmed Sheba",
+    "album": "Ana Mesh Fadelko - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "6 Weshoosh (feat. Ahmed Sheba)",
+    "artist": "Hassan El Shafei",
+    "album": "6 Weshoosh (feat. Ahmed Sheba) - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "فوقنا خلاص (feat. Omar Kamal, Hassan Shakosh, Mahmoud El Lithy & Abd El Basset Hamouda)",
+    "artist": "Ahmed Sheba",
+    "album": "فوقنا خلاص (feat. Omar Kamal, Hassan Shakosh, Mahmoud El Lithy & Abd El Basset Hamouda) - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "يلا سلام",
+    "artist": "Omar Kamal & Ahmed Sheba",
+    "album": "يلا سلام - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "احنا الاسود ياقلوب ياسود (feat. Mahmoud El Leithy)",
+    "artist": "Hassan Shakosh",
+    "album": "احنا الاسود ياقلوب ياسود (feat. Mahmoud El Leithy) - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "عم المجال",
+    "artist": "Mahmoud El Laithy",
+    "album": "عم المجال - Single",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Akhret Al Shaqawa (feat. Mahmoud El Leithy)",
+    "artist": "Ahmed Mekky",
+    "album": "Akhret Al Shaqawa (feat. Mahmoud El Leithy) - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Khef Teoom",
+    "artist": "Mahmoud El Leithy",
+    "album": "Khef Teoom - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "قدها (feat. Mahmoud El Leithy)",
+    "artist": "Mohamed Ramadan",
+    "album": "قدها (feat. Mahmoud El Leithy) - Single",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "استاكوزا (feat. Mahmoud El Leithy)",
+    "artist": "Bosy & Ahmed Rizk",
+    "album": "استاكوزا (feat. Mahmoud El Leithy) - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "حملوني (من فيلم صابر وراضي)",
+    "artist": "Abdelbaset Hamouda, Ahmed Shiba & Mahmoud El Leithy",
+    "album": "حملوني (من فيلم صابر وراضي) - Single",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Keif (feat. Tarek El Sheikh)",
+    "artist": "Cairokee",
+    "album": "Noaata Beida",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "حد سكه",
+    "artist": "Wissam Hilal & Tarek El Sheikh",
+    "album": "حد سكه - Single",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "Tetgwzeny Ya Amar",
+    "artist": "Tarek El Sheikh",
+    "album": "Negom El Asdekaa 1",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "كله FAKE",
+    "artist": "Muslim & Tarek El Sheikh",
+    "album": "كله FAKE - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "في قلبي جراح ( مليون سلام ع اللي باعوني ) [feat. Tarek El Sheikh]",
+    "artist": "Hassan Shakosh",
+    "album": "في قلبي جراح ( مليون سلام ع اللي باعوني ) [feat. Tarek El Sheikh] - Single",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ]
+  },
+  {
+    "title": "اسف يا نفسي",
+    "artist": "Tarek El Sheikh",
+    "album": "اسف يا نفسي - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "مخبيالنا ايه يا دنيا (موال طارق)",
+    "artist": "Massar Egbari & Tarek El Sheikh",
+    "album": "مخبيالنا ايه يا دنيا (موال طارق) - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "موجوع يا إبن أدم",
+    "artist": "Abd El Basset Hamouda & Tarek El Sheikh",
+    "album": "موجوع يا إبن أدم - Single",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "Sawah",
+    "artist": "Abdel Halim Hafez",
+    "album": "Sahra Maa Abd El Halem Hafez (Live)",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Qareat El Fengan 1",
+    "artist": "Abdel Halim Hafez",
+    "album": "Qareat El Fengan",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Zay Elhawa Live Record",
+    "artist": "Abdel Halim Hafez",
+    "album": "Zay El Hawa Live Record",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Hawa Hawaya",
+    "artist": "Abdel Halim Hafez",
+    "album": "Aghany Felm Aby Fawk El Shagra",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Toba",
+    "artist": "Abdel Halim Hafez",
+    "album": "Rawaeaa Abd El Halim 5",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ala Hasab Wedad (Live)",
+    "artist": "Abdel Halim Hafez",
+    "album": "Sahra Maa Abd El Halem Hafez",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Anta Oumri",
+    "artist": "Umm Kulthum",
+    "album": "Belly Dance",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Kan Lak Ma'aya (feat. Umm Kulthum)",
+    "artist": "Cairokee",
+    "album": "The Ugly Ducklings",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "El Noum Yedaeb Habiby",
+    "artist": "Umm Kulthum",
+    "album": "The Diva (Single Release)",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Talet Layali El Boaad",
+    "artist": "Umm Kulthum",
+    "album": "The Diva (Single Release)",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Aghadan Alkak",
+    "artist": "Umm Kulthum",
+    "album": "Aghadan Alkak",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Lama Enta Nawy",
+    "artist": "Umm Kulthum",
+    "album": "The Diva (Single Release)",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Hebina Hebina",
+    "artist": "Farid El Atrache",
+    "album": "Farid El Atrash For Ever 2 (Farid El Atrash For Ever 2)",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Alashan Malish Gheirak",
+    "artist": "Farid El Atrache",
+    "album": "Farid El Atrash Ela El Abad 1",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Weily Men Hobo",
+    "artist": "Farid El Atrache",
+    "album": "Farid El Atrash 25 Sana",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Takassim Ood",
+    "artist": "Farid El Atrache",
+    "album": "Farid El Atrash 25 Sana",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Adnaytani Bel Hagr",
+    "artist": "Farid El Atrache",
+    "album": "Farid El Atrash 25 Sana",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ich Anta",
+    "artist": "Farid El Atrache",
+    "album": "Farid El Atrash 25 Sana",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hekayet Gharami",
+    "artist": "Farid El Atrache",
+    "album": "Farid El Atrash 25 Sana",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Oulo Le Ain Al Shams",
+    "artist": "Shadia",
+    "album": "Oulo Le Ain Al Shams - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shadia شادية",
+    "artist": "Yasmine Hamdan",
+    "album": "I remember I forget بنسى وبتذكر",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Somos Sur (feat. Shadia Mansour)",
+    "artist": "Ana Tijoux",
+    "album": "Vengo",
+    "genre": "Arabic",
+    "popularity": 93,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Border Ctrl (feat. Shadia Mansour & Fedzilla)",
+    "artist": "47SOUL",
+    "album": "Semitics",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shadia",
+    "artist": "محمد النصري",
+    "album": "Shadia - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shadia",
+    "artist": "Tony Chamoun",
+    "album": "Drum Attack",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shadia",
+    "artist": "Solsman",
+    "album": "Shadia - Single",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shadia (Live)",
+    "artist": "محمد النصري",
+    "album": "Al-Dobaat Club Party (Aug 2022)",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sett el Habayeb (Remasterisé)",
+    "artist": "Faiza Ahmed",
+    "album": "Best of: Grandes voix arabes (Double album remasterisé)",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Set el habayeb (Bonus track Live)",
+    "artist": "Faiza Ahmed",
+    "album": "Habibi ya metghareb (Live)",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "La betessal alaya (Remasterisé)",
+    "artist": "Faiza Ahmed",
+    "album": "Best of: Grandes voix arabes (Double album remasterisé)",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Habibi ya metghareb (Live)",
+    "artist": "Faiza Ahmed",
+    "album": "Habibi ya metghareb (Live)",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Set El Habayib",
+    "artist": "Fayza Ahmed",
+    "album": "Set El habayeb",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Alby Eleik Mayal",
+    "artist": "Fayza Ahmed",
+    "album": "Zekrayat",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Hamal El Asya",
+    "artist": "Fayza Ahmed",
+    "album": "Set El habayeb",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Yama El Amar Al Bab Hafla",
+    "artist": "Fayza Ahmed",
+    "album": "Ana Alby Eleik Mayal Hafla - EP",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ya Magnon",
+    "artist": "Assala",
+    "album": "Ya Magnon",
+    "genre": "Arabic",
+    "popularity": 95,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shokran",
+    "artist": "Assala",
+    "album": "Shokran - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Roh Najdya",
+    "artist": "Assala",
+    "album": "Roh Najdya - Single",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Badna Nwalee El Jaw",
+    "artist": "Nancy Ajram",
+    "album": "Badna Nwalee El Jaw - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Ya Albo",
+    "artist": "Nancy Ajram",
+    "album": "Nancy 11",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Sah Sah",
+    "artist": "Nancy Ajram & Marshmello",
+    "album": "Sah Sah - Single",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Lawn Ouyounak",
+    "artist": "Nancy Ajram",
+    "album": "Ah W Noss",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Oul Tani Eyh",
+    "artist": "Nancy Ajram",
+    "album": "Ah W Noss",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Eid Al Ashak",
+    "artist": "Kadim Al Sahir",
+    "album": "kitab Al hob",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "أتت",
+    "artist": "Kadim Al Sahir",
+    "album": "بلا عنوان",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Lao Lam Takouni Anti Fi Hayati",
+    "artist": "Kadim Al Sahir",
+    "album": "kitab Al hob",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Chou Meshta2li",
+    "artist": "Wael Kfoury",
+    "album": "Chou Meshta2li - Single",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "El Bint El Awiye",
+    "artist": "Wael Kfoury",
+    "album": "El Bint El Awiye - Single",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Sare2li Omri",
+    "artist": "Wael Kfoury",
+    "album": "Sare2li Omri",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Mafi Ghayra",
+    "artist": "Wael Kfoury",
+    "album": "Mafi Ghayra - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Law Hobna Ghalta",
+    "artist": "Wael Kfoury",
+    "album": "Law Hobna Ghalta - Single",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Kelna Mnenjar",
+    "artist": "Wael Kfoury",
+    "album": "Kelna Mnenjar - Single",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Nasini El Donya",
+    "artist": "Ragheb Alama",
+    "album": "Ragheb Alama Greatest Hits",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tab Leh",
+    "artist": "Ragheb Alama",
+    "album": "Tab Leh",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "El Hob El Kebir",
+    "artist": "Ragheb Alama",
+    "album": "El Hob El Kebir",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Saharouny El Leil",
+    "artist": "Ragheb Alama",
+    "album": "Ragheb Alama Greatest Hits",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Jeny",
+    "artist": "Ragheb Alama",
+    "album": "Ragheb Alama Greatest Hits",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Habeb Albi",
+    "artist": "Ragheb Alama",
+    "album": "Ragheb Alama Greatest Hits",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Betgheb Betrouh",
+    "artist": "Ragheb Alama",
+    "album": "Ragheb Alama Greatest Hits",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aghla El Habayeb",
+    "artist": "Nawal Al Zoghbi",
+    "album": "Yama Alo (Yama Alo)",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Elly Etmanetoh",
+    "artist": "Nawal Al Zoghbi",
+    "album": "Elly Etmanetoh",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Yama Alo",
+    "artist": "Nawal Al Zoghbi",
+    "album": "Yama Alo (Yama Alo)",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Be Eynak",
+    "artist": "Nawal Al Zoghbi",
+    "album": "Eneik Kaddabin (Eneik Kaddabin)",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Eneik Kaddabin",
+    "artist": "Nawal Al Zoghbi",
+    "album": "Eneik Kaddabin (Eneik Kaddabin)",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ghareeba Hal Deni",
+    "artist": "Nawal Al Zoghbi",
+    "album": "Mesh Mesamha",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Abdel Kader",
+    "artist": "Rachid Taha, Faudel & Khaled",
+    "album": "1, 2, 3 Soleils (Live à Bercy)",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Didi",
+    "artist": "Khaled, Rachid Taha & Faudel",
+    "album": "1, 2, 3 Soleils (Live à Bercy)",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Mas Wi Loli",
+    "artist": "Cheb Khaled & Diana Hadad",
+    "album": "Diana 2006",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Rayah",
+    "artist": "Rachid Taha, Khaled & Faudel",
+    "album": "1, 2, 3 Soleils (Live à Bercy)",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "We Enta Maaya (feat. Khaled)",
+    "artist": "Tamer Hosny",
+    "album": "Eish Besho'ak",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Didi (Sher-E-Baloch)",
+    "artist": "Shashwat Sachdev, Khaled, Sons of Yusuf & Nabil El Houri",
+    "album": "Dhurandhar The Revenge (Original Motion Picture Soundtrack)",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Allo",
+    "artist": "Balti",
+    "album": "Allo - Single",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Hasra",
+    "artist": "Balti",
+    "album": "Ya Hasra - Single",
+    "genre": "Arabic",
+    "popularity": 94,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Lili (feat. Hamouda)",
+    "artist": "Balti",
+    "album": "Ya Lili (feat. Hamouda) - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "7elma",
+    "artist": "Balti",
+    "album": "7elma - Single",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ghareeb Alay",
+    "artist": "Elyanna & Balti",
+    "album": "Ghareeb Alay - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ena",
+    "artist": "Balti",
+    "album": "Ena - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Scénario (feat. Aymane Serhani & Balti)",
+    "artist": "DJ Hamida",
+    "album": "Scénario (feat. Aymane Serhani & Balti) - Single",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Msayfa (feat. Cheb Bello & Balti)",
+    "artist": "DJ Hamida",
+    "album": "A la bien Mix Party 2019",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Callin' U (Tamally Maak)",
+    "artist": "Elyanna",
+    "album": "WOLEDTO",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ganeni",
+    "artist": "Elyanna",
+    "album": "WOLEDTO",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "WE PRAY",
+    "artist": "Coldplay, Little Simz, Burna Boy, Elyanna & TINI",
+    "album": "Moon Music",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sokkar",
+    "artist": "Elyanna",
+    "album": "Sokkar - Single",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Haneish",
+    "artist": "TUL8TE & Elyanna",
+    "album": "Sadeek El Bernameg",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Lahale (feat. Massari)",
+    "artist": "Elyanna",
+    "album": "Elyanna - EP",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "MAMA EH",
+    "artist": "Elyanna",
+    "album": "MAMA EH - Single",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Al Sham",
+    "artist": "Elyanna",
+    "album": "WOLEDTO",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Tamally Maak",
+    "artist": "عمر دياب",
+    "album": "Tamally Maak",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Le Beirut",
+    "artist": "Fairuz",
+    "album": "Le Beirut",
+    "genre": "Arabic",
+    "popularity": 70,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Kelma",
+    "artist": "Ramy Sabry",
+    "album": "Kelma",
+    "genre": "Arabic",
+    "popularity": 74,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ojos Así",
+    "artist": "Shakira",
+    "album": "Ojos Así",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Wahdon",
+    "artist": "Fairuz",
+    "album": "Wahdon",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Sallimleh Alayh",
+    "artist": "Fairuz",
+    "album": "Sallimleh Alayh",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ya Rayah",
+    "artist": "Rachid Taha",
+    "album": "Ya Rayah",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kifak Inta",
+    "artist": "Fairuz",
+    "album": "Kifak Inta",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ghir Enta",
+    "artist": "Souad Massi",
+    "album": "Ghir Enta",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Didi",
+    "artist": "Khaled",
+    "album": "Didi",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ana Ayesh",
+    "artist": "عمر دياب",
+    "album": "Ana Ayesh",
+    "genre": "Arabic",
+    "popularity": 73,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Wala Ala Baloh",
+    "artist": "عمر دياب",
+    "album": "Wala Ala Baloh",
+    "genre": "Arabic",
+    "popularity": 72,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aïcha",
+    "artist": "Khaled",
+    "album": "Aïcha",
+    "genre": "Arabic",
+    "popularity": 69,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Wahrane Wahrane",
+    "artist": "Khaled",
+    "album": "Wahrane Wahrane",
+    "genre": "Arabic",
+    "popularity": 62,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Fatet Sineen",
+    "artist": "Elissa",
+    "album": "Fatet Sineen",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Barra Barra",
+    "artist": "Rachid Taha",
+    "album": "Barra Barra",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Amarain",
+    "artist": "عمر دياب",
+    "album": "Amarain",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Masâr",
+    "artist": "Le Trio Joubran",
+    "album": "Masâr",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Matrahak Bi Albi",
+    "artist": "Majida El Roumi",
+    "album": "Matrahak Bi Albi",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Rock El Casbah",
+    "artist": "Rachid Taha",
+    "album": "Rock El Casbah",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Alabina",
+    "artist": "Alabina",
+    "album": "Alabina",
+    "genre": "Arabic",
+    "popularity": 74,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Salma ya salama",
+    "artist": "Dalida",
+    "album": "Salma ya salama",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kermalak",
+    "artist": "Elissa",
+    "album": "Kermalak",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Raoui",
+    "artist": "Souad Massi",
+    "album": "Raoui",
+    "genre": "Arabic",
+    "popularity": 72,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sahra",
+    "artist": "Khaled",
+    "album": "Sahra",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Bastanak",
+    "artist": "Elissa",
+    "album": "Bastanak",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Mon Amie La Rose",
+    "artist": "Natacha Atlas",
+    "album": "Mon Amie La Rose",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aktar Wahed",
+    "artist": "عمر دياب",
+    "album": "Aktar Wahed",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "She likes a boy",
+    "artist": "Nxdia",
+    "album": "She likes a boy",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sah",
+    "artist": "Al Massrieen",
+    "album": "Sah",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Nour El Ain",
+    "artist": "عمر دياب",
+    "album": "Nour El Ain",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Faker Zaman",
+    "artist": "Ramy Sabry",
+    "album": "Faker Zaman",
+    "genre": "Arabic",
+    "popularity": 62,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Helwa Ya Baladi",
+    "artist": "Dalida",
+    "album": "Helwa Ya Baladi",
+    "genre": "Arabic",
+    "popularity": 71,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Bahlam Beek",
+    "artist": "Abdel Halim Hafez",
+    "album": "Bahlam Beek",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Zeina",
+    "artist": "Mohamed Abdel Wahab",
+    "album": "Zeina",
+    "genre": "Arabic",
+    "popularity": 69,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Baladi We Hetta",
+    "artist": "Hossam Ramzy",
+    "album": "Baladi We Hetta",
+    "genre": "Arabic",
+    "popularity": 71,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "From Memphis To Heliopolis",
+    "artist": "Phil Thornton & Hossam Ramzy",
+    "album": "From Memphis To Heliopolis",
+    "genre": "Arabic",
+    "popularity": 69,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sufi Dialogue",
+    "artist": "Soliman Gamil",
+    "album": "Sufi Dialogue",
+    "genre": "Arabic",
+    "popularity": 70,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Talakik",
+    "artist": "Hakim",
+    "album": "Talakik",
+    "genre": "Arabic",
+    "popularity": 73,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Hely Meli",
+    "artist": "Hamid El Shaeri",
+    "album": "Hely Meli",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Sahirtou",
+    "artist": "Mohammed Abdel Wahab",
+    "album": "Sahirtou",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Masturbating the War God",
+    "artist": "Nile",
+    "album": "Masturbating the War God",
+    "genre": "Arabic",
+    "popularity": 80,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "La Muchacha Turca (Simarik)",
+    "artist": "Hakim",
+    "album": "La Muchacha Turca (Simarik)",
+    "genre": "Arabic",
+    "popularity": 72,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Makontesh-Mebayen",
+    "artist": "Tamer Hosny",
+    "album": "Makontesh-Mebayen",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Othrak Ma-ak Othrak",
+    "artist": "Hossam Ramzy",
+    "album": "Othrak Ma-ak Othrak",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Unas, Slayer of the Gods",
+    "artist": "Nile",
+    "album": "Unas, Slayer of the Gods",
+    "genre": "Arabic",
+    "popularity": 70,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kaliny Maak",
+    "artist": "Ramy Ayach",
+    "album": "Kaliny Maak",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Agheeb",
+    "artist": "عمر دياب",
+    "album": "Agheeb",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Habet",
+    "artist": "Hakim",
+    "album": "Habet",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Organic Hydropoly Spores",
+    "artist": "Drexciya",
+    "album": "Organic Hydropoly Spores",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Lamastak",
+    "artist": "Amr Mostafa",
+    "album": "Lamastak",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Crazy Over You",
+    "artist": "BLACKPINK",
+    "album": "Crazy Over You",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Yabn El Halal",
+    "artist": "Haifa Wehbe",
+    "album": "Yabn El Halal",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aicha (Version Mixte)",
+    "artist": "Khaled",
+    "album": "Aicha (Version Mixte)",
+    "genre": "Arabic",
+    "popularity": 74,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Qarabe Laya",
+    "artist": "Wael Kfoury",
+    "album": "Qarabe Laya",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Jeet",
+    "artist": "Carole Samaha",
+    "album": "Jeet",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Damascus (feat. Omar Souleyman and Yasiin Bey)",
+    "artist": "Gorillaz",
+    "album": "Damascus (feat. Omar Souleyman and Yasiin Bey)",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hawelt Ansak",
+    "artist": "Aline Khalaf",
+    "album": "Hawelt Ansak",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Shmaali شمالي",
+    "artist": "Yasmine Hamdan",
+    "album": "Shmaali شمالي",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "JOROPO",
+    "artist": "Judeline",
+    "album": "JOROPO",
+    "genre": "Arabic",
+    "popularity": 69,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ahebah Kolesh",
+    "artist": "Waleed Al Shami",
+    "album": "Ahebah Kolesh",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ghaeb Any Laeh",
+    "artist": "Fadl Shaker",
+    "album": "Ghaeb Any Laeh",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Fakerni",
+    "artist": "Haifa Wehbe",
+    "album": "Fakerni",
+    "genre": "Arabic",
+    "popularity": 69,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Akhbarak Eyh",
+    "artist": "Maya Nasri",
+    "album": "Akhbarak Eyh",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ma Tedri",
+    "artist": "Baha'a",
+    "album": "Ma Tedri",
+    "genre": "Arabic",
+    "popularity": 71,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Lasmarani",
+    "artist": "Maya Nasri",
+    "album": "Lasmarani",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "The beautiful losers الحلوين الخسرانين",
+    "artist": "Yasmine Hamdan",
+    "album": "The beautiful losers الحلوين الخسرانين",
+    "genre": "Arabic",
+    "popularity": 70,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Khalani",
+    "artist": "Myriam Fares",
+    "album": "Khalani",
+    "genre": "Arabic",
+    "popularity": 73,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Angel - Shygirl x Fatima Al Qadiri",
+    "artist": "Shygirl",
+    "album": "Angel - Shygirl x Fatima Al Qadiri",
+    "genre": "Arabic",
+    "popularity": 73,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Banat",
+    "artist": "Nancy Ajram",
+    "album": "Ya Banat",
+    "genre": "Arabic",
+    "popularity": 66,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "We Meen Ekhtar",
+    "artist": "Sherine",
+    "album": "We Meen Ekhtar",
+    "genre": "Arabic",
+    "popularity": 69,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mor مر التجني",
+    "artist": "Yasmine Hamdan",
+    "album": "Mor مر التجني",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Yay",
+    "artist": "Nancy Ajram",
+    "album": "Yay",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Wala Dary",
+    "artist": "Asala",
+    "album": "Wala Dary",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Reminiscence غروب",
+    "artist": "Yasmine Hamdan",
+    "album": "Reminiscence غروب",
+    "genre": "Arabic",
+    "popularity": 68,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Galbi",
+    "artist": "Abdy",
+    "album": "Galbi",
+    "genre": "Arabic",
+    "popularity": 63,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Dafaa Robaai",
+    "artist": "Nadah El Shazly",
+    "album": "Dafaa Robaai",
+    "genre": "Arabic",
+    "popularity": 66,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kaabi Aali",
+    "artist": "Nadah El Shazly",
+    "album": "Kaabi Aali",
+    "genre": "Arabic",
+    "popularity": 71,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Cavalry",
+    "artist": "Mashrou' Leila",
+    "album": "Cavalry",
+    "genre": "Arabic",
+    "popularity": 69,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Moksha",
+    "artist": "Vas",
+    "album": "Moksha",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kidda",
+    "artist": "Natacha Atlas",
+    "album": "Kidda",
+    "genre": "Arabic",
+    "popularity": 65,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Euphrates Bled",
+    "artist": "Knossos",
+    "album": "Euphrates Bled",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Izgrejala",
+    "artist": "Vas",
+    "album": "Izgrejala",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Zambra",
+    "artist": "Willie & Lobo",
+    "album": "Zambra",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Disciples Of The Sacred Oath II",
+    "artist": "Orphaned Land",
+    "album": "Disciples Of The Sacred Oath II",
+    "genre": "Arabic",
+    "popularity": 62,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "The (Ineffable) Trick",
+    "artist": "TyCyPhy",
+    "album": "The (Ineffable) Trick",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ma Tegi Hena",
+    "artist": "Nancy Ajram",
+    "album": "Ma Tegi Hena",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "On Earth",
+    "artist": "Woob",
+    "album": "On Earth",
+    "genre": "Arabic",
+    "popularity": 81,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Dawartibini",
+    "artist": "Ras Sinai Project",
+    "album": "Dawartibini",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Chaos Of Paradise",
+    "artist": "Axiom Of Choice",
+    "album": "Chaos Of Paradise",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Rakset Dala'a",
+    "artist": "Ahmad El Asmar",
+    "album": "Rakset Dala'a",
+    "genre": "Arabic",
+    "popularity": 74,
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Caspian Winds",
+    "artist": "Omar Faruk Tekbilek",
+    "album": "Caspian Winds",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hand of Fatima",
+    "artist": "Muslimgauze",
+    "album": "Hand of Fatima",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Serpentine",
+    "artist": "Solace",
+    "album": "Serpentine",
+    "genre": "Arabic",
+    "popularity": 71,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Gerizler Basi",
+    "artist": "Okan Murat Öztürk",
+    "album": "Gerizler Basi",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Aracas",
+    "artist": "Light Rain",
+    "album": "Aracas",
+    "genre": "Arabic",
+    "popularity": 62,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Arainia",
+    "artist": "Kara Nomadica",
+    "album": "Arainia",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mauvais Sang",
+    "artist": "Khaled",
+    "album": "Mauvais Sang",
+    "genre": "Arabic",
+    "popularity": 66,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Zar Dance (Ayyub)  2/4",
+    "artist": "Solace",
+    "album": "Zar Dance (Ayyub)  2/4",
+    "genre": "Arabic",
+    "popularity": 66,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Huzûr",
+    "artist": "Pouriya Raisi",
+    "album": "Huzûr",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Wala Marra",
+    "artist": "Khaled Aggag",
+    "album": "Wala Marra",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ghareibah el Nas",
+    "artist": "Wael Jassar",
+    "album": "Ghareibah el Nas",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Noor-Al-Ain",
+    "artist": "عمر دياب",
+    "album": "Noor-Al-Ain",
+    "genre": "Arabic",
+    "popularity": 83,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Drop Your Guns",
+    "artist": "Control Freak",
+    "album": "Drop Your Guns",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ]
+  },
+  {
+    "title": "Mystics And Fools",
+    "artist": "Axiom Of Choice",
+    "album": "Mystics And Fools",
+    "genre": "Arabic",
+    "popularity": 87,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Gone Away Again",
+    "artist": "Rogér Fakhr",
+    "album": "Gone Away Again",
+    "genre": "Arabic",
+    "popularity": 65,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "EPANO STO TRAPEZI",
+    "artist": "Marina Satti",
+    "album": "EPANO STO TRAPEZI",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "مهرجان أعطيني على طواحيني شباب فلسطين",
+    "artist": "Jabid",
+    "album": "مهرجان أعطيني على طواحيني شباب فلسطين",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "LALALALA",
+    "artist": "Marina Satti",
+    "album": "LALALALA",
+    "genre": "Arabic",
+    "popularity": 76,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Eid",
+    "artist": "Nadah El Shazly",
+    "album": "Eid",
+    "genre": "Arabic",
+    "popularity": 63,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ghorzetein",
+    "artist": "Nadah El Shazly",
+    "album": "Ghorzetein",
+    "genre": "Arabic",
+    "popularity": 86,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Banit",
+    "artist": "Nadah El Shazly",
+    "album": "Banit",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Dabke System",
+    "artist": "47soul",
+    "album": "Dabke System",
+    "genre": "Arabic",
+    "popularity": 63,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "The Spy Who Spoke Too Much",
+    "artist": "Praed Orchestra!",
+    "album": "The Spy Who Spoke Too Much",
+    "genre": "Arabic",
+    "popularity": 71,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Helwa Ya Baladee",
+    "artist": "أوكا و أورتيجا",
+    "album": "Helwa Ya Baladee",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Garh Tany",
+    "artist": "شيرين",
+    "album": "Garh Tany",
+    "genre": "Arabic",
+    "popularity": 63,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "بيأكلوك مـربة",
+    "artist": "عبد الباسط حمودة",
+    "album": "بيأكلوك مـربة",
+    "genre": "Arabic",
+    "popularity": 84,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Palmyra",
+    "artist": "Nadah El Shazly",
+    "album": "Palmyra",
+    "genre": "Arabic",
+    "popularity": 62,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Jafnoho Allama el Ghazal",
+    "artist": "Mohamed Abdel Wahab",
+    "album": "Jafnoho Allama el Ghazal",
+    "genre": "Arabic",
+    "popularity": 62,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Hanenak Haneni",
+    "artist": "George Wassouf",
+    "album": "Hanenak Haneni",
+    "genre": "Arabic",
+    "popularity": 72,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "Aal Asfourieh",
+    "artist": "Sabah",
+    "album": "Aal Asfourieh",
+    "genre": "Arabic",
+    "popularity": 78,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "9otak Yanadene",
+    "artist": "Mo7ammad 3abdo",
+    "album": "9otak Yanadene",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Al Hob Keda",
+    "artist": "Sayed Henkesh Ensemble",
+    "album": "Al Hob Keda",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "El Dahab",
+    "artist": "George Wassouf",
+    "album": "El Dahab",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "بالكيف",
+    "artist": "Qahtan Al Attar",
+    "album": "بالكيف",
+    "genre": "Arabic",
+    "popularity": 72,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Samai Chat Araban (Taqsim nay,  Samai thaqil 10/8, samai darij 6/8)",
+    "artist": "Classical Arabic Orchestra of Aleppo, Mohamad Maksoud",
+    "album": "Samai Chat Araban (Taqsim nay,  Samai thaqil 10/8, samai darij 6/8)",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Kalimat Wadaa",
+    "artist": "وائل جسار",
+    "album": "Kalimat Wadaa",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Habibi Taala",
+    "artist": "Asmahan",
+    "album": "Ya Habibi Taala",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Sarajevo",
+    "artist": "Lotfi Bouchnak",
+    "album": "Sarajevo",
+    "genre": "Arabic",
+    "popularity": 62,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Hasayef",
+    "artist": "Mohammed Abdu",
+    "album": "Hasayef",
+    "genre": "Arabic",
+    "popularity": 79,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ghader El Nass",
+    "artist": "George Wassouf",
+    "album": "Ghader El Nass",
+    "genre": "Arabic",
+    "popularity": 82,
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ]
+  },
+  {
+    "title": "Kalamak Ya Habibi",
+    "artist": "George Wassouf",
+    "album": "Kalamak Ya Habibi",
+    "genre": "Arabic",
+    "popularity": 90,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Ghannou Ya Hbab",
+    "artist": "Samira Taoufik",
+    "album": "Ghannou Ya Hbab",
+    "genre": "Arabic",
+    "popularity": 67,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ouloulou El Haeia",
+    "artist": "الفة بن رمضان",
+    "album": "Ouloulou El Haeia",
+    "genre": "Arabic",
+    "popularity": 74,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ismaooni",
+    "artist": "Warda",
+    "album": "Ismaooni",
+    "genre": "Arabic",
+    "popularity": 91,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Halat Domou Al Sama",
+    "artist": "Talal Maddah",
+    "album": "Halat Domou Al Sama",
+    "genre": "Arabic",
+    "popularity": 88,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Ya Emi Aashkan",
+    "artist": "وائل جسار",
+    "album": "Ya Emi Aashkan",
+    "genre": "Arabic",
+    "popularity": 68,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Mouch Awaydak",
+    "artist": "الفة بن رمضان",
+    "album": "Mouch Awaydak",
+    "genre": "Arabic",
+    "popularity": 68,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Jrit W Jérit",
+    "artist": "الفة بن رمضان",
+    "album": "Jrit W Jérit",
+    "genre": "Arabic",
+    "popularity": 77,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Lmouni Elli '3aro Meni",
+    "artist": "Loutfi Bouchnak",
+    "album": "Lmouni Elli '3aro Meni",
+    "genre": "Arabic",
+    "popularity": 73,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Kanz",
+    "artist": "Jadal",
+    "album": "Kanz",
+    "genre": "Arabic",
+    "popularity": 92,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Inni Mnih",
+    "artist": "Mashrou' Leila",
+    "album": "Inni Mnih",
+    "genre": "Arabic",
+    "popularity": 64,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Salam",
+    "artist": "Souad Massi",
+    "album": "Salam",
+    "genre": "Arabic",
+    "popularity": 85,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Icarus",
+    "artist": "مشروع ليلى",
+    "album": "Icarus",
+    "genre": "Arabic",
+    "popularity": 65,
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ]
+  },
+  {
+    "title": "Im Bimbillila7",
+    "artist": "Mashrou’ Leila",
+    "album": "Im Bimbillila7",
+    "genre": "Arabic",
+    "popularity": 89,
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ]
+  },
+  {
+    "title": "Habibi",
+    "artist": "Mashrou’ Leila",
+    "album": "Habibi",
+    "genre": "Arabic",
+    "popularity": 75,
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ]
   }
 ]
