@@ -270,58 +270,93 @@
   async function clientSideDirectLookup(track, artist) {
     const cleanTrack = (track || '').trim();
     const cleanArtist = (artist || '').trim();
-    const term = encodeURIComponent(`${cleanArtist ? cleanArtist + ' ' : ''}${cleanTrack}`);
 
     try {
-      const itunesRes = await fetchWithTimeout(`https://itunes.apple.com/search?term=${term}&entity=song&limit=5`, 5000);
+      let itData = null;
+
+      // 1. Try combined query on global store
+      const termCombined = encodeURIComponent(`${cleanArtist ? cleanArtist + ' ' : ''}${cleanTrack}`);
+      let itunesRes = await fetchWithTimeout(`https://itunes.apple.com/search?term=${termCombined}&entity=song&limit=5`, 4000).catch(() => null);
       if (itunesRes && itunesRes.ok) {
-        const itData = await itunesRes.json();
-        if (itData.results && itData.results.length > 0) {
-          const item = itData.results[0];
-          const artistName = item.artistName;
-          const trackName = item.trackName;
-          const albumName = item.collectionName || trackName;
-          const image = item.artworkUrl100 ? item.artworkUrl100.replace('100x100bb', '600x600bb') : null;
-          const audioPreview = item.previewUrl || null;
-          const itunesUrl = item.trackViewUrl || null;
-          const releaseYear = item.releaseDate ? item.releaseDate.slice(0, 4) : 'Recent';
-          const durationMs = item.trackTimeMillis || 210000;
-          const duration = `${Math.floor(durationMs / 60000)}:${String(Math.floor((durationMs % 60000) / 1000)).padStart(2, '0')}`;
-          const genre = item.primaryGenreName || 'Music';
+        const json = await itunesRes.json().catch(() => null);
+        if (json?.results?.length > 0) itData = json;
+      }
 
-          // Query Wikipedia in parallel for artist photo & bio
-          let artistPhoto = null;
-          let artistBio = null;
-          try {
-            const isArabic = /[\u0600-\u06FF]/.test(artistName);
-            const wikiDomains = isArabic ? ['ar', 'en'] : ['en', 'ar'];
-            for (const d of wikiDomains) {
-              const wRes = await fetchWithTimeout(`https://${d}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(artistName)}`, 3500).catch(() => null);
-              if (wRes && wRes.ok) {
-                const wData = await wRes.json();
-                if (wData.thumbnail?.source || wData.originalimage?.source) {
-                  artistPhoto = wData.thumbnail?.source || wData.originalimage?.source;
-                }
-                if (wData.extract) {
-                  artistBio = wData.extract.replace(/<[^>]+>/g, '').trim();
-                }
-                if (artistPhoto) break;
+      // 2. Try Egypt storefront for Arabic artists
+      if (!itData) {
+        itunesRes = await fetchWithTimeout(`https://itunes.apple.com/search?term=${termCombined}&country=EG&entity=song&limit=5`, 4000).catch(() => null);
+        if (itunesRes && itunesRes.ok) {
+          const json = await itunesRes.json().catch(() => null);
+          if (json?.results?.length > 0) itData = json;
+        }
+      }
+
+      // 3. Try track title alone
+      if (!itData) {
+        const trackTerm = encodeURIComponent(cleanTrack);
+        itunesRes = await fetchWithTimeout(`https://itunes.apple.com/search?term=${trackTerm}&entity=song&limit=5`, 4000).catch(() => null);
+        if (itunesRes && itunesRes.ok) {
+          const json = await itunesRes.json().catch(() => null);
+          if (json?.results?.length > 0) itData = json;
+        }
+      }
+
+      // 4. Try inverted order (in case user searched track as artist)
+      if (!itData && cleanArtist) {
+        const termInverted = encodeURIComponent(`${cleanTrack} ${cleanArtist}`);
+        itunesRes = await fetchWithTimeout(`https://itunes.apple.com/search?term=${termInverted}&entity=song&limit=5`, 4000).catch(() => null);
+        if (itunesRes && itunesRes.ok) {
+          const json = await itunesRes.json().catch(() => null);
+          if (json?.results?.length > 0) itData = json;
+        }
+      }
+
+      if (itData && itData.results && itData.results.length > 0) {
+        const item = itData.results[0];
+        const artistName = item.artistName;
+        const trackName = item.trackName;
+        const albumName = item.collectionName || trackName;
+        const image = item.artworkUrl100 ? item.artworkUrl100.replace('100x100bb', '600x600bb') : null;
+        const audioPreview = item.previewUrl || null;
+        const itunesUrl = item.trackViewUrl || null;
+        const releaseYear = item.releaseDate ? item.releaseDate.slice(0, 4) : 'Recent';
+        const durationMs = item.trackTimeMillis || 210000;
+        const duration = `${Math.floor(durationMs / 60000)}:${String(Math.floor((durationMs % 60000) / 1000)).padStart(2, '0')}`;
+        const genre = item.primaryGenreName || 'Music';
+
+        // Query Wikipedia in parallel for artist photo & bio
+        let artistPhoto = null;
+        let artistBio = null;
+        try {
+          const isArabic = /[\u0600-\u06FF]/.test(artistName);
+          const wikiDomains = isArabic ? ['ar', 'en'] : ['en', 'ar'];
+          for (const d of wikiDomains) {
+            const wRes = await fetchWithTimeout(`https://${d}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(artistName)}`, 3500).catch(() => null);
+            if (wRes && wRes.ok) {
+              const wData = await wRes.json();
+              if (wData.thumbnail?.source || wData.originalimage?.source) {
+                artistPhoto = wData.thumbnail?.source || wData.originalimage?.source;
               }
+              if (wData.extract) {
+                artistBio = wData.extract.replace(/<[^>]+>/g, '').trim();
+              }
+              if (artistPhoto) break;
             }
-          } catch (wErr) {
-            // Non-fatal
           }
+        } catch (wErr) {
+          // Non-fatal
+        }
 
-          // Check if track exists in loaded local songs data for tags/atmosphere
-          const localCatalog = window.DoomChill.songsData || [];
-          const localMatch = localCatalog.find(s =>
-            s.title.toLowerCase() === trackName.toLowerCase() ||
-            cleanTrack.toLowerCase().includes(s.title.toLowerCase())
-          );
+        // Check if track exists in loaded local songs data for tags/atmosphere
+        const pool = (typeof window.DoomChill?.getSongPool === 'function' && window.DoomChill.getSongPool()) || [];
+        const localMatch = pool.find(s =>
+          s.title.toLowerCase() === trackName.toLowerCase() ||
+          cleanTrack.toLowerCase().includes(s.title.toLowerCase())
+        );
 
-          const playcount = localMatch ? Math.max(500000, localMatch.popularity * 350000) : 18500000;
-          const listeners = localMatch ? Math.max(80000, localMatch.popularity * 35000) : 1900000;
-          const tags = localMatch?.tags || [genre.toLowerCase(), 'favorites', 'discovery'];
+        const playcount = localMatch ? Math.max(500000, localMatch.popularity * 350000) : 18500000;
+        const listeners = localMatch ? Math.max(80000, localMatch.popularity * 35000) : 1900000;
+        const tags = localMatch?.atmosphere || [genre.toLowerCase(), 'favorites', 'discovery'];
 
           // Compute tier
           let trackTier = 'Well-Known';
@@ -368,7 +403,6 @@
             tracklist: tracklist.slice(0, 5),
             tags,
             wikiSummary: funFacts[0] + ' ' + funFacts[1]
-          };
         }
       }
     } catch (directErr) {
@@ -419,7 +453,65 @@
       data = await clientSideDirectLookup(cleanTrack, cleanArtist);
     }
 
-    // TIER 4: Local Demo Catalog Fallback
+    // TIER 4: Full Local 11,316 Songs Dataset Fallback
+    if (!data) {
+      const pool = (typeof window.DoomChill?.getSongPool === 'function' && window.DoomChill.getSongPool()) || [];
+      const tLower = cleanTrack.toLowerCase();
+      const aLower = cleanArtist.toLowerCase();
+
+      const match = pool.find(s => {
+        const titleMatch = s.title.toLowerCase() === tLower ||
+          tLower.includes(s.title.toLowerCase()) ||
+          s.title.toLowerCase().includes(tLower);
+
+        if (aLower) {
+          return titleMatch && (
+            s.artist.toLowerCase().includes(aLower) ||
+            aLower.includes(s.artist.toLowerCase())
+          );
+        }
+        return titleMatch;
+      });
+
+      if (match) {
+        const popPct = match.popularity;
+        const trackTier = popPct >= 90 ? 'Global Hit' : (popPct >= 70 ? 'Very Popular' : (popPct >= 40 ? 'Well-Known' : 'Niche Favorite'));
+        const listPct = Math.min(98, Math.max(25, Math.round(popPct * 0.95)));
+        const playPct = Math.min(99, Math.max(30, Math.round(popPct * 1.02)));
+        const listeners = Math.round(popPct * 35000 + 100000);
+        const playcount = Math.round(listeners * 4.5);
+
+        data = {
+          track: match.title,
+          artist: match.artist,
+          genre: match.genre,
+          trackTier,
+          album: match.album,
+          albumTier: trackTier,
+          listeners,
+          playcount,
+          releaseYear: 'Recent',
+          duration: '3:30',
+          image: null,
+          artistPhoto: null,
+          audioPreview: null,
+          itunesUrl: null,
+          artistBio: `${match.artist} is an iconic standout artist in ${match.genre}.`,
+          artistListeners: listeners * 2,
+          stats: { popularityPct: popPct, listenersPct: listPct, playcountPct: playPct },
+          funFacts: [
+            `Streaming Impact: Highly recognized in ${match.genre}, earning ${trackTier} prominence.`,
+            `Sonic Identity: Atmospherically tagged as ${match.atmosphere.join(', ')}.`,
+            `Cultural Legacy: A signature standout from the album '${match.album}'.`
+          ],
+          tracklist: [match.title],
+          tags: [match.genre.toLowerCase(), ...(match.atmosphere || [])],
+          wikiSummary: `A signature standout in ${match.artist}'s catalog from the album ${match.album}.`
+        };
+      }
+    }
+
+    // TIER 5: Local Demo Catalog Fallback
     if (!data) {
       const q = cleanTrack.toLowerCase();
       const demo = DEMO_CATALOG.find(c =>

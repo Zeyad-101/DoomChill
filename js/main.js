@@ -326,6 +326,20 @@ function applyMoodBackground(moodName) {
       artist = parts.slice(1).join(' by ').trim();
     }
 
+    // Smart Swap: If user wrote "Artist - Track" instead of "Track - Artist", detect and swap!
+    const pool = (typeof window.DoomChill.getSongPool === 'function' && window.DoomChill.getSongPool()) || [];
+    if (artist && pool.length > 0) {
+      const tLower = track.toLowerCase();
+      const aLower = artist.toLowerCase();
+      const isPart0Artist = pool.some(s => s.artist.toLowerCase() === tLower);
+      const isPart1Track = pool.some(s => s.title.toLowerCase() === aLower);
+      if (isPart0Artist || isPart1Track) {
+        const tmp = track;
+        track = artist;
+        artist = tmp;
+      }
+    }
+
     if (typeof window.DoomChill.lookupSong === 'function') {
       window.DoomChill.lookupSong(track, artist);
     }
@@ -377,17 +391,21 @@ function applyMoodBackground(moodName) {
       }
 
       panel.innerHTML = allMatches.map(m => `
-        <div class="suggestion-item" data-query="${esc(`${m.data.artist} - ${m.data.track}`)}">
+        <div class="suggestion-item" data-track="${esc(m.data.track)}" data-artist="${esc(m.data.artist)}">
           <span class="suggestion-item__title">${esc(m.data.track)}</span>
           <span class="suggestion-item__artist">${esc(m.data.artist)}</span>
         </div>
       `).join('');
 
-      panel.querySelectorAll('.suggestion-item[data-query]').forEach(item => {
+      panel.querySelectorAll('.suggestion-item[data-track]').forEach(item => {
         item.addEventListener('click', () => {
-          input.value = item.dataset.query;
+          const trackName = item.dataset.track;
+          const artistName = item.dataset.artist;
+          input.value = `${artistName} - ${trackName}`;
           panel.setAttribute('hidden', '');
-          triggerSearch();
+          if (typeof window.DoomChill.lookupSong === 'function') {
+            window.DoomChill.lookupSong(trackName, artistName);
+          }
         });
       });
 
