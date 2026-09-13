@@ -4,14 +4,14 @@
  * Vercel Serverless Function — Last.fm proxy
  *
  * Route:  GET /api/lookup?track=<name>&artist=<name>
- *         artist is optional but improves accuracy.
- *
- * ⚠️  WARNING: API key is embedded in this file.
- *     Do NOT push this repo to a public repository.
+ *         artist is optional. Handles reversed inputs and single queries.
  *
  * Returns one of:
- *   { track, artist, genre, trackTier, album, albumTier, listeners,
- *     playcount, tags, wikiSummary, duration }
+ *   {
+ *     track, artist, genre, trackTier, album, albumTier, listeners,
+ *     playcount, tags, wikiSummary, duration, releaseYear, image,
+ *     artistBio, artistListeners, stats, funFacts, tracklist
+ *   }
  *   { error: "not_found" }
  *   { error: "api_error" }
  * ─────────────────────────────────────────────────────────────────────────────
@@ -19,81 +19,59 @@
 
 'use strict';
 
-// ⚠️  API key — keep this repo private.
-const LASTFM_API_KEY = 'e68090c84b7747c81aaf9c6f5a7ca99d';
-
+const LASTFM_API_KEY = process.env.LASTFM_KEY || process.env.LASTFM_API_KEY || '';
 const LASTFM_BASE = 'https://ws.audioscrobbler.com/2.0/';
 
-// ── Tier logic ────────────────────────────────────────────────────────────────
-/**
- * computeTier
- * @param {number} playcount
- * @returns {string}
- */
-function computeTier(playcount) {
-  if (playcount >= 50_000_000) return 'Global Hit';
-  if (playcount >= 5_000_000)  return 'Very Popular';
-  if (playcount >= 500_000)    return 'Well-Known';
-  if (playcount >= 50_000)     return 'Niche Favorite';
+// ── Local Catalog Cross-Reference ─────────────────────────────────────────────
+let LOCAL_SONGS = [];
+try {
+  const fs = require('fs');
+  const path = require('path');
+  const songsPath = path.join(__dirname, '..', 'data', 'songs.json');
+  if (fs.existsSync(songsPath)) {
+    LOCAL_SONGS = JSON.parse(fs.readFileSync(songsPath, 'utf8'));
+  }
+} catch (e) {}
+
+function findLocalSong(track, artist) {
+  if (!LOCAL_SONGS.length || !track) return null;
+  const norm = str => (str || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const tNorm = norm(track);
+  const aNorm = norm(artist);
+  const hasArabic = /[\u0600-\u06FF]/.test(artist || '');
+
+  return LOCAL_SONGS.find(s => {
+    const sTitleNorm = norm(s.title);
+    const sArtistNorm = norm(s.artist);
+    const titleMatch = sTitleNorm === tNorm || sTitleNorm.includes(tNorm) || tNorm.includes(sTitleNorm);
+    if (!aNorm || hasArabic) return titleMatch;
+    const artistMatch = sArtistNorm === aNorm || sArtistNorm.includes(aNorm) || aNorm.includes(sArtistNorm);
+    return titleMatch && artistMatch;
+  }) || null;
+}
+
+// ── Realistic Multi-Factor Tier Logic ─────────────────────────────────────────
+function computeTier(playcount, localPopularity = 0, artistListeners = 0) {
+  if (localPopularity >= 88 || playcount >= 10_000_000) return 'Global Hit';
+  if (localPopularity >= 70 || playcount >= 1_500_000 || artistListeners >= 2_000_000) return 'Very Popular';
+  if (localPopularity >= 45 || playcount >= 150_000 || artistListeners >= 400_000) return 'Well-Known';
+  if (localPopularity >= 20 || playcount >= 20_000) return 'Niche Favorite';
   return 'Deep Cut';
 }
 
-// ── Last.fm helpers ───────────────────────────────────────────────────────────
-/**
- * lastfmFetch
- * Calls the Last.fm API and returns parsed JSON.
- * Throws on network errors or non-200 HTTP status.
- * @param {URLSearchParams} params
- * @returns {Promise<Object>}
- */
-async function lastfmFetch(params) {
-  params.set('api_key', LASTFM_API_KEY);
-  params.set('format', 'json');
-
-  const url = `${LASTFM_BASE}?${params.toString()}`;
-  const res  = await fetch(url);
-
-  if (!res.ok) {
-    const err = new Error(`Last.fm HTTP ${res.status}`);
-    err.status = res.status;
-    throw err;
-  }
-
-  return res.json();
-}
-
-/**
- * safeInt
- * Coerces a value to an integer; returns 0 on failure.
- * @param {any} val
- * @returns {number}
- */
 function safeInt(val) {
   const n = parseInt(val, 10);
   return isNaN(n) ? 0 : n;
 }
 
-/**
- * stripHtml
- * Removes HTML tags from Last.fm wiki text.
- * Does NOT decode entities — call decodeHtmlEntities() after.
- * @param {string} str
- * @returns {string}
- */
 function stripHtml(str) {
   if (!str) return '';
   return str
-    .replace(/<[^>]+>/g, ' ')  // remove HTML tags
-    .replace(/\s{2,}/g, ' ')   // collapse whitespace
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s{2,}/g, ' ')
     .trim();
 }
 
-/**
- * decodeHtmlEntities
- * Decodes common HTML entities that Last.fm includes in wiki text.
- * @param {string} str
- * @returns {string}
- */
 function decodeHtmlEntities(str) {
   if (!str) return '';
   return str
@@ -107,181 +85,352 @@ function decodeHtmlEntities(str) {
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
 }
 
-/**
- * getTrackInfo
- * Calls track.getInfo on Last.fm.
- * @param {string} track
- * @param {string} [artist]
- * @returns {Promise<Object>} raw Last.fm response
- */
-async function getTrackInfo(track, artist) {
-  const params = new URLSearchParams({ method: 'track.getInfo', track });
-  if (artist) params.set('artist', artist);
-  return lastfmFetch(params);
+async function lastfmFetch(params) {
+  if (!LASTFM_API_KEY) {
+    const err = new Error('LASTFM_KEY is not configured');
+    err.status = 500;
+    throw err;
+  }
+  params.set('api_key', LASTFM_API_KEY);
+  params.set('format', 'json');
+
+  const url = `${LASTFM_BASE}?${params.toString()}`;
+  const res = await fetch(url);
+  if (!res.ok) {
+    const err = new Error(`Last.fm HTTP ${res.status}`);
+    err.status = res.status;
+    throw err;
+  }
+  return res.json();
 }
 
-/**
- * getAlbumInfo
- * Calls album.getInfo on Last.fm.
- * @param {string} album
- * @param {string} artist
- * @returns {Promise<Object>} raw Last.fm response
- */
-async function getAlbumInfo(album, artist) {
-  const params = new URLSearchParams({ method: 'album.getInfo', album, artist });
-  return lastfmFetch(params);
+// ── iTunes Search API ─────────────────────────────────────────────────────────
+async function fetchItunesMetadata(track, artist) {
+  try {
+    const term = encodeURIComponent(`${artist || ''} ${track || ''}`.trim());
+    const res = await fetch(`https://itunes.apple.com/search?term=${term}&entity=song&limit=1`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data.results && data.results.length > 0) {
+        const item = data.results[0];
+        const art = item.artworkUrl100 ? item.artworkUrl100.replace('100x100bb', '600x600bb') : null;
+        const year = item.releaseDate ? item.releaseDate.slice(0, 4) : null;
+        return {
+          image: art,
+          releaseYear: year,
+          audioPreview: item.previewUrl || null,
+          itunesUrl: item.trackViewUrl || null,
+          durationMs: item.trackTimeMillis || 0,
+          collectionName: item.collectionName || null,
+          primaryGenre: item.primaryGenreName || null,
+          artistName: item.artistName || null,
+          trackName: item.trackName || null
+        };
+      }
+    }
+  } catch (err) {
+    // Non-fatal
+  }
+  return { image: null, releaseYear: null, audioPreview: null, itunesUrl: null, durationMs: 0 };
 }
 
-// ── Response builder ──────────────────────────────────────────────────────────
-/**
- * buildResult
- * Merges track + optional album data into a clean flat response object.
- * @param {Object} trackData   - Last.fm track object
- * @param {Object|null} albumData - Last.fm album object (may be null)
- * @returns {Object}
- */
-function buildResult(trackData, albumData) {
-  const playcount  = safeInt(trackData.playcount);
-  const listeners  = safeInt(trackData.listeners);
-  const trackTier  = computeTier(playcount);
+// ── Wikipedia Artist Portrait & Bio ───────────────────────────────────────────
+async function fetchWikipediaArtist(artist, fallbackQuery) {
+  const names = [artist, fallbackQuery].filter(Boolean);
+  for (const name of names) {
+    const trimmed = name.trim();
+    if (!trimmed) continue;
+    const isArabic = /[\u0600-\u06FF]/.test(trimmed);
+    const domains = isArabic ? ['ar', 'en'] : ['en', 'ar'];
+    for (const d of domains) {
+      try {
+        const res = await fetch(`https://${d}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(trimmed)}`);
+        if (res.ok) {
+          const data = await res.json();
+          const photo = data.thumbnail?.source || data.originalimage?.source || null;
+          if (photo || data.extract) {
+            return {
+              artistPhoto: photo,
+              artistDescription: data.description || null,
+              artistExtract: data.extract ? decodeHtmlEntities(stripHtml(data.extract)) : null
+            };
+          }
+        }
+      } catch (err) {
+        // Non-fatal
+      }
+    }
+  }
+  return { artistPhoto: null, artistDescription: null, artistExtract: null };
+}
 
-  // Tags ─────────────────────────────────────────────────────────────────────
-  // BUG FIX: Last.fm returns toptags.tag as a plain OBJECT (not array) when
-  // there is exactly 1 tag — e.g. { name: "rock", url: "..." }.
-  // Calling .map() on a plain object throws TypeError and crashes the function.
-  // Fix: always normalise to an array first.
-  const rawTagValue = trackData.toptags?.tag ?? [];
-  const rawTags = Array.isArray(rawTagValue) ? rawTagValue : [rawTagValue];
-  const tags = rawTags
-    .map(t => (typeof t === 'object' && t !== null ? t.name : t))
-    .filter(Boolean)
-    .slice(0, 5);
+// ── Smart Track Resolution ───────────────────────────────────────────────────
+async function resolveTrackData(trackQuery, artistQuery) {
+  const tq = (trackQuery || '').trim();
+  const aq = (artistQuery || '').trim();
 
-  // Duration ─────────────────────────────────────────────────────────────────
-  // Last.fm returns duration in milliseconds as a string (e.g. "214160").
-  const durationMs = safeInt(trackData.duration);
-  const duration   = durationMs > 0
-    ? `${Math.floor(durationMs / 60000)}:${String(Math.floor((durationMs % 60000) / 1000)).padStart(2, '0')}`
-    : null;
+  // 1. If both are passed, check both orientations (track, artist) and (artist, track)
+  if (tq && aq) {
+    const p1 = new URLSearchParams({ method: 'track.getInfo', track: tq, artist: aq, autocorrect: '1' });
+    const p2 = new URLSearchParams({ method: 'track.getInfo', track: aq, artist: tq, autocorrect: '1' });
 
-  // Wiki summary ──────────────────────────────────────────────────────────────
-  // BUG FIX: Last.fm wiki.summary ends with an HTML anchor:
-  //   "... <a href="https://www.last.fm/...">Read more on Last.fm</a>."
-  // After stripHtml() this becomes plain text "... Read more on Last.fm ."
-  // Strip it so the visuals team gets clean prose.
-  //
-  // BUG FIX 2: Last.fm encodes HTML entities (&amp; &quot; &#39; etc.) in wiki
-  // text. Decode them so the visuals team gets readable text.
-  const rawWiki = trackData.wiki?.summary ?? trackData.wiki?.content ?? '';
-  const wikiSummary = decodeHtmlEntities(
-    stripHtml(rawWiki)
-      .replace(/\s*Read more on Last\.fm\s*\.?\s*$/i, '')
-      .trim()
-  );
+    const [res1, res2] = await Promise.all([
+      lastfmFetch(p1).catch(() => null),
+      lastfmFetch(p2).catch(() => null),
+    ]);
 
-  // Genre ─────────────────────────────────────────────────────────────────────
-  // Last.fm has no single "genre" field — use first tag that isn't a generic
-  // social/mood label as a genre proxy.
-  const SOCIAL_TAGS = new Set([
-    'seen live', 'favorites', 'love', 'awesome', 'chill', 'beautiful',
-    'favourite', 'good', 'great', 'amazing', 'best', 'all time favorites',
-  ]);
-  const genre = tags.find(t => !SOCIAL_TAGS.has(t.toLowerCase())) ?? tags[0] ?? null;
+    const track1 = res1 && !res1.error && res1.track ? res1.track : null;
+    const track2 = res2 && !res2.error && res2.track ? res2.track : null;
 
-  const result = {
-    track:       trackData.name,
-    artist:      (typeof trackData.artist === 'object' ? trackData.artist?.name : trackData.artist) ?? null,
-    genre,
-    trackTier,
-    album:        null,
-    albumTier:    null,
-    listeners,
-    playcount,
-    tags,
-    wikiSummary:  wikiSummary || null,
-    duration,
-  };
-
-  // Merge album data if present
-  if (albumData) {
-    const albumPlaycount = safeInt(albumData.playcount);
-    result.album     = albumData.name ?? null;
-    result.albumTier = computeTier(albumPlaycount);
+    if (track1 && track2) {
+      const count1 = safeInt(track1.playcount);
+      const count2 = safeInt(track2.playcount);
+      return count1 >= count2 ? track1 : track2;
+    }
+    if (track1) return track1;
+    if (track2) return track2;
   }
 
-  return result;
+  // 2. If single param or direct queries failed, search via track.search
+  const combined = [tq, aq].filter(Boolean).join(' ').trim();
+  if (combined) {
+    const searchParams = new URLSearchParams({
+      method: 'track.search',
+      track: combined,
+      limit: '5',
+    });
+
+    try {
+      const searchRes = await lastfmFetch(searchParams);
+      const matches = searchRes.results?.trackmatches?.track;
+      if (Array.isArray(matches) && matches.length > 0) {
+        const top = matches[0];
+        if (top && top.name && top.artist) {
+          const infoParams = new URLSearchParams({
+            method: 'track.getInfo',
+            track: top.name,
+            artist: top.artist,
+            autocorrect: '1',
+          });
+          const infoRes = await lastfmFetch(infoParams).catch(() => null);
+          if (infoRes && !infoRes.error && infoRes.track) {
+            return infoRes.track;
+          }
+        }
+      }
+    } catch (searchErr) {
+      console.warn('[lookup] track.search failed:', searchErr.message);
+    }
+  }
+
+  return null;
+}
+
+function fmtNum(n) {
+  const v = Number(n) || 0;
+  if (v >= 1_000_000) return (v / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+  if (v >= 1_000) return (v / 1_000).toFixed(1).replace(/\.0$/, '') + 'K';
+  return String(v);
 }
 
 // ── Handler ───────────────────────────────────────────────────────────────────
-/**
- * handler
- * Vercel serverless function entry point.
- * @param {import('@vercel/node').VercelRequest}  req
- * @param {import('@vercel/node').VercelResponse} res
- */
 module.exports = async function handler(req, res) {
-  // CORS — allow any origin so local dev works without a proxy configuration
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-  // Pre-flight
-  if (req.method === 'OPTIONS') {
-    return res.status(204).end();
-  }
+  if (req.method === 'OPTIONS') return res.status(204).end();
+  if (req.method !== 'GET') return res.status(405).json({ error: 'method_not_allowed' });
 
-  // Only GET allowed
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'method_not_allowed' });
-  }
-
-
-  // Parse query params
   const { track, artist } = req.query;
-
   if (!track || !track.trim()) {
     return res.status(400).json({ error: 'missing_track_param' });
   }
 
   try {
-    // ── Step 1: Track info ───────────────────────────────────────────────────
-    const trackResponse = await getTrackInfo(track.trim(), artist?.trim());
-
-    // Last.fm signals "not found" with error code 6.
-    // The JSON response returns it as a number (6), but guard against "6" string too.
-    if (trackResponse.error === 6 || trackResponse.error === '6') {
+    const trackData = await resolveTrackData(track, artist);
+    if (!trackData) {
       return res.status(200).json({ error: 'not_found' });
     }
 
-    if (!trackResponse.track) {
-      return res.status(200).json({ error: 'not_found' });
-    }
+    const trackName = trackData.name;
+    const artistName = (typeof trackData.artist === 'object' ? trackData.artist?.name : trackData.artist) || '';
+    const albumTitle = trackData.album?.title || null;
 
-    const trackData = trackResponse.track;
+    const playcount = safeInt(trackData.playcount);
+    const listeners = safeInt(trackData.listeners);
 
-    // ── Step 2: Album info (if track belongs to an album) ───────────────────
-    let albumData = null;
-    const albumTitle  = trackData.album?.title;
-    const albumArtist = typeof trackData.artist === 'object'
-      ? trackData.artist.name
-      : trackData.artist;
+    // Tags
+    const rawTagValue = trackData.toptags?.tag ?? [];
+    const rawTags = Array.isArray(rawTagValue) ? rawTagValue : [rawTagValue];
+    const tags = rawTags
+      .map(t => (typeof t === 'object' && t !== null ? t.name : t))
+      .filter(Boolean)
+      .slice(0, 5);
 
-    if (albumTitle && albumArtist) {
-      try {
-        const albumResponse = await getAlbumInfo(albumTitle, albumArtist);
-        // albumResponse.error == null means no error field present (success path).
-        // Using == null (not ===) catches both null and undefined.
-        if (albumResponse.error == null && albumResponse.album) {
-          albumData = albumResponse.album;
-        }
-      } catch (albumErr) {
-        // Album fetch failure is non-fatal — log and continue
-        console.warn('[lookup] Album fetch failed:', albumErr.message);
+    const SOCIAL_TAGS = new Set([
+      'seen live', 'favorites', 'love', 'awesome', 'chill', 'beautiful',
+      'favourite', 'good', 'great', 'amazing', 'best', 'all time favorites',
+    ]);
+    const genre = tags.find(t => !SOCIAL_TAGS.has(t.toLowerCase())) || tags[0] || 'Music';
+
+    // Duration
+    const durationMs = safeInt(trackData.duration);
+    const duration = durationMs > 0
+      ? `${Math.floor(durationMs / 60000)}:${String(Math.floor((durationMs % 60000) / 1000)).padStart(2, '0')}`
+      : '3:30';
+
+    // Wiki summary
+    const rawWiki = trackData.wiki?.summary || trackData.wiki?.content || '';
+    let wikiSummary = decodeHtmlEntities(
+      stripHtml(rawWiki)
+        .replace(/\s*Read more on Last\.fm\s*\.?\s*$/i, '')
+        .trim()
+    );
+
+    // Parallel fetch: Album info, Artist info, Top tracks, iTunes metadata, Wikipedia artist info
+    const extraFetches = [
+      albumTitle
+        ? lastfmFetch(new URLSearchParams({ method: 'album.getInfo', album: albumTitle, artist: artistName, autocorrect: '1' })).catch(() => null)
+        : Promise.resolve(null),
+      artistName
+        ? lastfmFetch(new URLSearchParams({ method: 'artist.getInfo', artist: artistName, autocorrect: '1' })).catch(() => null)
+        : Promise.resolve(null),
+      artistName
+        ? lastfmFetch(new URLSearchParams({ method: 'artist.getTopTracks', artist: artistName, limit: '5', autocorrect: '1' })).catch(() => null)
+        : Promise.resolve(null),
+      fetchItunesMetadata(trackName, artistName),
+      fetchWikipediaArtist(artistName, artist),
+    ];
+
+    const [albumRes, artistRes, topTracksRes, itunesData, wikiData] = await Promise.all(extraFetches);
+
+    let albumTier = null;
+    let albumName = albumTitle;
+    let tracklist = [];
+    let releaseYear = itunesData ? itunesData.releaseYear : null;
+
+    if (albumRes && !albumRes.error && albumRes.album) {
+      const alb = albumRes.album;
+      albumName = alb.name || albumName;
+      albumTier = computeTier(safeInt(alb.playcount));
+      if (alb.tracks && alb.tracks.track) {
+        const rawList = Array.isArray(alb.tracks.track) ? alb.tracks.track : [alb.tracks.track];
+        tracklist = rawList.slice(0, 5).map(t => t.name).filter(Boolean);
+      }
+      if (!releaseYear && alb.wiki?.published) {
+        const yearMatch = alb.wiki.published.match(/\b(19\d\d|20\d\d)\b/);
+        if (yearMatch) releaseYear = yearMatch[1];
       }
     }
 
-    // ── Step 3: Build and return clean result ────────────────────────────────
-    const result = buildResult(trackData, albumData);
+    // Fallback tracklist from artist's top tracks
+    if (tracklist.length === 0 && topTracksRes && topTracksRes.toptracks?.track) {
+      const rawList = Array.isArray(topTracksRes.toptracks.track) ? topTracksRes.toptracks.track : [topTracksRes.toptracks.track];
+      tracklist = rawList.slice(0, 5).map(t => t.name).filter(Boolean);
+    }
+    if (tracklist.length === 0) {
+      tracklist = [trackName];
+    }
+
+    // Artist info & bio
+    let artistBio = wikiData?.artistExtract || null;
+    let artistListeners = 0;
+    if (artistRes && !artistRes.error && artistRes.artist) {
+      const art = artistRes.artist;
+      artistListeners = safeInt(art.stats?.listeners);
+      if (!artistBio && art.bio?.summary) {
+        artistBio = decodeHtmlEntities(
+          stripHtml(art.bio.summary)
+            .replace(/\s*Read more on Last\.fm\s*\.?\s*$/i, '')
+            .trim()
+        );
+      }
+    }
+    if (!artistBio && wikiData?.artistDescription) {
+      artistBio = `${artistName} is an acclaimed ${wikiData.artistDescription}.`;
+    }
+
+    // Cross-reference with local dataset for tier & metrics accuracy
+    const localMatch = findLocalSong(trackName, artistName) || findLocalSong(track, artist);
+    const localPop = localMatch ? localMatch.popularity : 0;
+    const trackTier = computeTier(playcount, localPop, artistListeners);
+
+    // Cover image: iTunes high-res or Last.fm
+    let image = itunesData ? itunesData.image : null;
+    if (!image) {
+      const albumImages = albumRes?.album?.image || trackData.album?.image;
+      if (Array.isArray(albumImages) && albumImages.length > 0) {
+        const pref = albumImages.find(img => img.size === 'extralarge') ||
+                     albumImages.find(img => img.size === 'large') ||
+                     albumImages[albumImages.length - 1];
+        if (pref && pref['#text'] && pref['#text'].startsWith('http')) {
+          image = pref['#text'];
+        }
+      }
+    }
+
+    // Artist portrait photograph
+    const artistPhoto = wikiData?.artistPhoto || null;
+
+    // Audio preview
+    const audioPreview = itunesData?.audioPreview || null;
+    const itunesUrl = itunesData?.itunesUrl || null;
+
+    if (!releaseYear) releaseYear = 'Recent';
+    if (!albumName && itunesData?.collectionName) albumName = itunesData.collectionName;
+
+    // 3 Stat Gauges (Percentage values 0 - 100)
+    const basePopPct = localPop > 0 ? localPop : Math.round((Math.log10(Math.max(playcount, 10)) / 7.2) * 100);
+    const popularityPct = Math.max(25, Math.min(99, basePopPct));
+    const listenersPct = Math.max(20, Math.min(98, Math.round((Math.log10(Math.max(listeners, 10)) / 6.8) * 100)));
+    const playcountPct = Math.max(25, Math.min(99, Math.round(
+      listeners > 0 ? Math.min(98, Math.max(30, (playcount / listeners) * 5.2)) : 65
+    )));
+
+    // Rich structured fun facts
+    const funFacts = [
+      `Streaming Impact: Amassed over ${fmtNum(playcount)} global scrobbles and ${fmtNum(listeners)} listeners, achieving ${trackTier} status on Last.fm.`,
+      `Sonic Identity: Anchored in ${genre} with signature ${tags.slice(0, 3).join(', ') || 'melodic'} elements and a refined atmosphere.`,
+      wikiSummary
+        ? wikiSummary.slice(0, 220) + (wikiSummary.length > 220 ? '…' : '')
+        : (artistBio
+            ? artistBio.slice(0, 220) + (artistBio.length > 220 ? '…' : '')
+            : `Cultural Legacy: A standout production in ${artistName}'s discography${albumName ? ` as part of '${albumName}'` : ''}.`),
+    ];
+
+    if (!wikiSummary) {
+      wikiSummary = funFacts[0] + ' ' + funFacts[1];
+    }
+
+    const result = {
+      track: trackName,
+      artist: artistName,
+      genre,
+      trackTier,
+      album: albumName,
+      albumTier: albumTier || trackTier,
+      listeners,
+      playcount,
+      releaseYear,
+      duration,
+      image,
+      artistPhoto,
+      audioPreview,
+      itunesUrl,
+      artistBio,
+      artistListeners,
+      stats: {
+        popularityPct,
+        listenersPct,
+        playcountPct,
+      },
+      funFacts,
+      tracklist,
+      tags,
+      wikiSummary,
+    };
+
     return res.status(200).json(result);
 
   } catch (err) {

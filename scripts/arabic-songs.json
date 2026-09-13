@@ -1,0 +1,1343 @@
+[
+  {
+    "title": "Tamally Ma'ak",
+    "artist": "Amr Diab",
+    "album": "Tamally Ma'ak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Nour El Ein",
+    "artist": "Amr Diab",
+    "album": "Nour El Ein",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "We Malo",
+    "artist": "Amr Diab",
+    "album": "Kammel Kalamak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Qusad Einy",
+    "artist": "Amr Diab",
+    "album": "Leily Nahary",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Sad / Melancholic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Amarain",
+    "artist": "Amr Diab",
+    "album": "Amarain",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Wayah",
+    "artist": "Amr Diab",
+    "album": "Wayah",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Bayen Habeit",
+    "artist": "Amr Diab, Marshmello",
+    "album": "Kol Hayaty",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Rayqa",
+    "artist": "Amr Diab",
+    "album": "Ayeshny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Khalik Ma'aya",
+    "artist": "Amr Diab",
+    "album": "Allem Alby",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Ana Gheir",
+    "artist": "Amr Diab",
+    "album": "Ana Gheir",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Ya Ana Ya La",
+    "artist": "Amr Diab",
+    "album": "Ya Ana Ya La",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Youm Talat",
+    "artist": "Amr Diab",
+    "album": "Ana Gheir",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat"
+    ],
+    "popularity": 81
+  },
+  {
+    "title": "Zay Manty",
+    "artist": "Amr Diab",
+    "album": "Sahran",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Shukran Men Hena Lebokra",
+    "artist": "Amr Diab",
+    "album": "Single",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "El Leila Ya Samra",
+    "artist": "Mohamed Mounir",
+    "album": "Etkallemy",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Younis",
+    "artist": "Mohamed Mounir",
+    "album": "Ta'm El Beyoot",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Sheta",
+    "artist": "Mohamed Mounir",
+    "album": "Sheta",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Shamandora",
+    "artist": "Mohamed Mounir",
+    "album": "Fi Eshq El Banat",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "So Ya So",
+    "artist": "Mohamed Mounir",
+    "album": "Meshtaqeen",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Eishk El Banat",
+    "artist": "Mohamed Mounir",
+    "album": "Fi Eshq El Banat",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Madad Ya Rasool Allah",
+    "artist": "Mohamed Mounir",
+    "album": "El Ard... El Salam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ],
+    "popularity": 80
+  },
+  {
+    "title": "Hader",
+    "artist": "Mohamed Mounir",
+    "album": "Etkallemy",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Focus / Study",
+      "Chill / Relaxed"
+    ],
+    "popularity": 79
+  },
+  {
+    "title": "Masha'er",
+    "artist": "Sherine",
+    "album": "Masha'er",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Kolly Melkak",
+    "artist": "Sherine",
+    "album": "Ana Keteer",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Sabry Aleel",
+    "artist": "Sherine",
+    "album": "Lazem Ayesh",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Keda Ya Albi",
+    "artist": "Sherine",
+    "album": "Taree'i",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Ah Ya Leil",
+    "artist": "Sherine",
+    "album": "Free Music 3",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Garh Tany",
+    "artist": "Sherine",
+    "album": "Garh Tany",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "El Watar El Hassas",
+    "artist": "Sherine",
+    "album": "Nassay",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Hobbo Ganna",
+    "artist": "Sherine",
+    "album": "Nassay",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Zaman",
+    "artist": "Sherine",
+    "album": "Nassay",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Ma Balash",
+    "artist": "Mohamed Hamaki",
+    "album": "Omrena Ma Nergaa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Haga Mestabaya",
+    "artist": "Mohamed Hamaki",
+    "album": "Mn Alby Baghny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Ya Sattar",
+    "artist": "Mohamed Hamaki",
+    "album": "Koll Youm Men Dah",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Adressi",
+    "artist": "Mohamed Hamaki",
+    "album": "Ya Fatenny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "La Malama",
+    "artist": "Mohamed Hamaki",
+    "album": "Ya Fatenny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Ahla Haga Feeki",
+    "artist": "Mohamed Hamaki",
+    "album": "Kheles El Kalam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Nefsy Ab'a Gambo",
+    "artist": "Mohamed Hamaki",
+    "album": "Mn Alby Baghny",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Omrena Ma Nergaa",
+    "artist": "Mohamed Hamaki",
+    "album": "Omrena Ma Nergaa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Koll Mara",
+    "artist": "Tamer Hosny",
+    "album": "Enayyah Bthebak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Eish Besho'ak",
+    "artist": "Tamer Hosny",
+    "album": "Eish Besho'ak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Naseeny Leih",
+    "artist": "Tamer Hosny",
+    "album": "Eish Besho'ak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Helw El Makan",
+    "artist": "Tamer Hosny",
+    "album": "El Feloos",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Erga'ly",
+    "artist": "Tamer Hosny",
+    "album": "Hob",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Nour Einy",
+    "artist": "Tamer Hosny",
+    "album": "Ikhtart Sah",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Ya Mali Ainy",
+    "artist": "Tamer Hosny",
+    "album": "Oamry Ebtada",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Ya Abyad Ya Eswad",
+    "artist": "Cairokee",
+    "album": "Abnaa El Batta El Soda",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Sad / Melancholic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Kan Lak Ma'aya",
+    "artist": "Cairokee",
+    "album": "Abnaa El Batta El Soda",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Samurai",
+    "artist": "Cairokee",
+    "album": "Roma",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Angry / Intense"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Marboot Be Astek",
+    "artist": "Cairokee",
+    "album": "Nas We Nas",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Basrah W Atoh",
+    "artist": "Cairokee",
+    "album": "Roma",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Kol Haga Bet'addy",
+    "artist": "Cairokee",
+    "album": "Nas We Nas",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "El Sekka Shemal",
+    "artist": "Cairokee",
+    "album": "El Sekka Shemal",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Dinosaur",
+    "artist": "Cairokee",
+    "album": "No'ta Beida",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Dark / Moody"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Layla",
+    "artist": "Cairokee",
+    "album": "No'ta Beida",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Matkhafsh Men Bokra",
+    "artist": "Cairokee",
+    "album": "Matkhafsh Men Bokra",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Focus / Study"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "El Bakht",
+    "artist": "Wegz",
+    "album": "El Bakht",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Dorak Gai",
+    "artist": "Wegz",
+    "album": "Dorak Gai",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Bazat",
+    "artist": "Wegz",
+    "album": "Bazat",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Keifiy Keda",
+    "artist": "Wegz, Disco Misr",
+    "album": "Keifiy Keda",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Asyad El Soot",
+    "artist": "Wegz",
+    "album": "Asyad El Soot",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Wahed W Eshreen (21)",
+    "artist": "Wegz",
+    "album": "21",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Dark / Moody"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Salini",
+    "artist": "Wegz",
+    "album": "Salini",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Ezz El Arab",
+    "artist": "Wegz",
+    "album": "FIFA World Cup Qatar 2022",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "El Gemeza",
+    "artist": "Marwan Pablo",
+    "album": "El Gemeza",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Ghabet",
+    "artist": "Marwan Pablo",
+    "album": "CTRL",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Barbary",
+    "artist": "Marwan Pablo",
+    "album": "Barbary",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Free",
+    "artist": "Marwan Pablo",
+    "album": "Free",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Sheraton",
+    "artist": "Marwan Moussa",
+    "album": "Florida",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Tesla",
+    "artist": "Marwan Moussa",
+    "album": "Florida Dark",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Batal 3alam",
+    "artist": "Marwan Moussa",
+    "album": "Bel Salama",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Alo",
+    "artist": "Marwan Moussa, Afroto",
+    "album": "Alo",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Basha E3temed",
+    "artist": "Abyusif, Abo El Anwar",
+    "album": "Basha E3temed",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Angry / Intense",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Msh Hnsak",
+    "artist": "Abyusif",
+    "album": "Msh Hnsak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Taheya",
+    "artist": "Abyusif",
+    "album": "Taheya",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "5 Santy",
+    "artist": "Sharmoofers",
+    "album": "Do You Speak Sharmoofers",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Arosty",
+    "artist": "Sharmoofers",
+    "album": "Enfesam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Moftaqed El Habiba",
+    "artist": "Sharmoofers",
+    "album": "Enfesam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "Cherophobia",
+    "artist": "Massar Egbari",
+    "album": "Eqra El Khabar",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Nehayat El Hekayat",
+    "artist": "Massar Egbari",
+    "album": "El Alb El Tayeb",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 85
+  },
+  {
+    "title": "To'a We T'oom",
+    "artist": "Massar Egbari",
+    "album": "Toqa We T'oom",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Chill / Relaxed"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Kanet Hatefreq",
+    "artist": "Massar Egbari",
+    "album": "Kanet Hatefreq",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 83
+  },
+  {
+    "title": "Dari Ya Alby",
+    "artist": "Hamza Namira",
+    "album": "Hateer Min Tany",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Fady Shewaya",
+    "artist": "Hamza Namira",
+    "album": "Mawlood Sanat 80",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Sad / Melancholic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Mawlood Sanat 80",
+    "artist": "Hamza Namira",
+    "album": "Mawlood Sanat 80",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Happy / Upbeat"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Rayeh Fen",
+    "artist": "Hamza Namira",
+    "album": "Rayeh Fen",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Focus / Study"
+    ],
+    "popularity": 82
+  },
+  {
+    "title": "Sayrena Ya Donia",
+    "artist": "Ahmed Saad",
+    "album": "For Elem El Ghab",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "El Youm El Helw Dah",
+    "artist": "Ahmed Saad",
+    "album": "Am El Gholam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Wasa' Wasa'",
+    "artist": "Ahmed Saad",
+    "album": "Wasa' Wasa'",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Ekhteyarati",
+    "artist": "Ahmed Saad",
+    "album": "Mr. X",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Ta'ala Adalla'ak",
+    "artist": "Bahaa Sultan",
+    "album": "Segara",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Ana Ghalat",
+    "artist": "Bahaa Sultan",
+    "album": "Segara",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Ouyoun El Alb",
+    "artist": "Bahaa Sultan",
+    "album": "Kan Zaman",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Albak Ya Hawl Allah",
+    "artist": "Bahaa Sultan",
+    "album": "Yalli Bayaa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Dark / Moody"
+    ],
+    "popularity": 84
+  },
+  {
+    "title": "Bent El Geran",
+    "artist": "Hassan Shakosh, Omar Kamal",
+    "album": "Bent El Geran",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Oud El Batal",
+    "artist": "Hassan Shakosh, Omar Kamal",
+    "album": "Oud El Batal",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Etnaset",
+    "artist": "Muslim",
+    "album": "Arousty",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Serena",
+    "artist": "Enba, Muslim",
+    "album": "Serena",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Angry / Intense"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Salek",
+    "artist": "Hassan Shakosh, Wegz",
+    "album": "Salek",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Alf Leila Wa Leila",
+    "artist": "Umm Kulthum",
+    "album": "Alf Leila Wa Leila",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Enta Omri",
+    "artist": "Umm Kulthum",
+    "album": "Enta Omri",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Siret El Hob",
+    "artist": "Umm Kulthum",
+    "album": "Siret El Hob",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Sad / Melancholic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Ba'eed Anak",
+    "artist": "Umm Kulthum",
+    "album": "Ba'eed Anak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Ahwak",
+    "artist": "Abdel Halim Hafez",
+    "album": "Banat El Youm",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Gana El Hawa",
+    "artist": "Abdel Halim Hafez",
+    "album": "Abi Foq El Shagara",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Qariat El Fengan",
+    "artist": "Abdel Halim Hafez",
+    "album": "Qariat El Fengan",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Dark / Moody",
+      "Sad / Melancholic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Zay El Hawa",
+    "artist": "Abdel Halim Hafez",
+    "album": "Zay El Hawa",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Happy / Upbeat"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Batwanes Beek",
+    "artist": "Warda",
+    "album": "Batwanes Beek",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Harramt Ahebbak",
+    "artist": "Warda",
+    "album": "Harramt Ahebbak",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Romantic"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Fi Youm We Leila",
+    "artist": "Warda",
+    "album": "Fi Youm We Leila",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 86
+  },
+  {
+    "title": "Nassam Alayna El Hawa",
+    "artist": "Fairouz",
+    "album": "Bi Kroum El Qasab",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 92
+  },
+  {
+    "title": "Kifak Inta",
+    "artist": "Fairouz",
+    "album": "Kifak Inta",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 91
+  },
+  {
+    "title": "Sallimleh Aleyh",
+    "artist": "Fairouz",
+    "album": "Wahdoun",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Chill / Relaxed",
+      "Romantic"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Habaytak Bi Sayf",
+    "artist": "Fairouz",
+    "album": "Sahret Hob",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 90
+  },
+  {
+    "title": "Ana La Habibi",
+    "artist": "Fairouz",
+    "album": "Fairouz Classics",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Akhasmak Ah",
+    "artist": "Nancy Ajram",
+    "album": "Ya Salam",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Ah W Noss",
+    "artist": "Nancy Ajram",
+    "album": "Ah W Noss",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Inta Eyh",
+    "artist": "Nancy Ajram",
+    "album": "Ah W Noss",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Aa Bali Habibi",
+    "artist": "Elissa",
+    "album": "Tsadaq Bmein",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Romantic",
+      "Chill / Relaxed"
+    ],
+    "popularity": 89
+  },
+  {
+    "title": "Betmoun",
+    "artist": "Elissa",
+    "album": "Ayami Beek",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Sad / Melancholic",
+      "Romantic"
+    ],
+    "popularity": 87
+  },
+  {
+    "title": "Elli Ba'ana",
+    "artist": "Ragheb Alama",
+    "album": "Elli Ba'ana",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 88
+  },
+  {
+    "title": "Boshret Kheir",
+    "artist": "Hussein Al Jassmi",
+    "album": "Boshret Kheir",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Energetic / Hype",
+      "Happy / Upbeat"
+    ],
+    "popularity": 93
+  },
+  {
+    "title": "Bel Bont El Areed",
+    "artist": "Hussein Al Jassmi",
+    "album": "Bel Bont El Areed",
+    "genre": "Arabic",
+    "atmosphere": [
+      "Happy / Upbeat",
+      "Energetic / Hype"
+    ],
+    "popularity": 92
+  }
+]

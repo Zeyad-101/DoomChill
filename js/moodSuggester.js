@@ -243,8 +243,13 @@
   // Guard: main.js may not have run yet — create namespace if absent
   if (!window.DoomChill) window.DoomChill = {};
 
-  window.DoomChill.suggestSongs  = suggestSongs;
+  window.DoomChill.suggestSongs   = suggestSongs;
   window.DoomChill.getSuggestions = getSuggestions;
+
+  document.addEventListener('doomchill:suggest', (e) => {
+    const { atmospheres, genres } = e.detail || {};
+    suggestSongs(atmospheres || [], genres || []);
+  });
 
   // ── Eager pre-load ────────────────────────────────────────────────────────────
   // Kick off the fetch immediately so the dataset is warm by the time the user
