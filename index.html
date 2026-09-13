@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DoomChill — Mood-First Music Discovery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Manrope:wght@400;500;700&family=Sora:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#" aria-label="DoomChill home">
+        <img class="nav__logo" src="assets/logo.png" alt="DoomChill" width="64" height="64" />
+        <span class="nav__wordmark" aria-hidden="true">
+          <span class="nav__doom">DOOM</span><span class="nav__chill">CHILL</span>
+        </span>
+      </a>
+
+      <div class="nav__tabs" role="tablist">
+        <button
+          class="nav__tab nav__tab--active"
+          role="tab"
+          aria-selected="true"
+          aria-controls="mood-suggester"
+          data-tab="mood-suggester"
+          id="tab-mood"
+        >Mood suggester</button>
+        <button
+          class="nav__tab"
+          role="tab"
+          aria-selected="false"
+          aria-controls="song-lookup"
+          data-tab="song-lookup"
+          id="tab-lookup"
+        >Song <span class="nav__tab-accent">lookup</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <section
+      class="section section--active"
+      id="mood-suggester"
+      role="tabpanel"
+      aria-labelledby="tab-mood"
+    >
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">Mood-First Music Discovery</p>
+          <h1 class="headline">
+            Find the song for<br>
+            <span class="headline__gradient">exactly</span> how you feel
+          </h1>
+          <p class="subhead">
+            Set the dial, get a handful of matching tracks from a pre-tagged
+            local set — or look up any song for its genre, popularity tier, and story.
+          </p>
+        </header>
+
+        <div class="dial-wrapper">
+          <div
+            class="dial dial--idle"
+            id="mood-dial"
+            role="slider"
+            aria-label="Mood selector dial"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="48"
+            tabindex="0"
+          >
+            <svg class="dial__svg" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle class="dial__track" cx="130" cy="130" r="104" transform="rotate(145 130 130)" />
+              <circle class="dial__arc" id="dial-arc" cx="130" cy="130" r="104" transform="rotate(145 130 130)" />
+            </svg>
+            <div class="dial__disc" aria-hidden="true"></div>
+            <div class="dial__center">
+              <span class="dial__eyebrow">CURRENT<br>MOOD</span>
+              <span class="dial__mood-name" id="dial-mood-label">Chill / Relaxed</span>
+            </div>
+          </div>
+          <p class="dial__hint" id="dial-hint">drag &nbsp; the &nbsp; ring</p>
+        </div>
+
+        <div class="chips-section">
+          <div class="chips-group" id="atmosphere-chips" role="group" aria-label="Atmosphere (pick up to 2)">
+            <span class="chips-label eyebrow">Atmosphere</span>
+            <div class="chips-row">
+              <button class="chip chip--active" data-value="Chill / Relaxed"   aria-pressed="true">Chill</button>
+              <button class="chip" data-value="Happy / Upbeat"   aria-pressed="false">Happy</button>
+              <button class="chip" data-value="Sad / Melancholic" aria-pressed="false">Sad</button>
+              <button class="chip" data-value="Energetic / Hype"  aria-pressed="false">Energetic</button>
+              <button class="chip" data-value="Angry / Intense"   aria-pressed="false">Intense</button>
+              <button class="chip" data-value="Romantic"          aria-pressed="false">Romantic</button>
+              <button class="chip" data-value="Focus / Study"     aria-pressed="false">Focus</button>
+              <button class="chip" data-value="Dark / Moody"      aria-pressed="false">Dark</button>
+              <button class="chip" data-value="Neutral"           aria-pressed="false">Neutral</button>
+            </div>
+          </div>
+
+          <div class="chips-group" id="genre-chips" role="group" aria-label="Genre (pick up to 2)">
+            <span class="chips-label eyebrow">Genre</span>
+            <div class="chips-row">
+              <button class="chip" data-value="Pop"               aria-pressed="false">Pop</button>
+              <button class="chip" data-value="Rock"              aria-pressed="false">Rock</button>
+              <button class="chip" data-value="Hip-Hop/Rap"       aria-pressed="false">Hip-Hop</button>
+              <button class="chip" data-value="Electronic/Dance"  aria-pressed="false">Electronic</button>
+              <button class="chip" data-value="R&B/Soul"          aria-pressed="false">R&amp;B</button>
+              <button class="chip" data-value="Indie/Alternative" aria-pressed="false">Indie</button>
+              <button class="chip" data-value="Metal"             aria-pressed="false">Metal</button>
+              <button class="chip" data-value="Jazz"              aria-pressed="false">Jazz</button>
+              <button class="chip" data-value="Classical"         aria-pressed="false">Classical</button>
+              <button class="chip" data-value="Lo-fi/Ambient"     aria-pressed="false">Lo-fi</button>
+              <button class="chip" data-value="Country/Folk"      aria-pressed="false">Folk</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-row">
+          <button class="btn-primary" id="suggest-btn">Suggest me a song</button>
+        </div>
+
+        <div class="results-area" id="mood-results" aria-live="polite" aria-atomic="false"></div>
+      </div>
+    </section>
+
+    <section
+      class="section"
+      id="song-lookup"
+      role="tabpanel"
+      aria-labelledby="tab-lookup"
+      hidden
+    >
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">Mood-First Music Discovery</p>
+          <h1 class="headline">
+            <span class="headline__gradient">Lookup</span> for the song<br>
+            that you need to<br>know more about
+          </h1>
+          <p class="subhead">Just search it</p>
+        </header>
+
+        <div class="search-wrapper" role="search">
+          <div class="search-box">
+            <input
+              class="search-box__input"
+              id="lookup-input"
+              type="search"
+              placeholder="Look it up"
+              autocomplete="off"
+              aria-label="Search for a song"
+              aria-expanded="false"
+              aria-autocomplete="list"
+              aria-controls="search-suggestions"
+            />
+            <button class="search-box__btn" id="lookup-btn" aria-label="Search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+            </button>
+          </div>
+
+          <div class="suggestions-panel" id="search-suggestions" role="listbox" aria-label="Search suggestions" hidden>
+            <div class="suggestions-placeholder">Search suggestions</div>
+          </div>
+        </div>
+
+        <div class="lookup-result" id="lookup-result" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/moodSuggester.js" defer></script>
+  <script src="js/songLookup.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# DoomChill .gitignore
+node_modules/
+scripts/raw-data/
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
