@@ -29,7 +29,7 @@
   const MAX_RESULTS   = 20;
 
   // ── Module state ─────────────────────────────────────────────────────────────
-  /** @type {Array<Object>|null} In-memory song pool — null until loaded. */
+  /** @type {Array<Object>|null} In-memory song pool: null until loaded. */
   let songPool = null;
   let loading  = false;
   /** Set of recent "artist - title" signatures to avoid immediate repetitions on re-click */

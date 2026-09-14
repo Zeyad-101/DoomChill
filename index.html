@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DoomChill — Mood-First Music Discovery</title>
+  <meta name="description" content="DoomChill is a dark-themed music discovery web app. Match your mood to over 40,000 songs or look up music stories, popularity tiers, and stream previews." />
+  <meta name="theme-color" content="#1e4d3f" />
+  <title>DoomChill: Mood-First Music Discovery</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Manrope:wght@400;500;700&family=Sora:wght@700;800&display=swap" rel="stylesheet" />
@@ -15,7 +17,7 @@
 <body>
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
-      <a class="nav__brand" href="#" aria-label="DoomChill home">
+      <a class="nav__brand" href="/" aria-label="DoomChill home" id="nav-brand-logo">
         <img class="nav__logo" src="Assets/logo.png" alt="DoomChill" width="64" height="64" />
         <span class="nav__wordmark" aria-hidden="true">
           <span class="nav__doom">DOOM</span><span class="nav__chill">CHILL</span>
@@ -59,7 +61,7 @@
           </h1>
           <p class="subhead">
             Set the dial, get a handful of matching tracks from a pre-tagged
-            local set — or look up any song for its genre, popularity tier, and story.
+            local set, or look up any song for its genre, popularity tier, and story.
           </p>
         </header>
 
@@ -177,6 +179,22 @@
       </div>
     </section>
   </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__doom">DOOM</span><span class="footer__chill">CHILL</span>
+      </div>
+      <p class="footer__copy">
+        Atmospheric music discovery. &copy; <span id="footer-year">2026</span> DoomChill.
+      </p>
+      <div class="footer__links">
+        <a class="footer__link" href="https://github.com/Zeyad-101/DoomChill" target="_blank" rel="noopener">GitHub</a>
+        <span class="footer__sep" aria-hidden="true">&bull;</span>
+        <span class="footer__meta">Powered by Last.fm &amp; Apple Music metadata</span>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/main.js" defer></script>
   <script src="js/moodSuggester.js" defer></script>

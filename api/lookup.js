@@ -259,8 +259,24 @@ function fmtNum(n) {
   return String(v);
 }
 
+// ── In-Memory IP Rate Limiter (Ponytail minimal implementation) ─────────────
+const RATE_LIMIT_WINDOW_MS = 60 * 1000; // 1 minute
+const MAX_REQUESTS_PER_WINDOW = 40; // max requests per minute per IP
+const ipRequests = global.__DOOMCHILL_RATE_LIMIT = global.__DOOMCHILL_RATE_LIMIT || new Map();
+
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, data] of ipRequests.entries()) {
+    if (now - data.startTime > RATE_LIMIT_WINDOW_MS) ipRequests.delete(ip);
+  }
+}, 5 * 60 * 1000).unref();
+
 // ── Handler ───────────────────────────────────────────────────────────────────
 module.exports = async function handler(req, res) {
+  // Security headers
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'DENY');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -268,13 +284,30 @@ module.exports = async function handler(req, res) {
   if (req.method === 'OPTIONS') return res.status(204).end();
   if (req.method !== 'GET') return res.status(405).json({ error: 'method_not_allowed' });
 
-  const { track, artist } = req.query;
-  if (!track || !track.trim()) {
+  // Rate Limiting by IP
+  const clientIp = (req.headers['x-forwarded-for'] || req.socket?.remoteAddress || '127.0.0.1').split(',')[0].trim();
+  const now = Date.now();
+  const clientData = ipRequests.get(clientIp);
+  if (!clientData || now - clientData.startTime > RATE_LIMIT_WINDOW_MS) {
+    ipRequests.set(clientIp, { startTime: now, count: 1 });
+  } else {
+    clientData.count++;
+    if (clientData.count > MAX_REQUESTS_PER_WINDOW) {
+      res.setHeader('Retry-After', '60');
+      return res.status(429).json({ error: 'rate_limited', message: 'Too many requests. Please wait a moment.' });
+    }
+  }
+
+  const { track, artist } = req.query || {};
+  const cleanTrack = String(track || '').trim().slice(0, 200);
+  const cleanArtist = String(artist || '').trim().slice(0, 200);
+
+  if (!cleanTrack) {
     return res.status(400).json({ error: 'missing_track_param' });
   }
 
   try {
-    const trackData = await resolveTrackData(track, artist);
+    const trackData = await resolveTrackData(cleanTrack, cleanArtist);
     if (!trackData) {
       return res.status(200).json({ error: 'not_found' });
     }
@@ -378,7 +411,7 @@ module.exports = async function handler(req, res) {
     }
 
     // Cross-reference with local dataset for tier & metrics accuracy
-    const localMatch = findLocalSong(trackName, artistName) || findLocalSong(track, artist);
+    const localMatch = findLocalSong(trackName, artistName) || findLocalSong(cleanTrack, cleanArtist);
     const localPop = localMatch ? localMatch.popularity : 0;
     const trackTier = computeTier(playcount, localPop, artistListeners);
 

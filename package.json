@@ -1,13 +1,10 @@
 {
   "name": "doomchill",
   "version": "1.0.0",
-  "description": "Mood-first music discovery app — build scripts and serverless functions.",
+  "description": "Mood-first music discovery app: build scripts and serverless functions.",
   "private": true,
   "scripts": {
     "build-data": "node scripts/build-dataset.js"
-  },
-  "devDependencies": {
-    "csv-parse": "^5.5.6"
   },
   "engines": {
     "node": ">=18"

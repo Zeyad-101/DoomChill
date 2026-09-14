@@ -47,8 +47,29 @@ function applyMoodBackground(moodName) {
           s.setAttribute('hidden', '');
         }
       });
+      // Dynamic page title per tab
+      document.title = targetId === 'song-lookup'
+        ? 'DoomChill: Song Lookup & Stats'
+        : 'DoomChill: Mood-First Music Discovery';
     });
   });
+
+  // Home brand logo click (activates Mood tab and scrolls to top)
+  const logo = document.getElementById('nav-brand-logo');
+  if (logo) {
+    logo.addEventListener('click', (e) => {
+      e.preventDefault();
+      const moodTab = document.getElementById('tab-mood');
+      if (moodTab) moodTab.click();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // Auto-updating copyright year
+  const footerYear = document.getElementById('footer-year');
+  if (footerYear) {
+    footerYear.textContent = new Date().getFullYear();
+  }
 })();
 
 (function initDial() {
@@ -595,7 +616,7 @@ window.DoomChill.renderMoodResults = function(songs, opts = {}) {
   if (opts.relaxed) {
     const notice = document.createElement('p');
     notice.className = 'results-notice';
-    notice.textContent = 'No exact match — showing closest atmosphere picks instead.';
+    notice.textContent = 'No exact match. Showing closest atmosphere picks instead.';
     container.appendChild(notice);
   }
 
@@ -686,6 +707,27 @@ window.DoomChill.renderMoodResults = function(songs, opts = {}) {
   }
 };
 
+// ── Skeleton Loader for Song Lookup (Ponytail minimal shimmer) ─────────────
+document.addEventListener('doomchill:lookup:loading', () => {
+  const container = document.getElementById('lookup-result');
+  if (!container) return;
+  container.innerHTML = `
+    <div class="lookup-skeleton" aria-busy="true" aria-label="Loading song details">
+      <div class="lookup-skeleton__art"></div>
+      <div class="lookup-skeleton__info">
+        <div class="lookup-skeleton__line lookup-skeleton__title"></div>
+        <div class="lookup-skeleton__line lookup-skeleton__artist"></div>
+        <div class="lookup-skeleton__line lookup-skeleton__meta"></div>
+        <div class="lookup-skeleton__gauges">
+          <div class="lookup-skeleton__gauge"></div>
+          <div class="lookup-skeleton__gauge"></div>
+          <div class="lookup-skeleton__gauge"></div>
+        </div>
+      </div>
+    </div>`;
+  container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+});
+
 window.DoomChill.renderLookupResult = function(data) {
   const container = document.getElementById('lookup-result');
   if (!container) return;
@@ -696,7 +738,7 @@ window.DoomChill.renderLookupResult = function(data) {
       <div class="lookup-error">
         <div class="lookup-error__icon">🔍</div>
         <p class="lookup-error__title">Couldn't find that one</p>
-        <p class="lookup-error__body">Check the spelling or try searching by title or artist — e.g. <em>"Blinding Lights"</em> or <em>"MF DOOM"</em></p>
+        <p class="lookup-error__body">Check the spelling or try searching by title or artist, e.g. <em>"Blinding Lights"</em> or <em>"MF DOOM"</em></p>
       </div>`;
     return;
   }
@@ -706,7 +748,7 @@ window.DoomChill.renderLookupResult = function(data) {
       <div class="lookup-error">
         <div class="lookup-error__icon">⚡</div>
         <p class="lookup-error__title">Something went wrong</p>
-        <p class="lookup-error__body">Couldn't reach Last.fm right now — try again in a moment.</p>
+        <p class="lookup-error__body">Couldn't reach Last.fm right now. Try again in a moment.</p>
       </div>`;
     return;
   }
